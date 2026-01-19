@@ -1,0 +1,28 @@
+---
+title: ""
+---
+
+## Who I Am
+
+I am a Data Science M.S. student at American University with a strong interest in natural language processing, machine learning, and large-scale data analytics. My work focuses on transforming complex, real-world data into actionable insights while building responsible and interpretable AI systems.
+
+---
+
+## What I Work On
+
+- Natural Language Processing (NLP) & AI Ethics  
+- Machine Learning & Statistical Modeling  
+- Big Data Systems & Distributed Data Processing  
+- Data Engineering & Analytics Pipelines  
+
+---
+
+## How I Think & Work
+
+I care deeply about the interpretability, fairness, and ethical implications of data-driven systems. I enjoy working at the intersection of technical rigor and real-world impact, and I value reproducible workflows, clear communication, and collaborative problem-solving.
+
+---
+
+## Beyond Work
+
+Outside of my academic and professional work, I enjoy participating in global education initiatives, attending technical conferences, and exploring interdisciplinary research that connects data science with societal challenges.

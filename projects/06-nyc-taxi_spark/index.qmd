@@ -1,0 +1,31 @@
+---
+title: "Distributed Big Data Processing of NYC Taxi Trips"
+index: 6
+summary: "Built a distributed PySpark + AWS pipeline to process millions of NYC taxi records, benchmarked analytical engines, and optimized large-scale data workflows."
+categories: [Big Data, Data Engineering, Cloud]
+image: portfolio-thumbnail-06.png
+---
+
+## Overview
+This project focuses on building a scalable and distributed data pipeline for analyzing large volumes of NYC taxi trip data. Using PySpark and AWS services, the system processes millions of records, integrates multiple storage layers, and evaluates modern analytical engines to optimize performance and latency.
+
+## What I Did
+- Built a distributed data pipeline using PySpark and AWS EC2/S3 to process millions of NYC taxi trip records.
+- Integrated AWS Glue and Athena to enable high-performance schema management, data cataloging, and federated querying.
+- Benchmarked analytical engines such as DuckDB and Polars to identify performance gaps and optimize computation speed.
+- Developed reproducible large-scale workflows to improve query efficiency across different storage formats and processing frameworks.
+
+## Methods & Tools
+PySpark · AWS EC2 · AWS S3 · AWS Glue · AWS Athena · DuckDB · Polars · Python · Distributed Computing
+
+## Key Results
+- Achieved substantial reductions in pipeline latency by comparing analytical engines and optimizing execution plans.
+- Enabled scalable querying and transformation of large datasets through AWS Glue/Athena integration.
+- Demonstrated effective multi-engine benchmarking for real-world big-data decision making.
+
+## Impact
+This project showcases expertise in distributed data engineering, workflow optimization, and cloud-based analytics—core skills for large-scale ML and data engineering roles.
+
+## Links
+- GitHub: will be added soon
+- Documentation / Demo: will be added soon

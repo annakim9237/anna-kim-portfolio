@@ -1,0 +1,74 @@
+{
+  "index.qmd": {
+    "index.html": "22f0db60"
+  },
+  "about.qmd": {
+    "about.html": "0825e2d3"
+  },
+  "projects.qmd": {
+    "projects.html": "f6d23015"
+  },
+  "projects/bigdata-reddit/index.qmd": {
+    "index.html": "5045cd97"
+  },
+  "projects/data-ethics/index.qmd": {
+    "index.html": "f87dbc53"
+  },
+  "projects/ml-pipeline/index.qmd": {
+    "index.html": "3592da6a"
+  },
+  "projects/nlp-ethics/index.qmd": {
+    "index.html": "860effe7"
+  },
+  "projects/road-safety/index.qmd": {
+    "index.html": "be0b789a"
+  },
+  "projects/regression/index.qmd": {
+    "index.html": "706c0a8b"
+  },
+  "projects/02-oil-fraud/index.qmd": {
+    "index.html": "c0c7651c"
+  },
+  "projects/04-covid-economy/index.qmd": {
+    "index.html": "b73e9233"
+  },
+  "projects/05-nlp-ethics-news/index.qmd": {
+    "index.html": "44e77936"
+  },
+  "projects/03-toronto-audit/index.qmd": {
+    "index.html": "95264a50"
+  },
+  "projects/07-robot-face-tracking/index.qmd": {
+    "index.html": "9a9ae410"
+  },
+  "projects/08-reddit-ai-discussion/index.qmd": {
+    "index.html": "e7d051b9"
+  },
+  "projects/01-adidas-sale/index.qmd": {
+    "index.html": "7d038713"
+  },
+  "projects/06-nyc-taxi_spark/index.qmd": {
+    "index.html": "4f8618fc"
+  },
+  "activities.qmd": {
+    "activities.html": "440337ea"
+  },
+  "courseworks.qmd": {
+    "courseworks.html": "46197cbb"
+  },
+  "leadership.qmd": {
+    "leadership.html": "8b28a472"
+  },
+  "experience.qmd": {
+    "experience.html": "df17fc6e"
+  },
+  "Volunteering & Leadership.qmd": {
+    "Volunteering & Leadership.html": "ab0f1a61"
+  },
+  "volunteering & leadership.qmd": {
+    "volunteering & leadership.html": "b09e6aa6"
+  },
+  "leadership_volunteer.qmd": {
+    "leadership_volunteer.html": "c0986101"
+  }
+}

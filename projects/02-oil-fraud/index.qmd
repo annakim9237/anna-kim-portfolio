@@ -1,0 +1,32 @@
+---
+title: "Oil Fraud Crime Pattern Analysis"
+index: 2
+summary: "Conducted nationwide fraud pattern analysis using geospatial data, machine learning, and external risk indicators to identify high-risk fuel stations across South Korea."
+categories: [GIS, Fraud Detection, Machine Learning]
+image: portfolio-thumbnail-02.png
+---
+
+## Overview
+This project investigates nationwide fuel station fraud patterns by integrating regulatory data, business information, and geospatial risk factors. In collaboration with the Korea National Oil Management Institute, the analysis explores behavioral trends, environmental features, and historical violations to build predictive insights for fraud detection.
+
+## What I Did
+- Collaborated with the Korea National Oil Management Institute to analyze nationwide fuel station violation data and business registration information.
+- Collected and integrated external datasets such as proximity to police stations, streetlight density, and local station clustering to enhance risk modeling.
+- Applied machine learning models (Random Forest, Decision Tree) to identify high-risk fuel stations and evaluate fraud likelihood.
+- Used QGIS and geospatial visualization techniques to map risk hotspots and illustrate key environmental factors.
+- Summarized insights for regulatory teams through PowerPoint, supporting targeted and data-driven inspection planning.
+
+## Methods & Tools
+QGIS · Python · Jupyter Notebook · R · Random Forest · Decision Tree · GIS Analysis · External Data Integration
+
+## Key Results
+- Identified critical environmental and operational features strongly associated with repeat fraud violations.
+- Built predictive models capable of ranking stations by risk level to support proactive regulatory intervention.
+- Visualized spatial fraud patterns revealing geographic clusters and recurring behavioral indicators.
+
+## Impact
+The project enhanced the effectiveness of regulatory oversight by providing a data-driven framework for fraud detection, enabling authorities to prioritize inspections and mitigate risk efficiently.
+
+## Links
+- GitHub: will be added soon
+- Report / Presentation: will be added soon

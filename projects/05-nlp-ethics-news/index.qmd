@@ -1,0 +1,31 @@
+---
+title: "Measuring Ethical Risks in AI-Generated News Using NLP"
+index: 5
+summary: "Built an NLP pipeline using DistilBERT, Transformers, and semantic similarity methods to detect ethical risks and hate-speech signals in AI-generated news based on the UNESCO AI Ethics framework."
+categories: [NLP, AI Ethics, Machine Learning]
+image: portfolio-thumbnail-05.png
+---
+
+## Overview
+This project evaluates ethical risks in AI-generated news by combining modern NLP techniques with ethical analysis frameworks. Using DistilBERT and semantic similarity methods, the study identifies harmful patterns such as biased framing, hate-speech tendencies, and ethically drifted content, mapping them directly to the UNESCO AI Ethics principles.
+
+## What I Did
+- Implemented transformer-based text classification models using DistilBERT to detect harmful or ethically questionable content in AI-generated news.
+- Preprocessed and engineered text features using tokenization, padding, truncation, TF–IDF vectors, and topic-aligned embeddings.
+- Applied semantic similarity and cosine-distance methods to align classified content with UNESCO AI Ethics principles.
+- Analyzed ethical drift across different news topics and model outputs to identify patterns of misinformation, bias, and discriminatory framing.
+
+## Methods & Tools
+DistilBERT · Transformers · Tokenization · TF–IDF · Embeddings · Cosine Similarity · Python · NLP
+
+## Key Results
+- Successfully detected ethical violations and hate-speech signals across multiple AI-generated news samples.
+- Identified consistent ethical drift patterns that aligned with specific UNESCO principles, enabling structured interpretation of content risk.
+- Demonstrated how NLP-based classification and similarity scoring can support responsible AI oversight.
+
+## Impact
+This project highlights how NLP and ethical frameworks can be combined to assess risks in AI-generated content, providing a foundation for building more responsible AI evaluation tools.
+
+## Links
+- GitHub: will be added soon
+- Project Report: will be added soon

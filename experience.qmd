@@ -1,0 +1,70 @@
+---
+title: "Experience"
+---
+
+## Professional Experience
+
+::: {.timeline}
+
+### Internal Audit Data Analyst (Intern, Canada)
+**Ciena Corporation · May 2025 – Present**
+
+- Assist the Internal Audit team by analyzing operational and system access data for risk assessment.
+- Identify anomalies related to access control, authorization, and user activity.
+- Support reporting workflows to enhance oversight of account access and compliance.
+
+---
+
+### Research Assistant — Sustainable Economy & Investment Modeling
+**American University · Aug 2025 – Present**
+
+- Support research on sustainable economy and life-cycle investment modeling under faculty supervision.
+- Conduct literature reviews on portfolio optimization, ESG integration, and intertemporal consumption frameworks.
+- Assist in developing and debugging Python scripts for welfare cost and sustainable investment simulations.
+- Engage in model interpretation and validation discussions to bridge theory and empirical analysis.
+
+---
+
+### Research Assistant — YouTube Sentiment Analysis Project
+**American University · Aug 2025 – Present**
+
+- Collect and analyze large-scale YouTube comments to study public sentiment around targeted topics.
+- Develop a Python-based web scraping and preprocessing pipeline to extract comments, metadata, and engagement metrics.
+- Build the sentiment-analysis framework for classifying comments (positive, negative, neutral).
+- Contribute to building a validated, ready-to-publish dataset for future modeling.
+
+---
+
+### Teaching Assistant (Statistics & Data Science)
+**American University · Aug 2025 – Present**
+
+- Tutor students in Python, R, SQL, and Excel for coursework and research support.
+- Provide conceptual guidance and debugging assistance across statistics and data-science projects.
+- Assist with lab sessions and reinforce best practices for reproducible analysis.
+
+---
+
+### Operations Assistant (Student Job)
+**American University**
+
+- Managed event operations across Grossman Hall and Founder's Lobby at Washington College of Law.
+- Coordinated space setup, guest flow, and on-site troubleshooting to ensure seamless events.
+
+---
+
+### Backend Developer — Platform Business Team
+**Openmate**
+
+- Collected, stored, and processed company data to support decision-making for the Daegu Provincial Industrial Complex project.
+- Improved data workflows and optimized access for internal stakeholders.
+
+---
+
+### Founder & Business Manager — And Smile Coffee Shop
+**Independent Project**
+
+- Founded and operated a K-pop event-focused café, managing daily operations, budgeting, and marketing.
+- Built a community through events, customer engagement, and brand development.
+- Managed vendor relationships, staffing, and customer service operations.
+
+:::

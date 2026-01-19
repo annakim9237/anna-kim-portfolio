@@ -1,0 +1,73 @@
+---
+title: "Volunteering & Leadership"
+---
+
+<div class="volunteer-header">
+  <p class="volunteer-subtitle">
+    Leadership, conferences, and volunteering experiences that reflect my commitment to community impact and professional engagement.
+  </p>
+</div>
+
+## Leadership & Conference Roles
+::: {.timeline}
+::: {.volunteer-grid}
+
+::: {.volunteer-card}
+### Session Chair — IEEE Digital Platforms and Societal Harms (DPSH)
+**Washington, DC · Oct 14–15, 2024**  
+- Chaired hybrid sessions (in-person + online) hosted at American University.  
+- Facilitated Q&A by preparing discussion questions and guiding post-talk dialogue.  
+- Coordinated session flow to ensure smooth timing and audience engagement.
+:::
+
+::: {.volunteer-card}
+### Content Reviewer & Developer — AI Global Education Program
+**Seeds of Empowerment · 2025**  
+- Contribute to AI teaching curriculum development for underserved students in developing countries (e.g., Kazakhstan).  
+- Review existing materials, propose new content ideas, and develop chapters focused on **statistics** and **data ethics**.  
+- Support accessible, culturally aware learning resources for global classrooms.
+:::
+
+:::
+
+:::
+
+
+## Volunteering & Community Engagement
+::: {.timeline}
+::: {.volunteer-grid}
+
+::: {.volunteer-card}
+### Volunteer — To Do Toronto
+**Toronto · 2023–2024**  
+- Supported event operations for a major community media organization connecting culture, arts, and networking.  
+- Managed guest check-ins, coordinated logistics, and ensured smooth on-site execution.  
+- Assisted with post-event cleanup and organization to maintain efficient workflows.
+:::
+
+::: {.volunteer-card}
+### International Volunteer — IVHQ & Maximo Nivel
+**Peru · Dec 2023**  
+- Volunteered for two weeks on community development projects, including school construction and small-scale agriculture support.  
+- Organized holiday events for children with special needs and seniors.  
+- Collaborated with long-term initiatives aimed at sustainable local impact.
+:::
+
+::: {.volunteer-card}
+### Korean & Art Teaching — University Volunteer Program
+**Philippines · 2017**  
+- Taught Korean language and music for two weeks through a university-led volunteer program.  
+- Designed interactive lessons introducing Korean culture, basic language skills, and musical activities.  
+- Promoted participation and cross-cultural exchange through structured learning sessions.
+:::
+
+::: {.volunteer-card}
+### School Construction & Child Support Volunteer
+**India · 2011**  
+- Assisted with classroom setup and structural support in building a school for children in underprivileged areas.  
+- Led recreational and educational activities to support children’s learning and well-being.  
+- Strengthened my commitment to educational accessibility and community service.
+:::
+
+:::
+:::

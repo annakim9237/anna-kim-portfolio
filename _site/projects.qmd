@@ -1,0 +1,11 @@
+---
+title: "Projects"
+listing:
+  contents: projects
+  type: grid
+  sort: "index desc"
+  categories: true
+  fields: [image, title, date, categories, description]
+---
+
+All of my data science projects and research work.

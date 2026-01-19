@@ -1,0 +1,32 @@
+---
+title: "Large-Scale Reddit AI Discourse Analysis"
+index: 8
+summary: "A large-scale NLP and machine learning analysis of AI-related discourse on Reddit, combining distributed data processing, topic modeling, and predictive modeling to understand engagement and virality patterns."
+categories: [NLP, Big Data, Machine Learning]
+image: portfolio-thumbnail-08.png
+---
+
+## Overview
+This project analyzes large-scale Reddit discussions related to artificial intelligence to understand how topics, language, and timing influence user engagement and content virality. Using distributed data processing and NLP techniques, I examined patterns across multiple AI-focused subreddits and compared AI discourse with politically influenced discussions.
+
+## What I Did
+- Engineered temporal engagement features (day-of-week, hour-of-day) to analyze posting behavior and engagement dynamics.
+- Aggregated and processed billions of Reddit rows using PySpark to enable scalable analysis across 15 AI-related subreddits.
+- Built an NLP pipeline using regex-based UDFs, tokenization, and `CountVectorizer` to prepare text data for modeling.
+- Trained and compared dual 15-topic LDA models to contrast AI-focused discourse with politically influenced narratives.
+- Developed regression and classification models (Lasso, Logistic Regression, Gradient Boosted Trees) using TF–IDF features, topic vectors, and metadata.
+
+## Methods & Tools
+PySpark · Python · NLP · LDA Topic Modeling · TF–IDF · Logistic Regression · Gradient Boosted Trees · Distributed Computing · Feature Engineering
+
+## Key Results
+- Identified optimal engagement windows by analyzing posting time versus score and comment activity.
+- Revealed distinct thematic differences between AI-centric discussions and politically influenced discourse through topic modeling.
+- Demonstrated that linguistic features and topic composition are strong predictors of Reddit post virality.
+
+## Impact
+This project demonstrates the application of scalable NLP and machine learning techniques to real-world social media data, highlighting how data-driven insights can explain online engagement patterns and information diffusion at scale.
+
+## Links
+- GitHub: will be added soon
+- Report / Demo: will be added soon

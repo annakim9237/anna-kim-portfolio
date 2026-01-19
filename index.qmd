@@ -1,0 +1,109 @@
+---
+title: ""
+listing:
+  - id: featured-projects
+    contents: projects
+    type: grid
+    max-items: 6
+    sort: "index desc"
+    fields: [title, categories]
+---
+
+::: {.columns align="center"}
+::: {.column width="40%"}
+![](images/profile.jpeg){width=90%}
+:::
+
+::: {.column width="60%"}
+# Hi, I'm Anna Kim 👋
+
+**Data Science M.S. @ American University**  
+
+
+
+Interested in **NLP, Machine Learning, Data Engineering and Large-Scale Data Analytics**.
+
+
+
+I work on data-driven projects that combine statistical modeling, machine learning,
+and real-world datasets to extract insights and build responsible AI systems.  
+
+🔗 **[LinkedIn](https://www.linkedin.com/in/kim-anna)**  
+🔗 **[School Email](mailto:hk1505a@american.edu)**  
+🔗 **[Work Email](mailto:annakim9237@gmail.com)**
+:::
+:::
+
+---
+
+## Featured Projects
+
+**These are my latest six projects. Check out the full list for more interesting work!** [View All →](projects.qmd){.view-all-link style="float: right;"}
+
+::: {#featured-projects}
+:::
+
+
+## Leadership & Volunteering
+
+**A quick look at two representative activities. Explore more about my leadership and community work.**  
+[See All →](leadership-volunteering.qmd){.view-all-link style="float: right;"}
+
+
+<div class="home-activity-stack">
+
+<div class="home-activity-card">
+<h3>Session Chair — IEEE Digital Platforms and Societal Harms (DPSH)</h3>
+
+<p class="home-activity-meta">Washington, DC · Oct 14–15, 2024</p>
+
+<ul>
+  <li>Chaired hybrid sessions (in-person and online) hosted at American University.</li>
+  <li>Facilitated Q&amp;A by preparing discussion questions and guiding post-talk dialogue.</li>
+  <li>Coordinated session flow to ensure smooth timing and audience engagement.</li>
+</ul>
+</div>
+
+<div class="home-activity-card">
+<h3>International Volunteer — IVHQ &amp; Maximo Nivel</h3>
+
+<p class="home-activity-meta">Peru · Dec 2023</p>
+
+<ul>
+  <li>Volunteered for two weeks on community development projects, including school construction and small-scale agriculture support.</li>
+  <li>Organized holiday events for children with special needs and seniors.</li>
+  <li>Collaborated with long-term initiatives aimed at sustainable local impact.</li>
+</ul>
+</div>
+
+</div>
+
+## Experience
+
+**Two representative roles from my professional and academic experience.**  [View All →](experience.qmd){.view-all-link style="float: right;"}
+
+<div class="home-activity-stack">
+
+<div class="home-activity-card">
+<h3>Internal Audit Data Analyst (Intern)</h3>
+
+<p class="home-activity-meta">Ciena Corporation · Canada · May 2025 – Present</p>
+
+<ul>
+  <li>Analyze operational and system access data to support internal audit risk assessments.</li>
+  <li>Assist with access-control reviews and compliance-focused reporting workflows.</li>
+</ul>
+</div>
+
+<div class="home-activity-card">
+<h3>Research Assistant — Sustainable Economy & Investment Modeling</h3>
+
+<p class="home-activity-meta">American University · Aug 2025 – Present</p>
+
+<ul>
+  <li>Support research on sustainable economy and life-cycle investment modeling.</li>
+  <li>Develop and debug Python scripts for welfare-cost and investment simulations.</li>
+</ul>
+</div>
+
+</div>

@@ -1,0 +1,32 @@
+---
+title: "Toronto Building Audit Risk Analysis & Prediction"
+index: 3
+summary: "Developed audit-risk prediction models and exploratory analyses using Python, SQL, and machine learning to assist regulatory audit teams in identifying high-risk buildings."
+categories: [Regulatory Analytics, Machine Learning, Risk Modeling]
+image: portfolio-thumbnail-03.png
+---
+
+## Overview
+This project analyzes Toronto’s annual building evaluation data to identify audit risks and support regulatory decision-making. By combining SQL-based filtering, exploratory analyses, and supervised machine learning models, the study offers a data-driven approach to predicting high-risk buildings.
+
+## What I Did
+- Conducted exploratory analysis on Toronto’s building audit dataset using SQL and Python to identify structural, financial, and environmental risk indicators.
+- Developed machine learning models (Random Forest, Decision Tree) to classify high-risk buildings and guide audit prioritization.
+- Applied SMOTE to improve predictive performance by addressing severe class imbalance common in fraud and regulatory datasets.
+- Designed geospatial and statistical visualizations using Seaborn, Matplotlib, and Folium to communicate insights clearly.
+- Summarized results through Streamlit dashboards and PowerPoint presentations for audit teams and stakeholders.
+
+## Methods & Tools
+Python · Pandas · NumPy · SQL · Seaborn · Matplotlib · Folium · Streamlit · Random Forest · Decision Tree · SMOTE
+
+## Key Results
+- Improved fraud detection and audit targeting by correcting class imbalance and enhancing model accuracy.
+- Identified key predictors of high-risk buildings, informing more efficient audit resource allocation.
+- Delivered visual dashboards and reports that simplified interpretation of complex regulatory data.
+
+## Impact
+This project provides a scalable and actionable framework for regulatory audits, enabling departments to detect at-risk buildings early and conduct data-informed inspections.
+
+## Links
+- GitHub: will be added soon
+- Streamlit Demo / Report: will be added soon

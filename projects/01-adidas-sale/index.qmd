@@ -1,0 +1,31 @@
+---
+title: "Adidas Sales Analysis"
+index: 1
+summary: "Performed data cleaning, organization, and interactive dashboarding using Excel to uncover sales patterns, regional performance, and product-level insights for Adidas."
+categories: [Business Analytics, Retail, Dashboarding]
+image: portfolio-thumbnail-01.png
+---
+
+## Overview
+This project analyzes Adidas sales data from Kaggle to understand performance trends across product categories, regions, and customer segments. Using Excel-based data cleaning and dashboard development, the study highlights key revenue drivers and operational challenges in the retail ecosystem.
+
+## What I Did
+- Collected and cleaned raw sales data from Kaggle, addressing missing values, inconsistencies, and formatting issues.
+- Structured and categorized supply chain data by product type, gender, and sales region to enhance data usability.
+- Built interactive Excel dashboards that visualize sales trends, regional performance, and seasonal demand patterns.
+- Identified business insights such as peak sales periods and underperforming regions, informing pricing and inventory decisions.
+
+## Methods & Tools
+Excel · Data Cleaning · Data Organization · Interactive Dashboards · Trend Analysis
+
+## Key Results
+- Found that women’s product sales consistently peaked in Q4 across multiple regions.
+- Identified specific regions with lower operating profit margins, providing evidence for targeted strategic adjustments.
+- Improved accessibility and interpretability of raw sales data through structured dashboards.
+
+## Impact
+This analysis provides businesses with actionable insights into seasonal demand, regional market performance, and product-level trends, supporting informed decision-making in retail operations.
+
+## Links
+- GitHub: will be added soon
+- Dashboard / Report: will be added soon

@@ -1,0 +1,31 @@
+---
+title: "COVID-19 & U.S. Economy: State-Level Analysis"
+index: 4
+summary: "Merged 10+ state-level datasets and performed pre/post-COVID economic analysis to visualize changes in GDP, housing, income, unemployment, and debt across all 50 U.S. states."
+categories: [Economics, Data Visualization, Public Data]
+image: portfolio-thumbnail-04.png
+---
+
+## Overview
+This project evaluates the economic impact of COVID-19 at the U.S. state level by integrating multiple datasets spanning health data, housing markets, labor statistics, GDP, income, and household debt. Using R and tidyverse tools, the analysis compares pre-pandemic (2017–2019) and post-pandemic (2020–2022) trends to reveal structural economic shifts.
+
+## What I Did
+- Gathered and merged over ten datasets from CDC, Zillow, BEA, BLS, and the New York Fed, covering COVID cases, housing prices, GDP, unemployment, income, and household debt.
+- Performed extensive data cleaning and cross-timeframe alignment to enable fair comparisons between pre-COVID and post-COVID economic conditions.
+- Created bar plots, line graphs, and violin plots to visualize changes in spending, debt, income, and unemployment across 50 states.
+- Delivered an interactive HTML report summarizing economic trends and identifying states with stronger or weaker resilience during the pandemic.
+
+## Methods & Tools
+R · tidyverse · ggplot2 · readxl · RMarkdown · Data Wrangling · Economic Analysis · Visualization
+
+## Key Results
+- Revealed clear shifts in consumer spending, income distribution, and labor market stability across states.
+- Highlighted states with disproportionate increases in household debt and unemployment.
+- Identified divergent housing market trends across regions, informed by integrated Zillow and BEA datasets.
+
+## Impact
+This project provides a comprehensive state-level overview of the pandemic’s economic effects and supports evidence-based regional resilience planning.
+
+## Links
+- GitHub: will be added soon
+- Interactive Report: will be added soon

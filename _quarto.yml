@@ -1,0 +1,32 @@
+project:
+  type: website
+  resources:
+    - "projects/**/*.png"
+    - "projects/**/*.jpg"
+    - "projects/**/*.jpeg"
+
+website:
+  title: "Anna Kim"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: projects.qmd
+        text: projects
+      - href: leadership_volunteer.qmd
+        text: leadership&volunteer
+      - href: experience.qmd
+        text: experience
+      - href: about.qmd
+        text: about
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+
+

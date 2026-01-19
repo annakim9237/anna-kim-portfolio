@@ -1,0 +1,32 @@
+---
+title: "Human-Following Robot with Real-Time Face Tracking"
+index: 7
+summary: "Designed and built a real-time human-following robot using Rubik Pi for on-device face recognition and MegaPi for motor control, integrating vision, ML inference, and movement control into a unified pipeline."
+categories: [Robotics, Computer Vision, Real-Time Systems]
+image: ./portfolio-thumbnail-07.png
+---
+
+## Overview
+This project involved building a real-time human-following robot capable of detecting, tracking, and re-identifying a target person using embedded computer vision and machine learning. The system integrates Rubik Pi for face detection and recognition, and MegaPi/mBot Mega for motor control, creating a fully automated movement pipeline from camera input to physical actuation.
+
+## What I Did
+- Designed the end-to-end system architecture integrating Rubik Pi (vision inference) and MegaPi (motor control) into a real-time perception → decision → action loop.
+- Developed face detection and recognition modules, including alignment, normalization, feature extraction, and tracking logic.
+- Implemented a YOLO-based fallback for robust re-identification when face tracking temporarily failed.
+- Built communication logic between inference and motor modules using Python, Arduino, and local HTTP streaming for debugging and calibration.
+- Tuned and calibrated the system to fix motor drift, reduce latency, and correct camera-to-motor alignment errors through iterative testing.
+
+## Methods & Tools
+Rubik Pi · MegaPi/mBot Mega · YOLO · Python · Arduino · Real-Time Vision · Embedded ML · Edge Computing
+
+## Key Results
+- Successfully implemented a fully functional human-following robot capable of tracking and re-identifying the target in real time.
+- Achieved smooth motor control and stable tracking through iterative calibration and feedback loops.
+- Demonstrated reliable fallback behavior with YOLO-based detection during occlusion or temporary recognition failure.
+
+## Impact
+This project showcases the integration of embedded vision, robotics, and machine learning to create real-time interactive systems, demonstrating strong engineering skills in perception, control, and hardware–software integration.
+
+## Links
+- GitHub: will be added soon
+- Demo Video: will be added soon
