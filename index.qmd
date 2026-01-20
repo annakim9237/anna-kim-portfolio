@@ -18,7 +18,7 @@ listing:
 # Hi, I'm Anna Kim 👋
 
 **Data Science M.S. @ American University**  
-
+Current GPA: 4.0 / 4.0
 
 
 Interested in **NLP, Machine Learning, Data Engineering and Large-Scale Data Analytics**.

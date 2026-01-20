@@ -17,6 +17,8 @@ website:
         text: leadership&volunteer
       - href: experience.qmd
         text: experience
+      - href: academic.qmd
+        text: academic
       - href: about.qmd
         text: about
 

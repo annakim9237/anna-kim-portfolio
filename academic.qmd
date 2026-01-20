@@ -1,0 +1,41 @@
+---
+title: "Academics"
+---
+
+## M.S. in Data Science — American University
+**Current GPA: 4.0 / 4.0** 
+
+---
+
+### 🚀 Advanced Data Science & Machine Learning
+*Focus: Advanced Modeling, NLP, and Big Data*
+
+* **Adv Quant Method/Machine Learn** (FIN-680) — *Spring 2026 (In Progress)*
+* **Statistical Machine Learning** (STAT-627) — *Spring 2026 (In Progress)*
+* **Natural Language Processing / Text As Data** (CSC-696) — **Grade: A**
+* **Big Data & Cloud Computing** (GTU-500) — **Grade: A**
+
+---
+
+### 📊 Statistical Foundations & Programming
+*Focus: Core Statistics, R Programming, and Ethics*
+
+* **Data Ethics & Policy** (GTU-500) — *Spring 2026 (In Progress)*
+* **Data Science** (DATA-613) — **Grade: A**
+* **Statistical Programming in R** (DATA-612) — **Grade: A**
+* **Statistical Methods** (STAT-614) — **Grade: A**
+* **Political Analysis** (GOVT-650) — **Grade: A**
+* **Regression** (STAT-615) — **Grade: A**
+
+---
+
+### ✍️ Academic Communication & Research
+*Focus: Professional Writing and Presentation*
+
+* **Academic Writing for Grad Students** (TESL-010) — **Grade: A**
+* **Grad Academic Communication** (ELTA-080) — **Grade: A**
+* **Intro to Grad Academic Writing** (ELTA-081) — **Grade: A**
+
+---
+
+> **Academic Note:** My consistent academic record reflects a dedicated effort to master technical tools and a commitment to high standards in analytical results. I am particularly focused on Large Language Models (LLMs) and Data Ethics, with the ultimate goal of building reliable and trustworthy data analysis systems.

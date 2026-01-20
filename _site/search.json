@@ -7,354 +7,60 @@
     "text": "I am a Data Science M.S. student at American University with a strong interest in natural language processing, machine learning, and large-scale data analytics. My work focuses on transforming complex, real-world data into actionable insights while building responsible and interpretable AI systems."
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
+    "objectID": "about.html#who-i-am",
+    "href": "about.html#who-i-am",
+    "title": "Anna Kim",
     "section": "",
-    "text": "All of my data science projects and research work.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLarge-Scale Reddit AI Discourse Analysis\n\n\n\nNLP\n\nBig Data\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHuman-Following Robot with Real-Time Face Tracking\n\n\n\nRobotics\n\nComputer Vision\n\nReal-Time Systems\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDistributed Big Data Processing of NYC Taxi Trips\n\n\n\nBig Data\n\nData Engineering\n\nCloud\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMeasuring Ethical Risks in AI-Generated News Using NLP\n\n\n\nNLP\n\nAI Ethics\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCOVID-19 & U.S. Economy: State-Level Analysis\n\n\n\nEconomics\n\nData Visualization\n\nPublic Data\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nToronto Building Audit Risk Analysis & Prediction\n\n\n\nRegulatory Analytics\n\nMachine Learning\n\nRisk Modeling\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOil Fraud Crime Pattern Analysis\n\n\n\nGIS\n\nFraud Detection\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdidas Sales Analysis\n\n\n\nBusiness Analytics\n\nRetail\n\nDashboarding\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "I am a Data Science M.S. student at American University with a strong interest in natural language processing, machine learning, and large-scale data analytics. My work focuses on transforming complex, real-world data into actionable insights while building responsible and interpretable AI systems."
   },
   {
-    "objectID": "projects/01-adidas-sale/index.html",
-    "href": "projects/01-adidas-sale/index.html",
-    "title": "Adidas Sales Analysis",
+    "objectID": "about.html#what-i-work-on",
+    "href": "about.html#what-i-work-on",
+    "title": "Anna Kim",
+    "section": "What I Work On",
+    "text": "What I Work On\n\nNatural Language Processing (NLP) & AI Ethics\n\nMachine Learning & Statistical Modeling\n\nBig Data Systems & Distributed Data Processing\n\nData Engineering & Analytics Pipelines"
+  },
+  {
+    "objectID": "about.html#how-i-think-work",
+    "href": "about.html#how-i-think-work",
+    "title": "Anna Kim",
+    "section": "How I Think & Work",
+    "text": "How I Think & Work\nI care deeply about the interpretability, fairness, and ethical implications of data-driven systems. I enjoy working at the intersection of technical rigor and real-world impact, and I value reproducible workflows, clear communication, and collaborative problem-solving."
+  },
+  {
+    "objectID": "about.html#beyond-work",
+    "href": "about.html#beyond-work",
+    "title": "Anna Kim",
+    "section": "Beyond Work",
+    "text": "Beyond Work\nOutside of my academic and professional work, I enjoy participating in global education initiatives, attending technical conferences, and exploring interdisciplinary research that connects data science with societal challenges."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Hi, I’m Anna Kim 👋",
     "section": "",
-    "text": "This project analyzes Adidas sales data from Kaggle to understand performance trends across product categories, regions, and customer segments. Using Excel-based data cleaning and dashboard development, the study highlights key revenue drivers and operational challenges in the retail ecosystem."
+    "text": "Data Science M.S. @ American University\nCurrent GPA: 4.0 / 4.0\nInterested in NLP, Machine Learning, Data Engineering and Large-Scale Data Analytics.\nI work on data-driven projects that combine statistical modeling, machine learning, and real-world datasets to extract insights and build responsible AI systems.\n🔗 LinkedIn\n🔗 School Email\n🔗 Work Email"
   },
   {
-    "objectID": "projects/01-adidas-sale/index.html#overview",
-    "href": "projects/01-adidas-sale/index.html#overview",
-    "title": "Adidas Sales Analysis",
-    "section": "",
-    "text": "This project analyzes Adidas sales data from Kaggle to understand performance trends across product categories, regions, and customer segments. Using Excel-based data cleaning and dashboard development, the study highlights key revenue drivers and operational challenges in the retail ecosystem."
+    "objectID": "index.html#featured-projects",
+    "href": "index.html#featured-projects",
+    "title": "Hi, I’m Anna Kim 👋",
+    "section": "Featured Projects",
+    "text": "Featured Projects\nThese are my latest six projects. Check out the full list for more interesting work! View All →\n\n\n\n\n\n\n\nLarge-Scale Reddit AI Discourse Analysis\n\n\n\nNLP\n\nBig Data\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\nHuman-Following Robot with Real-Time Face Tracking\n\n\n\nRobotics\n\nComputer Vision\n\nReal-Time Systems\n\n\n\n\n\n\n\n\n\n\nDistributed Big Data Processing of NYC Taxi Trips\n\n\n\nBig Data\n\nData Engineering\n\nCloud\n\n\n\n\n\n\n\n\n\n\nMeasuring Ethical Risks in AI-Generated News Using NLP\n\n\n\nNLP\n\nAI Ethics\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\nCOVID-19 & U.S. Economy: State-Level Analysis\n\n\n\nEconomics\n\nData Visualization\n\nPublic Data\n\n\n\n\n\n\n\n\n\n\nToronto Building Audit Risk Analysis & Prediction\n\n\n\nRegulatory Analytics\n\nMachine Learning\n\nRisk Modeling\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "projects/01-adidas-sale/index.html#what-i-did",
-    "href": "projects/01-adidas-sale/index.html#what-i-did",
-    "title": "Adidas Sales Analysis",
-    "section": "What I Did",
-    "text": "What I Did\n\nCollected and cleaned raw sales data from Kaggle, addressing missing values, inconsistencies, and formatting issues.\nStructured and categorized supply chain data by product type, gender, and sales region to enhance data usability.\nBuilt interactive Excel dashboards that visualize sales trends, regional performance, and seasonal demand patterns.\nIdentified business insights such as peak sales periods and underperforming regions, informing pricing and inventory decisions."
+    "objectID": "index.html#leadership-volunteering",
+    "href": "index.html#leadership-volunteering",
+    "title": "Hi, I’m Anna Kim 👋",
+    "section": "Leadership & Volunteering",
+    "text": "Leadership & Volunteering\nA quick look at two representative activities. Explore more about my leadership and community work.\nSee All →\n\n\n\nSession Chair — IEEE Digital Platforms and Societal Harms (DPSH)\n\n\nWashington, DC · Oct 14–15, 2024\n\n\n\nChaired hybrid sessions (in-person and online) hosted at American University.\n\n\nFacilitated Q&A by preparing discussion questions and guiding post-talk dialogue.\n\n\nCoordinated session flow to ensure smooth timing and audience engagement.\n\n\n\n\n\nInternational Volunteer — IVHQ & Maximo Nivel\n\n\nPeru · Dec 2023\n\n\n\nVolunteered for two weeks on community development projects, including school construction and small-scale agriculture support.\n\n\nOrganized holiday events for children with special needs and seniors.\n\n\nCollaborated with long-term initiatives aimed at sustainable local impact."
   },
   {
-    "objectID": "projects/01-adidas-sale/index.html#methods-tools",
-    "href": "projects/01-adidas-sale/index.html#methods-tools",
-    "title": "Adidas Sales Analysis",
-    "section": "Methods & Tools",
-    "text": "Methods & Tools\nExcel · Data Cleaning · Data Organization · Interactive Dashboards · Trend Analysis"
-  },
-  {
-    "objectID": "projects/01-adidas-sale/index.html#key-results",
-    "href": "projects/01-adidas-sale/index.html#key-results",
-    "title": "Adidas Sales Analysis",
-    "section": "Key Results",
-    "text": "Key Results\n\nFound that women’s product sales consistently peaked in Q4 across multiple regions.\nIdentified specific regions with lower operating profit margins, providing evidence for targeted strategic adjustments.\nImproved accessibility and interpretability of raw sales data through structured dashboards."
-  },
-  {
-    "objectID": "projects/01-adidas-sale/index.html#impact",
-    "href": "projects/01-adidas-sale/index.html#impact",
-    "title": "Adidas Sales Analysis",
-    "section": "Impact",
-    "text": "Impact\nThis analysis provides businesses with actionable insights into seasonal demand, regional market performance, and product-level trends, supporting informed decision-making in retail operations."
-  },
-  {
-    "objectID": "projects/01-adidas-sale/index.html#links",
-    "href": "projects/01-adidas-sale/index.html#links",
-    "title": "Adidas Sales Analysis",
-    "section": "Links",
-    "text": "Links\n\nGitHub: will be added soon\nDashboard / Report: will be added soon"
-  },
-  {
-    "objectID": "projects/07-robot-face-tracking/index.html",
-    "href": "projects/07-robot-face-tracking/index.html",
-    "title": "Human-Following Robot with Real-Time Face Tracking",
-    "section": "",
-    "text": "This project involved building a real-time human-following robot capable of detecting, tracking, and re-identifying a target person using embedded computer vision and machine learning. The system integrates Rubik Pi for face detection and recognition, and MegaPi/mBot Mega for motor control, creating a fully automated movement pipeline from camera input to physical actuation."
-  },
-  {
-    "objectID": "projects/07-robot-face-tracking/index.html#overview",
-    "href": "projects/07-robot-face-tracking/index.html#overview",
-    "title": "Human-Following Robot with Real-Time Face Tracking",
-    "section": "",
-    "text": "This project involved building a real-time human-following robot capable of detecting, tracking, and re-identifying a target person using embedded computer vision and machine learning. The system integrates Rubik Pi for face detection and recognition, and MegaPi/mBot Mega for motor control, creating a fully automated movement pipeline from camera input to physical actuation."
-  },
-  {
-    "objectID": "projects/07-robot-face-tracking/index.html#what-i-did",
-    "href": "projects/07-robot-face-tracking/index.html#what-i-did",
-    "title": "Human-Following Robot with Real-Time Face Tracking",
-    "section": "What I Did",
-    "text": "What I Did\n\nDesigned the end-to-end system architecture integrating Rubik Pi (vision inference) and MegaPi (motor control) into a real-time perception → decision → action loop.\nDeveloped face detection and recognition modules, including alignment, normalization, feature extraction, and tracking logic.\nImplemented a YOLO-based fallback for robust re-identification when face tracking temporarily failed.\nBuilt communication logic between inference and motor modules using Python, Arduino, and local HTTP streaming for debugging and calibration.\nTuned and calibrated the system to fix motor drift, reduce latency, and correct camera-to-motor alignment errors through iterative testing."
-  },
-  {
-    "objectID": "projects/07-robot-face-tracking/index.html#methods-tools",
-    "href": "projects/07-robot-face-tracking/index.html#methods-tools",
-    "title": "Human-Following Robot with Real-Time Face Tracking",
-    "section": "Methods & Tools",
-    "text": "Methods & Tools\nRubik Pi · MegaPi/mBot Mega · YOLO · Python · Arduino · Real-Time Vision · Embedded ML · Edge Computing"
-  },
-  {
-    "objectID": "projects/07-robot-face-tracking/index.html#key-results",
-    "href": "projects/07-robot-face-tracking/index.html#key-results",
-    "title": "Human-Following Robot with Real-Time Face Tracking",
-    "section": "Key Results",
-    "text": "Key Results\n\nSuccessfully implemented a fully functional human-following robot capable of tracking and re-identifying the target in real time.\nAchieved smooth motor control and stable tracking through iterative calibration and feedback loops.\nDemonstrated reliable fallback behavior with YOLO-based detection during occlusion or temporary recognition failure."
-  },
-  {
-    "objectID": "projects/07-robot-face-tracking/index.html#impact",
-    "href": "projects/07-robot-face-tracking/index.html#impact",
-    "title": "Human-Following Robot with Real-Time Face Tracking",
-    "section": "Impact",
-    "text": "Impact\nThis project showcases the integration of embedded vision, robotics, and machine learning to create real-time interactive systems, demonstrating strong engineering skills in perception, control, and hardware–software integration."
-  },
-  {
-    "objectID": "projects/07-robot-face-tracking/index.html#links",
-    "href": "projects/07-robot-face-tracking/index.html#links",
-    "title": "Human-Following Robot with Real-Time Face Tracking",
-    "section": "Links",
-    "text": "Links\n\nGitHub: will be added soon\nDemo Video: will be added soon"
-  },
-  {
-    "objectID": "projects/05-nlp-ethics-news/index.html",
-    "href": "projects/05-nlp-ethics-news/index.html",
-    "title": "Measuring Ethical Risks in AI-Generated News Using NLP",
-    "section": "",
-    "text": "This project evaluates ethical risks in AI-generated news by combining modern NLP techniques with ethical analysis frameworks. Using DistilBERT and semantic similarity methods, the study identifies harmful patterns such as biased framing, hate-speech tendencies, and ethically drifted content, mapping them directly to the UNESCO AI Ethics principles."
-  },
-  {
-    "objectID": "projects/05-nlp-ethics-news/index.html#overview",
-    "href": "projects/05-nlp-ethics-news/index.html#overview",
-    "title": "Measuring Ethical Risks in AI-Generated News Using NLP",
-    "section": "",
-    "text": "This project evaluates ethical risks in AI-generated news by combining modern NLP techniques with ethical analysis frameworks. Using DistilBERT and semantic similarity methods, the study identifies harmful patterns such as biased framing, hate-speech tendencies, and ethically drifted content, mapping them directly to the UNESCO AI Ethics principles."
-  },
-  {
-    "objectID": "projects/05-nlp-ethics-news/index.html#what-i-did",
-    "href": "projects/05-nlp-ethics-news/index.html#what-i-did",
-    "title": "Measuring Ethical Risks in AI-Generated News Using NLP",
-    "section": "What I Did",
-    "text": "What I Did\n\nImplemented transformer-based text classification models using DistilBERT to detect harmful or ethically questionable content in AI-generated news.\nPreprocessed and engineered text features using tokenization, padding, truncation, TF–IDF vectors, and topic-aligned embeddings.\nApplied semantic similarity and cosine-distance methods to align classified content with UNESCO AI Ethics principles.\nAnalyzed ethical drift across different news topics and model outputs to identify patterns of misinformation, bias, and discriminatory framing."
-  },
-  {
-    "objectID": "projects/05-nlp-ethics-news/index.html#methods-tools",
-    "href": "projects/05-nlp-ethics-news/index.html#methods-tools",
-    "title": "Measuring Ethical Risks in AI-Generated News Using NLP",
-    "section": "Methods & Tools",
-    "text": "Methods & Tools\nDistilBERT · Transformers · Tokenization · TF–IDF · Embeddings · Cosine Similarity · Python · NLP"
-  },
-  {
-    "objectID": "projects/05-nlp-ethics-news/index.html#key-results",
-    "href": "projects/05-nlp-ethics-news/index.html#key-results",
-    "title": "Measuring Ethical Risks in AI-Generated News Using NLP",
-    "section": "Key Results",
-    "text": "Key Results\n\nSuccessfully detected ethical violations and hate-speech signals across multiple AI-generated news samples.\nIdentified consistent ethical drift patterns that aligned with specific UNESCO principles, enabling structured interpretation of content risk.\nDemonstrated how NLP-based classification and similarity scoring can support responsible AI oversight."
-  },
-  {
-    "objectID": "projects/05-nlp-ethics-news/index.html#impact",
-    "href": "projects/05-nlp-ethics-news/index.html#impact",
-    "title": "Measuring Ethical Risks in AI-Generated News Using NLP",
-    "section": "Impact",
-    "text": "Impact\nThis project highlights how NLP and ethical frameworks can be combined to assess risks in AI-generated content, providing a foundation for building more responsible AI evaluation tools."
-  },
-  {
-    "objectID": "projects/05-nlp-ethics-news/index.html#links",
-    "href": "projects/05-nlp-ethics-news/index.html#links",
-    "title": "Measuring Ethical Risks in AI-Generated News Using NLP",
-    "section": "Links",
-    "text": "Links\n\nGitHub: will be added soon\nProject Report: will be added soon"
-  },
-  {
-    "objectID": "projects/02-oil-fraud/index.html",
-    "href": "projects/02-oil-fraud/index.html",
-    "title": "Oil Fraud Crime Pattern Analysis",
-    "section": "",
-    "text": "This project investigates nationwide fuel station fraud patterns by integrating regulatory data, business information, and geospatial risk factors. In collaboration with the Korea National Oil Management Institute, the analysis explores behavioral trends, environmental features, and historical violations to build predictive insights for fraud detection."
-  },
-  {
-    "objectID": "projects/02-oil-fraud/index.html#overview",
-    "href": "projects/02-oil-fraud/index.html#overview",
-    "title": "Oil Fraud Crime Pattern Analysis",
-    "section": "",
-    "text": "This project investigates nationwide fuel station fraud patterns by integrating regulatory data, business information, and geospatial risk factors. In collaboration with the Korea National Oil Management Institute, the analysis explores behavioral trends, environmental features, and historical violations to build predictive insights for fraud detection."
-  },
-  {
-    "objectID": "projects/02-oil-fraud/index.html#what-i-did",
-    "href": "projects/02-oil-fraud/index.html#what-i-did",
-    "title": "Oil Fraud Crime Pattern Analysis",
-    "section": "What I Did",
-    "text": "What I Did\n\nCollaborated with the Korea National Oil Management Institute to analyze nationwide fuel station violation data and business registration information.\nCollected and integrated external datasets such as proximity to police stations, streetlight density, and local station clustering to enhance risk modeling.\nApplied machine learning models (Random Forest, Decision Tree) to identify high-risk fuel stations and evaluate fraud likelihood.\nUsed QGIS and geospatial visualization techniques to map risk hotspots and illustrate key environmental factors.\nSummarized insights for regulatory teams through PowerPoint, supporting targeted and data-driven inspection planning."
-  },
-  {
-    "objectID": "projects/02-oil-fraud/index.html#methods-tools",
-    "href": "projects/02-oil-fraud/index.html#methods-tools",
-    "title": "Oil Fraud Crime Pattern Analysis",
-    "section": "Methods & Tools",
-    "text": "Methods & Tools\nQGIS · Python · Jupyter Notebook · R · Random Forest · Decision Tree · GIS Analysis · External Data Integration"
-  },
-  {
-    "objectID": "projects/02-oil-fraud/index.html#key-results",
-    "href": "projects/02-oil-fraud/index.html#key-results",
-    "title": "Oil Fraud Crime Pattern Analysis",
-    "section": "Key Results",
-    "text": "Key Results\n\nIdentified critical environmental and operational features strongly associated with repeat fraud violations.\nBuilt predictive models capable of ranking stations by risk level to support proactive regulatory intervention.\nVisualized spatial fraud patterns revealing geographic clusters and recurring behavioral indicators."
-  },
-  {
-    "objectID": "projects/02-oil-fraud/index.html#impact",
-    "href": "projects/02-oil-fraud/index.html#impact",
-    "title": "Oil Fraud Crime Pattern Analysis",
-    "section": "Impact",
-    "text": "Impact\nThe project enhanced the effectiveness of regulatory oversight by providing a data-driven framework for fraud detection, enabling authorities to prioritize inspections and mitigate risk efficiently."
-  },
-  {
-    "objectID": "projects/02-oil-fraud/index.html#links",
-    "href": "projects/02-oil-fraud/index.html#links",
-    "title": "Oil Fraud Crime Pattern Analysis",
-    "section": "Links",
-    "text": "Links\n\nGitHub: will be added soon\nReport / Presentation: will be added soon"
-  },
-  {
-    "objectID": "projects/04-covid-economy/index.html",
-    "href": "projects/04-covid-economy/index.html",
-    "title": "COVID-19 & U.S. Economy: State-Level Analysis",
-    "section": "",
-    "text": "This project evaluates the economic impact of COVID-19 at the U.S. state level by integrating multiple datasets spanning health data, housing markets, labor statistics, GDP, income, and household debt. Using R and tidyverse tools, the analysis compares pre-pandemic (2017–2019) and post-pandemic (2020–2022) trends to reveal structural economic shifts."
-  },
-  {
-    "objectID": "projects/04-covid-economy/index.html#overview",
-    "href": "projects/04-covid-economy/index.html#overview",
-    "title": "COVID-19 & U.S. Economy: State-Level Analysis",
-    "section": "",
-    "text": "This project evaluates the economic impact of COVID-19 at the U.S. state level by integrating multiple datasets spanning health data, housing markets, labor statistics, GDP, income, and household debt. Using R and tidyverse tools, the analysis compares pre-pandemic (2017–2019) and post-pandemic (2020–2022) trends to reveal structural economic shifts."
-  },
-  {
-    "objectID": "projects/04-covid-economy/index.html#what-i-did",
-    "href": "projects/04-covid-economy/index.html#what-i-did",
-    "title": "COVID-19 & U.S. Economy: State-Level Analysis",
-    "section": "What I Did",
-    "text": "What I Did\n\nGathered and merged over ten datasets from CDC, Zillow, BEA, BLS, and the New York Fed, covering COVID cases, housing prices, GDP, unemployment, income, and household debt.\nPerformed extensive data cleaning and cross-timeframe alignment to enable fair comparisons between pre-COVID and post-COVID economic conditions.\nCreated bar plots, line graphs, and violin plots to visualize changes in spending, debt, income, and unemployment across 50 states.\nDelivered an interactive HTML report summarizing economic trends and identifying states with stronger or weaker resilience during the pandemic."
-  },
-  {
-    "objectID": "projects/04-covid-economy/index.html#methods-tools",
-    "href": "projects/04-covid-economy/index.html#methods-tools",
-    "title": "COVID-19 & U.S. Economy: State-Level Analysis",
-    "section": "Methods & Tools",
-    "text": "Methods & Tools\nR · tidyverse · ggplot2 · readxl · RMarkdown · Data Wrangling · Economic Analysis · Visualization"
-  },
-  {
-    "objectID": "projects/04-covid-economy/index.html#key-results",
-    "href": "projects/04-covid-economy/index.html#key-results",
-    "title": "COVID-19 & U.S. Economy: State-Level Analysis",
-    "section": "Key Results",
-    "text": "Key Results\n\nRevealed clear shifts in consumer spending, income distribution, and labor market stability across states.\nHighlighted states with disproportionate increases in household debt and unemployment.\nIdentified divergent housing market trends across regions, informed by integrated Zillow and BEA datasets."
-  },
-  {
-    "objectID": "projects/04-covid-economy/index.html#impact",
-    "href": "projects/04-covid-economy/index.html#impact",
-    "title": "COVID-19 & U.S. Economy: State-Level Analysis",
-    "section": "Impact",
-    "text": "Impact\nThis project provides a comprehensive state-level overview of the pandemic’s economic effects and supports evidence-based regional resilience planning."
-  },
-  {
-    "objectID": "projects/04-covid-economy/index.html#links",
-    "href": "projects/04-covid-economy/index.html#links",
-    "title": "COVID-19 & U.S. Economy: State-Level Analysis",
-    "section": "Links",
-    "text": "Links\n\nGitHub: will be added soon\nInteractive Report: will be added soon"
-  },
-  {
-    "objectID": "projects/03-toronto-audit/index.html",
-    "href": "projects/03-toronto-audit/index.html",
-    "title": "Toronto Building Audit Risk Analysis & Prediction",
-    "section": "",
-    "text": "This project analyzes Toronto’s annual building evaluation data to identify audit risks and support regulatory decision-making. By combining SQL-based filtering, exploratory analyses, and supervised machine learning models, the study offers a data-driven approach to predicting high-risk buildings."
-  },
-  {
-    "objectID": "projects/03-toronto-audit/index.html#overview",
-    "href": "projects/03-toronto-audit/index.html#overview",
-    "title": "Toronto Building Audit Risk Analysis & Prediction",
-    "section": "",
-    "text": "This project analyzes Toronto’s annual building evaluation data to identify audit risks and support regulatory decision-making. By combining SQL-based filtering, exploratory analyses, and supervised machine learning models, the study offers a data-driven approach to predicting high-risk buildings."
-  },
-  {
-    "objectID": "projects/03-toronto-audit/index.html#what-i-did",
-    "href": "projects/03-toronto-audit/index.html#what-i-did",
-    "title": "Toronto Building Audit Risk Analysis & Prediction",
-    "section": "What I Did",
-    "text": "What I Did\n\nConducted exploratory analysis on Toronto’s building audit dataset using SQL and Python to identify structural, financial, and environmental risk indicators.\nDeveloped machine learning models (Random Forest, Decision Tree) to classify high-risk buildings and guide audit prioritization.\nApplied SMOTE to improve predictive performance by addressing severe class imbalance common in fraud and regulatory datasets.\nDesigned geospatial and statistical visualizations using Seaborn, Matplotlib, and Folium to communicate insights clearly.\nSummarized results through Streamlit dashboards and PowerPoint presentations for audit teams and stakeholders."
-  },
-  {
-    "objectID": "projects/03-toronto-audit/index.html#methods-tools",
-    "href": "projects/03-toronto-audit/index.html#methods-tools",
-    "title": "Toronto Building Audit Risk Analysis & Prediction",
-    "section": "Methods & Tools",
-    "text": "Methods & Tools\nPython · Pandas · NumPy · SQL · Seaborn · Matplotlib · Folium · Streamlit · Random Forest · Decision Tree · SMOTE"
-  },
-  {
-    "objectID": "projects/03-toronto-audit/index.html#key-results",
-    "href": "projects/03-toronto-audit/index.html#key-results",
-    "title": "Toronto Building Audit Risk Analysis & Prediction",
-    "section": "Key Results",
-    "text": "Key Results\n\nImproved fraud detection and audit targeting by correcting class imbalance and enhancing model accuracy.\nIdentified key predictors of high-risk buildings, informing more efficient audit resource allocation.\nDelivered visual dashboards and reports that simplified interpretation of complex regulatory data."
-  },
-  {
-    "objectID": "projects/03-toronto-audit/index.html#impact",
-    "href": "projects/03-toronto-audit/index.html#impact",
-    "title": "Toronto Building Audit Risk Analysis & Prediction",
-    "section": "Impact",
-    "text": "Impact\nThis project provides a scalable and actionable framework for regulatory audits, enabling departments to detect at-risk buildings early and conduct data-informed inspections."
-  },
-  {
-    "objectID": "projects/03-toronto-audit/index.html#links",
-    "href": "projects/03-toronto-audit/index.html#links",
-    "title": "Toronto Building Audit Risk Analysis & Prediction",
-    "section": "Links",
-    "text": "Links\n\nGitHub: will be added soon\nStreamlit Demo / Report: will be added soon"
-  },
-  {
-    "objectID": "projects/08-reddit-ai-discussion/index.html",
-    "href": "projects/08-reddit-ai-discussion/index.html",
-    "title": "Large-Scale Reddit AI Discourse Analysis",
-    "section": "",
-    "text": "This project analyzes large-scale Reddit discussions related to artificial intelligence to understand how topics, language, and timing influence user engagement and content virality. Using distributed data processing and NLP techniques, I examined patterns across multiple AI-focused subreddits and compared AI discourse with politically influenced discussions."
-  },
-  {
-    "objectID": "projects/08-reddit-ai-discussion/index.html#overview",
-    "href": "projects/08-reddit-ai-discussion/index.html#overview",
-    "title": "Large-Scale Reddit AI Discourse Analysis",
-    "section": "",
-    "text": "This project analyzes large-scale Reddit discussions related to artificial intelligence to understand how topics, language, and timing influence user engagement and content virality. Using distributed data processing and NLP techniques, I examined patterns across multiple AI-focused subreddits and compared AI discourse with politically influenced discussions."
-  },
-  {
-    "objectID": "projects/08-reddit-ai-discussion/index.html#what-i-did",
-    "href": "projects/08-reddit-ai-discussion/index.html#what-i-did",
-    "title": "Large-Scale Reddit AI Discourse Analysis",
-    "section": "What I Did",
-    "text": "What I Did\n\nEngineered temporal engagement features (day-of-week, hour-of-day) to analyze posting behavior and engagement dynamics.\nAggregated and processed billions of Reddit rows using PySpark to enable scalable analysis across 15 AI-related subreddits.\nBuilt an NLP pipeline using regex-based UDFs, tokenization, and CountVectorizer to prepare text data for modeling.\nTrained and compared dual 15-topic LDA models to contrast AI-focused discourse with politically influenced narratives.\nDeveloped regression and classification models (Lasso, Logistic Regression, Gradient Boosted Trees) using TF–IDF features, topic vectors, and metadata."
-  },
-  {
-    "objectID": "projects/08-reddit-ai-discussion/index.html#methods-tools",
-    "href": "projects/08-reddit-ai-discussion/index.html#methods-tools",
-    "title": "Large-Scale Reddit AI Discourse Analysis",
-    "section": "Methods & Tools",
-    "text": "Methods & Tools\nPySpark · Python · NLP · LDA Topic Modeling · TF–IDF · Logistic Regression · Gradient Boosted Trees · Distributed Computing · Feature Engineering"
-  },
-  {
-    "objectID": "projects/08-reddit-ai-discussion/index.html#key-results",
-    "href": "projects/08-reddit-ai-discussion/index.html#key-results",
-    "title": "Large-Scale Reddit AI Discourse Analysis",
-    "section": "Key Results",
-    "text": "Key Results\n\nIdentified optimal engagement windows by analyzing posting time versus score and comment activity.\nRevealed distinct thematic differences between AI-centric discussions and politically influenced discourse through topic modeling.\nDemonstrated that linguistic features and topic composition are strong predictors of Reddit post virality."
-  },
-  {
-    "objectID": "projects/08-reddit-ai-discussion/index.html#impact",
-    "href": "projects/08-reddit-ai-discussion/index.html#impact",
-    "title": "Large-Scale Reddit AI Discourse Analysis",
-    "section": "Impact",
-    "text": "Impact\nThis project demonstrates the application of scalable NLP and machine learning techniques to real-world social media data, highlighting how data-driven insights can explain online engagement patterns and information diffusion at scale."
-  },
-  {
-    "objectID": "projects/08-reddit-ai-discussion/index.html#links",
-    "href": "projects/08-reddit-ai-discussion/index.html#links",
-    "title": "Large-Scale Reddit AI Discourse Analysis",
-    "section": "Links",
-    "text": "Links\n\nGitHub: will be added soon\nReport / Demo: will be added soon"
+    "objectID": "index.html#experience",
+    "href": "index.html#experience",
+    "title": "Hi, I’m Anna Kim 👋",
+    "section": "Experience",
+    "text": "Experience\nTwo representative roles from my professional and academic experience. View All →\n\n\n\nInternal Audit Data Analyst (Intern)\n\n\nCiena Corporation · Canada · May 2025 – Present\n\n\n\nAnalyze operational and system access data to support internal audit risk assessments.\n\n\nAssist with access-control reviews and compliance-focused reporting workflows.\n\n\n\n\n\nResearch Assistant — Sustainable Economy & Investment Modeling\n\n\nAmerican University · Aug 2025 – Present\n\n\n\nSupport research on sustainable economy and life-cycle investment modeling.\n\n\nDevelop and debug Python scripts for welfare-cost and investment simulations."
   },
   {
     "objectID": "projects/06-nyc-taxi_spark/index.html",
@@ -406,109 +112,151 @@
     "text": "Links\n\nGitHub: will be added soon\nDocumentation / Demo: will be added soon"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Hi, I’m Anna Kim 👋",
+    "objectID": "projects/08-reddit-ai-discussion/index.html",
+    "href": "projects/08-reddit-ai-discussion/index.html",
+    "title": "Large-Scale Reddit AI Discourse Analysis",
     "section": "",
-    "text": "Data Science M.S. @ American University\nInterested in NLP, Machine Learning, Data Engineering and Large-Scale Data Analytics.\nI work on data-driven projects that combine statistical modeling, machine learning, and real-world datasets to extract insights and build responsible AI systems.\n🔗 LinkedIn\n🔗 School Email\n🔗 Work Email"
+    "text": "This project analyzes large-scale Reddit discussions related to artificial intelligence to understand how topics, language, and timing influence user engagement and content virality. Using distributed data processing and NLP techniques, I examined patterns across multiple AI-focused subreddits and compared AI discourse with politically influenced discussions."
   },
   {
-    "objectID": "index.html#featured-projects",
-    "href": "index.html#featured-projects",
-    "title": "Hi, I’m Anna Kim 👋",
-    "section": "Featured Projects",
-    "text": "Featured Projects\nThese are my latest six projects. Check out the full list for more interesting work! View All →\n\n\n\n\n\n\n\nLarge-Scale Reddit AI Discourse Analysis\n\n\n\nNLP\n\nBig Data\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\nHuman-Following Robot with Real-Time Face Tracking\n\n\n\nRobotics\n\nComputer Vision\n\nReal-Time Systems\n\n\n\n\n\n\n\n\n\n\nDistributed Big Data Processing of NYC Taxi Trips\n\n\n\nBig Data\n\nData Engineering\n\nCloud\n\n\n\n\n\n\n\n\n\n\nMeasuring Ethical Risks in AI-Generated News Using NLP\n\n\n\nNLP\n\nAI Ethics\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\nCOVID-19 & U.S. Economy: State-Level Analysis\n\n\n\nEconomics\n\nData Visualization\n\nPublic Data\n\n\n\n\n\n\n\n\n\n\nToronto Building Audit Risk Analysis & Prediction\n\n\n\nRegulatory Analytics\n\nMachine Learning\n\nRisk Modeling\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html#featured-projects-view-all",
-    "href": "index.html#featured-projects-view-all",
-    "title": "Hi, I’m Anna Kim 👋",
-    "section": "Featured Projects View All →",
-    "text": "Featured Projects View All →"
-  },
-  {
-    "objectID": "activities.html",
-    "href": "activities.html",
-    "title": "Activities",
+    "objectID": "projects/08-reddit-ai-discussion/index.html#overview",
+    "href": "projects/08-reddit-ai-discussion/index.html#overview",
+    "title": "Large-Scale Reddit AI Discourse Analysis",
     "section": "",
-    "text": "Leadership, conferences, and volunteering experiences that reflect my commitment to community impact and professional engagement."
+    "text": "This project analyzes large-scale Reddit discussions related to artificial intelligence to understand how topics, language, and timing influence user engagement and content virality. Using distributed data processing and NLP techniques, I examined patterns across multiple AI-focused subreddits and compared AI discourse with politically influenced discussions."
   },
   {
-    "objectID": "activities.html#leadership",
-    "href": "activities.html#leadership",
-    "title": "Activities",
-    "section": "Leadership",
-    "text": "Leadership\n\n\nTreasurer — ASA Student Chapter\nWashington, DC · 2024–Present\n- Managed chapter budget and event logistics. - Coordinated member communications and reporting.\n\n\nTeaching Assistant — Statistics & Data Science Labs\nAmerican University · 2024–Present\n- Supported lab sessions and mentoring. - Helped students with R/Python assignments."
+    "objectID": "projects/08-reddit-ai-discussion/index.html#what-i-did",
+    "href": "projects/08-reddit-ai-discussion/index.html#what-i-did",
+    "title": "Large-Scale Reddit AI Discourse Analysis",
+    "section": "What I Did",
+    "text": "What I Did\n\nEngineered temporal engagement features (day-of-week, hour-of-day) to analyze posting behavior and engagement dynamics.\nAggregated and processed billions of Reddit rows using PySpark to enable scalable analysis across 15 AI-related subreddits.\nBuilt an NLP pipeline using regex-based UDFs, tokenization, and CountVectorizer to prepare text data for modeling.\nTrained and compared dual 15-topic LDA models to contrast AI-focused discourse with politically influenced narratives.\nDeveloped regression and classification models (Lasso, Logistic Regression, Gradient Boosted Trees) using TF–IDF features, topic vectors, and metadata."
   },
   {
-    "objectID": "activities.html#conferences-events",
-    "href": "activities.html#conferences-events",
-    "title": "Activities",
-    "section": "Conferences & Events",
-    "text": "Conferences & Events\n\n\nIEEE Quantum Week\n2025\n- Attended workshops on ML and emerging AI systems.\n\n\nWomen in Engineering Forum\n2025\n- Participated in networking sessions and technical talks."
+    "objectID": "projects/08-reddit-ai-discussion/index.html#methods-tools",
+    "href": "projects/08-reddit-ai-discussion/index.html#methods-tools",
+    "title": "Large-Scale Reddit AI Discourse Analysis",
+    "section": "Methods & Tools",
+    "text": "Methods & Tools\nPySpark · Python · NLP · LDA Topic Modeling · TF–IDF · Logistic Regression · Gradient Boosted Trees · Distributed Computing · Feature Engineering"
   },
   {
-    "objectID": "activities.html#volunteering",
-    "href": "activities.html#volunteering",
-    "title": "Activities",
-    "section": "Volunteering",
-    "text": "Volunteering\n\n\nCommunity Data Workshop Volunteer\n2024\n- Assisted participants with data literacy and tools."
+    "objectID": "projects/08-reddit-ai-discussion/index.html#key-results",
+    "href": "projects/08-reddit-ai-discussion/index.html#key-results",
+    "title": "Large-Scale Reddit AI Discourse Analysis",
+    "section": "Key Results",
+    "text": "Key Results\n\nIdentified optimal engagement windows by analyzing posting time versus score and comment activity.\nRevealed distinct thematic differences between AI-centric discussions and politically influenced discourse through topic modeling.\nDemonstrated that linguistic features and topic composition are strong predictors of Reddit post virality."
   },
   {
-    "objectID": "activities.html#leadership-conference-roles",
-    "href": "activities.html#leadership-conference-roles",
-    "title": "Activities",
-    "section": "Leadership & Conference Roles",
-    "text": "Leadership & Conference Roles\n\n\nSession Chair — IEEE Digital Platforms and Societal Harms (DPSH)\nWashington, DC · Oct 14–15, 2024\n- Chaired hybrid sessions (in-person + online) hosted at American University.\n- Facilitated Q&A by preparing discussion questions and guiding post-talk dialogue.\n- Coordinated session flow to ensure smooth timing and audience engagement.\n\n\nContent Reviewer & Developer — AI Global Education Program\nSeeds of Empowerment · 2025\n- Contribute to AI teaching curriculum development for underserved students in developing countries (e.g., Kazakhstan).\n- Review existing materials, propose new content ideas, and develop chapters focused on statistics and data ethics.\n- Support accessible, culturally aware learning resources for global classrooms."
+    "objectID": "projects/08-reddit-ai-discussion/index.html#impact",
+    "href": "projects/08-reddit-ai-discussion/index.html#impact",
+    "title": "Large-Scale Reddit AI Discourse Analysis",
+    "section": "Impact",
+    "text": "Impact\nThis project demonstrates the application of scalable NLP and machine learning techniques to real-world social media data, highlighting how data-driven insights can explain online engagement patterns and information diffusion at scale."
   },
   {
-    "objectID": "activities.html#volunteering-community-engagement",
-    "href": "activities.html#volunteering-community-engagement",
-    "title": "Activities",
-    "section": "Volunteering & Community Engagement",
-    "text": "Volunteering & Community Engagement\n\n\nVolunteer — To Do Toronto\nToronto · 2023–2024\n- Supported event operations for a major community media organization connecting culture, arts, and networking.\n- Managed guest check-ins, coordinated logistics, and ensured smooth on-site execution.\n- Assisted with post-event cleanup and organization to maintain efficient workflows.\n\n\nInternational Volunteer — IVHQ & Maximo Nivel\nPeru · Dec 2023\n- Volunteered for two weeks on community development projects, including school construction and small-scale agriculture support.\n- Organized holiday events for children with special needs and seniors.\n- Collaborated with long-term initiatives aimed at sustainable local impact.\n\n\nKorean & Art Teaching — University Volunteer Program\nPhilippines · 2017\n- Taught Korean language and music for two weeks through a university-led volunteer program.\n- Designed interactive lessons introducing Korean culture, basic language skills, and musical activities.\n- Promoted participation and cross-cultural exchange through structured learning sessions.\n\n\nSchool Construction & Child Support Volunteer\nIndia · 2011\n- Assisted with classroom setup and structural support in building a school for children in underprivileged areas.\n- Led recreational and educational activities to support children’s learning and well-being.\n- Strengthened my commitment to educational accessibility and community service."
+    "objectID": "projects/08-reddit-ai-discussion/index.html#links",
+    "href": "projects/08-reddit-ai-discussion/index.html#links",
+    "title": "Large-Scale Reddit AI Discourse Analysis",
+    "section": "Links",
+    "text": "Links\n\nGitHub: will be added soon\nReport / Demo: will be added soon"
   },
   {
-    "objectID": "Volunteering & Leadership.html",
-    "href": "Volunteering & Leadership.html",
-    "title": "Activities",
+    "objectID": "projects/03-toronto-audit/index.html",
+    "href": "projects/03-toronto-audit/index.html",
+    "title": "Toronto Building Audit Risk Analysis & Prediction",
     "section": "",
-    "text": "Leadership, conferences, and volunteering experiences that reflect my commitment to community impact and professional engagement."
+    "text": "This project analyzes Toronto’s annual building evaluation data to identify audit risks and support regulatory decision-making. By combining SQL-based filtering, exploratory analyses, and supervised machine learning models, the study offers a data-driven approach to predicting high-risk buildings."
   },
   {
-    "objectID": "Volunteering & Leadership.html#leadership-conference-roles",
-    "href": "Volunteering & Leadership.html#leadership-conference-roles",
-    "title": "Activities",
-    "section": "Leadership & Conference Roles",
-    "text": "Leadership & Conference Roles\n\n\nSession Chair — IEEE Digital Platforms and Societal Harms (DPSH)\nWashington, DC · Oct 14–15, 2024\n- Chaired hybrid sessions (in-person + online) hosted at American University.\n- Facilitated Q&A by preparing discussion questions and guiding post-talk dialogue.\n- Coordinated session flow to ensure smooth timing and audience engagement.\n\n\nContent Reviewer & Developer — AI Global Education Program\nSeeds of Empowerment · 2025\n- Contribute to AI teaching curriculum development for underserved students in developing countries (e.g., Kazakhstan).\n- Review existing materials, propose new content ideas, and develop chapters focused on statistics and data ethics.\n- Support accessible, culturally aware learning resources for global classrooms."
-  },
-  {
-    "objectID": "Volunteering & Leadership.html#volunteering-community-engagement",
-    "href": "Volunteering & Leadership.html#volunteering-community-engagement",
-    "title": "Activities",
-    "section": "Volunteering & Community Engagement",
-    "text": "Volunteering & Community Engagement\n\n\nVolunteer — To Do Toronto\nToronto · 2023–2024\n- Supported event operations for a major community media organization connecting culture, arts, and networking.\n- Managed guest check-ins, coordinated logistics, and ensured smooth on-site execution.\n- Assisted with post-event cleanup and organization to maintain efficient workflows.\n\n\nInternational Volunteer — IVHQ & Maximo Nivel\nPeru · Dec 2023\n- Volunteered for two weeks on community development projects, including school construction and small-scale agriculture support.\n- Organized holiday events for children with special needs and seniors.\n- Collaborated with long-term initiatives aimed at sustainable local impact.\n\n\nKorean & Art Teaching — University Volunteer Program\nPhilippines · 2017\n- Taught Korean language and music for two weeks through a university-led volunteer program.\n- Designed interactive lessons introducing Korean culture, basic language skills, and musical activities.\n- Promoted participation and cross-cultural exchange through structured learning sessions.\n\n\nSchool Construction & Child Support Volunteer\nIndia · 2011\n- Assisted with classroom setup and structural support in building a school for children in underprivileged areas.\n- Led recreational and educational activities to support children’s learning and well-being.\n- Strengthened my commitment to educational accessibility and community service."
-  },
-  {
-    "objectID": "volunteering & leadership.html",
-    "href": "volunteering & leadership.html",
-    "title": "Volunteering & Leadership",
+    "objectID": "projects/03-toronto-audit/index.html#overview",
+    "href": "projects/03-toronto-audit/index.html#overview",
+    "title": "Toronto Building Audit Risk Analysis & Prediction",
     "section": "",
-    "text": "Leadership, conferences, and volunteering experiences that reflect my commitment to community impact and professional engagement."
+    "text": "This project analyzes Toronto’s annual building evaluation data to identify audit risks and support regulatory decision-making. By combining SQL-based filtering, exploratory analyses, and supervised machine learning models, the study offers a data-driven approach to predicting high-risk buildings."
   },
   {
-    "objectID": "volunteering & leadership.html#leadership-conference-roles",
-    "href": "volunteering & leadership.html#leadership-conference-roles",
-    "title": "Volunteering & Leadership",
-    "section": "Leadership & Conference Roles",
-    "text": "Leadership & Conference Roles\n\n\n\nSession Chair — IEEE Digital Platforms and Societal Harms (DPSH)\nWashington, DC · Oct 14–15, 2024\n- Chaired hybrid sessions (in-person + online) hosted at American University.\n- Facilitated Q&A by preparing discussion questions and guiding post-talk dialogue.\n- Coordinated session flow to ensure smooth timing and audience engagement.\n\n\nContent Reviewer & Developer — AI Global Education Program\nSeeds of Empowerment · 2025\n- Contribute to AI teaching curriculum development for underserved students in developing countries (e.g., Kazakhstan).\n- Review existing materials, propose new content ideas, and develop chapters focused on statistics and data ethics.\n- Support accessible, culturally aware learning resources for global classrooms."
+    "objectID": "projects/03-toronto-audit/index.html#what-i-did",
+    "href": "projects/03-toronto-audit/index.html#what-i-did",
+    "title": "Toronto Building Audit Risk Analysis & Prediction",
+    "section": "What I Did",
+    "text": "What I Did\n\nConducted exploratory analysis on Toronto’s building audit dataset using SQL and Python to identify structural, financial, and environmental risk indicators.\nDeveloped machine learning models (Random Forest, Decision Tree) to classify high-risk buildings and guide audit prioritization.\nApplied SMOTE to improve predictive performance by addressing severe class imbalance common in fraud and regulatory datasets.\nDesigned geospatial and statistical visualizations using Seaborn, Matplotlib, and Folium to communicate insights clearly.\nSummarized results through Streamlit dashboards and PowerPoint presentations for audit teams and stakeholders."
   },
   {
-    "objectID": "volunteering & leadership.html#volunteering-community-engagement",
-    "href": "volunteering & leadership.html#volunteering-community-engagement",
-    "title": "Volunteering & Leadership",
-    "section": "Volunteering & Community Engagement",
-    "text": "Volunteering & Community Engagement\n\n\n\nVolunteer — To Do Toronto\nToronto · 2023–2024\n- Supported event operations for a major community media organization connecting culture, arts, and networking.\n- Managed guest check-ins, coordinated logistics, and ensured smooth on-site execution.\n- Assisted with post-event cleanup and organization to maintain efficient workflows.\n\n\nInternational Volunteer — IVHQ & Maximo Nivel\nPeru · Dec 2023\n- Volunteered for two weeks on community development projects, including school construction and small-scale agriculture support.\n- Organized holiday events for children with special needs and seniors.\n- Collaborated with long-term initiatives aimed at sustainable local impact.\n\n\nKorean & Art Teaching — University Volunteer Program\nPhilippines · 2017\n- Taught Korean language and music for two weeks through a university-led volunteer program.\n- Designed interactive lessons introducing Korean culture, basic language skills, and musical activities.\n- Promoted participation and cross-cultural exchange through structured learning sessions.\n\n\nSchool Construction & Child Support Volunteer\nIndia · 2011\n- Assisted with classroom setup and structural support in building a school for children in underprivileged areas.\n- Led recreational and educational activities to support children’s learning and well-being.\n- Strengthened my commitment to educational accessibility and community service."
+    "objectID": "projects/03-toronto-audit/index.html#methods-tools",
+    "href": "projects/03-toronto-audit/index.html#methods-tools",
+    "title": "Toronto Building Audit Risk Analysis & Prediction",
+    "section": "Methods & Tools",
+    "text": "Methods & Tools\nPython · Pandas · NumPy · SQL · Seaborn · Matplotlib · Folium · Streamlit · Random Forest · Decision Tree · SMOTE"
+  },
+  {
+    "objectID": "projects/03-toronto-audit/index.html#key-results",
+    "href": "projects/03-toronto-audit/index.html#key-results",
+    "title": "Toronto Building Audit Risk Analysis & Prediction",
+    "section": "Key Results",
+    "text": "Key Results\n\nImproved fraud detection and audit targeting by correcting class imbalance and enhancing model accuracy.\nIdentified key predictors of high-risk buildings, informing more efficient audit resource allocation.\nDelivered visual dashboards and reports that simplified interpretation of complex regulatory data."
+  },
+  {
+    "objectID": "projects/03-toronto-audit/index.html#impact",
+    "href": "projects/03-toronto-audit/index.html#impact",
+    "title": "Toronto Building Audit Risk Analysis & Prediction",
+    "section": "Impact",
+    "text": "Impact\nThis project provides a scalable and actionable framework for regulatory audits, enabling departments to detect at-risk buildings early and conduct data-informed inspections."
+  },
+  {
+    "objectID": "projects/03-toronto-audit/index.html#links",
+    "href": "projects/03-toronto-audit/index.html#links",
+    "title": "Toronto Building Audit Risk Analysis & Prediction",
+    "section": "Links",
+    "text": "Links\n\nGitHub: will be added soon\nStreamlit Demo / Report: will be added soon"
+  },
+  {
+    "objectID": "projects/04-covid-economy/index.html",
+    "href": "projects/04-covid-economy/index.html",
+    "title": "COVID-19 & U.S. Economy: State-Level Analysis",
+    "section": "",
+    "text": "This project evaluates the economic impact of COVID-19 at the U.S. state level by integrating multiple datasets spanning health data, housing markets, labor statistics, GDP, income, and household debt. Using R and tidyverse tools, the analysis compares pre-pandemic (2017–2019) and post-pandemic (2020–2022) trends to reveal structural economic shifts."
+  },
+  {
+    "objectID": "projects/04-covid-economy/index.html#overview",
+    "href": "projects/04-covid-economy/index.html#overview",
+    "title": "COVID-19 & U.S. Economy: State-Level Analysis",
+    "section": "",
+    "text": "This project evaluates the economic impact of COVID-19 at the U.S. state level by integrating multiple datasets spanning health data, housing markets, labor statistics, GDP, income, and household debt. Using R and tidyverse tools, the analysis compares pre-pandemic (2017–2019) and post-pandemic (2020–2022) trends to reveal structural economic shifts."
+  },
+  {
+    "objectID": "projects/04-covid-economy/index.html#what-i-did",
+    "href": "projects/04-covid-economy/index.html#what-i-did",
+    "title": "COVID-19 & U.S. Economy: State-Level Analysis",
+    "section": "What I Did",
+    "text": "What I Did\n\nGathered and merged over ten datasets from CDC, Zillow, BEA, BLS, and the New York Fed, covering COVID cases, housing prices, GDP, unemployment, income, and household debt.\nPerformed extensive data cleaning and cross-timeframe alignment to enable fair comparisons between pre-COVID and post-COVID economic conditions.\nCreated bar plots, line graphs, and violin plots to visualize changes in spending, debt, income, and unemployment across 50 states.\nDelivered an interactive HTML report summarizing economic trends and identifying states with stronger or weaker resilience during the pandemic."
+  },
+  {
+    "objectID": "projects/04-covid-economy/index.html#methods-tools",
+    "href": "projects/04-covid-economy/index.html#methods-tools",
+    "title": "COVID-19 & U.S. Economy: State-Level Analysis",
+    "section": "Methods & Tools",
+    "text": "Methods & Tools\nR · tidyverse · ggplot2 · readxl · RMarkdown · Data Wrangling · Economic Analysis · Visualization"
+  },
+  {
+    "objectID": "projects/04-covid-economy/index.html#key-results",
+    "href": "projects/04-covid-economy/index.html#key-results",
+    "title": "COVID-19 & U.S. Economy: State-Level Analysis",
+    "section": "Key Results",
+    "text": "Key Results\n\nRevealed clear shifts in consumer spending, income distribution, and labor market stability across states.\nHighlighted states with disproportionate increases in household debt and unemployment.\nIdentified divergent housing market trends across regions, informed by integrated Zillow and BEA datasets."
+  },
+  {
+    "objectID": "projects/04-covid-economy/index.html#impact",
+    "href": "projects/04-covid-economy/index.html#impact",
+    "title": "COVID-19 & U.S. Economy: State-Level Analysis",
+    "section": "Impact",
+    "text": "Impact\nThis project provides a comprehensive state-level overview of the pandemic’s economic effects and supports evidence-based regional resilience planning."
+  },
+  {
+    "objectID": "projects/04-covid-economy/index.html#links",
+    "href": "projects/04-covid-economy/index.html#links",
+    "title": "COVID-19 & U.S. Economy: State-Level Analysis",
+    "section": "Links",
+    "text": "Links\n\nGitHub: will be added soon\nInteractive Report: will be added soon"
   },
   {
     "objectID": "leadership_volunteer.html",
@@ -532,59 +280,269 @@
     "text": "Volunteering & Community Engagement\n\n\n\nVolunteer — To Do Toronto\nToronto · 2023–2024\n- Supported event operations for a major community media organization connecting culture, arts, and networking.\n- Managed guest check-ins, coordinated logistics, and ensured smooth on-site execution.\n- Assisted with post-event cleanup and organization to maintain efficient workflows.\n\n\nInternational Volunteer — IVHQ & Maximo Nivel\nPeru · Dec 2023\n- Volunteered for two weeks on community development projects, including school construction and small-scale agriculture support.\n- Organized holiday events for children with special needs and seniors.\n- Collaborated with long-term initiatives aimed at sustainable local impact.\n\n\nKorean & Art Teaching — University Volunteer Program\nPhilippines · 2017\n- Taught Korean language and music for two weeks through a university-led volunteer program.\n- Designed interactive lessons introducing Korean culture, basic language skills, and musical activities.\n- Promoted participation and cross-cultural exchange through structured learning sessions.\n\n\nSchool Construction & Child Support Volunteer\nIndia · 2011\n- Assisted with classroom setup and structural support in building a school for children in underprivileged areas.\n- Led recreational and educational activities to support children’s learning and well-being.\n- Strengthened my commitment to educational accessibility and community service."
   },
   {
-    "objectID": "index.html#leadership-volunteering",
-    "href": "index.html#leadership-volunteering",
-    "title": "Hi, I’m Anna Kim 👋",
-    "section": "Leadership & Volunteering",
-    "text": "Leadership & Volunteering\nA quick look at two representative activities. Explore more about my leadership and community work.\nSee All →\n\n\n\nSession Chair — IEEE Digital Platforms and Societal Harms (DPSH)\n\n\nWashington, DC · Oct 14–15, 2024\n\n\n\nChaired hybrid sessions (in-person and online) hosted at American University.\n\n\nFacilitated Q&A by preparing discussion questions and guiding post-talk dialogue.\n\n\nCoordinated session flow to ensure smooth timing and audience engagement.\n\n\n\n\n\nInternational Volunteer — IVHQ & Maximo Nivel\n\n\nPeru · Dec 2023\n\n\n\nVolunteered for two weeks on community development projects, including school construction and small-scale agriculture support.\n\n\nOrganized holiday events for children with special needs and seniors.\n\n\nCollaborated with long-term initiatives aimed at sustainable local impact."
-  },
-  {
-    "objectID": "about.html#who-i-am",
-    "href": "about.html#who-i-am",
-    "title": "Anna Kim",
+    "objectID": "projects/02-oil-fraud/index.html",
+    "href": "projects/02-oil-fraud/index.html",
+    "title": "Oil Fraud Crime Pattern Analysis",
     "section": "",
-    "text": "I am a Data Science M.S. student at American University with a strong interest in natural language processing, machine learning, and large-scale data analytics. My work focuses on transforming complex, real-world data into actionable insights while building responsible and interpretable AI systems."
+    "text": "This project investigates nationwide fuel station fraud patterns by integrating regulatory data, business information, and geospatial risk factors. In collaboration with the Korea National Oil Management Institute, the analysis explores behavioral trends, environmental features, and historical violations to build predictive insights for fraud detection."
   },
   {
-    "objectID": "about.html#what-i-work-on",
-    "href": "about.html#what-i-work-on",
-    "title": "Anna Kim",
-    "section": "What I Work On",
-    "text": "What I Work On\n\nNatural Language Processing (NLP) & AI Ethics\n\nMachine Learning & Statistical Modeling\n\nBig Data Systems & Distributed Data Processing\n\nData Engineering & Analytics Pipelines"
+    "objectID": "projects/02-oil-fraud/index.html#overview",
+    "href": "projects/02-oil-fraud/index.html#overview",
+    "title": "Oil Fraud Crime Pattern Analysis",
+    "section": "",
+    "text": "This project investigates nationwide fuel station fraud patterns by integrating regulatory data, business information, and geospatial risk factors. In collaboration with the Korea National Oil Management Institute, the analysis explores behavioral trends, environmental features, and historical violations to build predictive insights for fraud detection."
   },
   {
-    "objectID": "about.html#how-i-think-work",
-    "href": "about.html#how-i-think-work",
-    "title": "Anna Kim",
-    "section": "How I Think & Work",
-    "text": "How I Think & Work\nI care deeply about the interpretability, fairness, and ethical implications of data-driven systems. I enjoy working at the intersection of technical rigor and real-world impact, and I value reproducible workflows, clear communication, and collaborative problem-solving."
+    "objectID": "projects/02-oil-fraud/index.html#what-i-did",
+    "href": "projects/02-oil-fraud/index.html#what-i-did",
+    "title": "Oil Fraud Crime Pattern Analysis",
+    "section": "What I Did",
+    "text": "What I Did\n\nCollaborated with the Korea National Oil Management Institute to analyze nationwide fuel station violation data and business registration information.\nCollected and integrated external datasets such as proximity to police stations, streetlight density, and local station clustering to enhance risk modeling.\nApplied machine learning models (Random Forest, Decision Tree) to identify high-risk fuel stations and evaluate fraud likelihood.\nUsed QGIS and geospatial visualization techniques to map risk hotspots and illustrate key environmental factors.\nSummarized insights for regulatory teams through PowerPoint, supporting targeted and data-driven inspection planning."
   },
   {
-    "objectID": "about.html#beyond-work",
-    "href": "about.html#beyond-work",
-    "title": "Anna Kim",
-    "section": "Beyond Work",
-    "text": "Beyond Work\nOutside of my academic and professional work, I enjoy participating in global education initiatives, attending technical conferences, and exploring interdisciplinary research that connects data science with societal challenges."
+    "objectID": "projects/02-oil-fraud/index.html#methods-tools",
+    "href": "projects/02-oil-fraud/index.html#methods-tools",
+    "title": "Oil Fraud Crime Pattern Analysis",
+    "section": "Methods & Tools",
+    "text": "Methods & Tools\nQGIS · Python · Jupyter Notebook · R · Random Forest · Decision Tree · GIS Analysis · External Data Integration"
+  },
+  {
+    "objectID": "projects/02-oil-fraud/index.html#key-results",
+    "href": "projects/02-oil-fraud/index.html#key-results",
+    "title": "Oil Fraud Crime Pattern Analysis",
+    "section": "Key Results",
+    "text": "Key Results\n\nIdentified critical environmental and operational features strongly associated with repeat fraud violations.\nBuilt predictive models capable of ranking stations by risk level to support proactive regulatory intervention.\nVisualized spatial fraud patterns revealing geographic clusters and recurring behavioral indicators."
+  },
+  {
+    "objectID": "projects/02-oil-fraud/index.html#impact",
+    "href": "projects/02-oil-fraud/index.html#impact",
+    "title": "Oil Fraud Crime Pattern Analysis",
+    "section": "Impact",
+    "text": "Impact\nThe project enhanced the effectiveness of regulatory oversight by providing a data-driven framework for fraud detection, enabling authorities to prioritize inspections and mitigate risk efficiently."
+  },
+  {
+    "objectID": "projects/02-oil-fraud/index.html#links",
+    "href": "projects/02-oil-fraud/index.html#links",
+    "title": "Oil Fraud Crime Pattern Analysis",
+    "section": "Links",
+    "text": "Links\n\nGitHub: will be added soon\nReport / Presentation: will be added soon"
+  },
+  {
+    "objectID": "projects/05-nlp-ethics-news/index.html",
+    "href": "projects/05-nlp-ethics-news/index.html",
+    "title": "Measuring Ethical Risks in AI-Generated News Using NLP",
+    "section": "",
+    "text": "This project evaluates ethical risks in AI-generated news by combining modern NLP techniques with ethical analysis frameworks. Using DistilBERT and semantic similarity methods, the study identifies harmful patterns such as biased framing, hate-speech tendencies, and ethically drifted content, mapping them directly to the UNESCO AI Ethics principles."
+  },
+  {
+    "objectID": "projects/05-nlp-ethics-news/index.html#overview",
+    "href": "projects/05-nlp-ethics-news/index.html#overview",
+    "title": "Measuring Ethical Risks in AI-Generated News Using NLP",
+    "section": "",
+    "text": "This project evaluates ethical risks in AI-generated news by combining modern NLP techniques with ethical analysis frameworks. Using DistilBERT and semantic similarity methods, the study identifies harmful patterns such as biased framing, hate-speech tendencies, and ethically drifted content, mapping them directly to the UNESCO AI Ethics principles."
+  },
+  {
+    "objectID": "projects/05-nlp-ethics-news/index.html#what-i-did",
+    "href": "projects/05-nlp-ethics-news/index.html#what-i-did",
+    "title": "Measuring Ethical Risks in AI-Generated News Using NLP",
+    "section": "What I Did",
+    "text": "What I Did\n\nImplemented transformer-based text classification models using DistilBERT to detect harmful or ethically questionable content in AI-generated news.\nPreprocessed and engineered text features using tokenization, padding, truncation, TF–IDF vectors, and topic-aligned embeddings.\nApplied semantic similarity and cosine-distance methods to align classified content with UNESCO AI Ethics principles.\nAnalyzed ethical drift across different news topics and model outputs to identify patterns of misinformation, bias, and discriminatory framing."
+  },
+  {
+    "objectID": "projects/05-nlp-ethics-news/index.html#methods-tools",
+    "href": "projects/05-nlp-ethics-news/index.html#methods-tools",
+    "title": "Measuring Ethical Risks in AI-Generated News Using NLP",
+    "section": "Methods & Tools",
+    "text": "Methods & Tools\nDistilBERT · Transformers · Tokenization · TF–IDF · Embeddings · Cosine Similarity · Python · NLP"
+  },
+  {
+    "objectID": "projects/05-nlp-ethics-news/index.html#key-results",
+    "href": "projects/05-nlp-ethics-news/index.html#key-results",
+    "title": "Measuring Ethical Risks in AI-Generated News Using NLP",
+    "section": "Key Results",
+    "text": "Key Results\n\nSuccessfully detected ethical violations and hate-speech signals across multiple AI-generated news samples.\nIdentified consistent ethical drift patterns that aligned with specific UNESCO principles, enabling structured interpretation of content risk.\nDemonstrated how NLP-based classification and similarity scoring can support responsible AI oversight."
+  },
+  {
+    "objectID": "projects/05-nlp-ethics-news/index.html#impact",
+    "href": "projects/05-nlp-ethics-news/index.html#impact",
+    "title": "Measuring Ethical Risks in AI-Generated News Using NLP",
+    "section": "Impact",
+    "text": "Impact\nThis project highlights how NLP and ethical frameworks can be combined to assess risks in AI-generated content, providing a foundation for building more responsible AI evaluation tools."
+  },
+  {
+    "objectID": "projects/05-nlp-ethics-news/index.html#links",
+    "href": "projects/05-nlp-ethics-news/index.html#links",
+    "title": "Measuring Ethical Risks in AI-Generated News Using NLP",
+    "section": "Links",
+    "text": "Links\n\nGitHub: will be added soon\nProject Report: will be added soon"
+  },
+  {
+    "objectID": "projects/07-robot-face-tracking/index.html",
+    "href": "projects/07-robot-face-tracking/index.html",
+    "title": "Human-Following Robot with Real-Time Face Tracking",
+    "section": "",
+    "text": "This project involved building a real-time human-following robot capable of detecting, tracking, and re-identifying a target person using embedded computer vision and machine learning. The system integrates Rubik Pi for face detection and recognition, and MegaPi/mBot Mega for motor control, creating a fully automated movement pipeline from camera input to physical actuation."
+  },
+  {
+    "objectID": "projects/07-robot-face-tracking/index.html#overview",
+    "href": "projects/07-robot-face-tracking/index.html#overview",
+    "title": "Human-Following Robot with Real-Time Face Tracking",
+    "section": "",
+    "text": "This project involved building a real-time human-following robot capable of detecting, tracking, and re-identifying a target person using embedded computer vision and machine learning. The system integrates Rubik Pi for face detection and recognition, and MegaPi/mBot Mega for motor control, creating a fully automated movement pipeline from camera input to physical actuation."
+  },
+  {
+    "objectID": "projects/07-robot-face-tracking/index.html#what-i-did",
+    "href": "projects/07-robot-face-tracking/index.html#what-i-did",
+    "title": "Human-Following Robot with Real-Time Face Tracking",
+    "section": "What I Did",
+    "text": "What I Did\n\nDesigned the end-to-end system architecture integrating Rubik Pi (vision inference) and MegaPi (motor control) into a real-time perception → decision → action loop.\nDeveloped face detection and recognition modules, including alignment, normalization, feature extraction, and tracking logic.\nImplemented a YOLO-based fallback for robust re-identification when face tracking temporarily failed.\nBuilt communication logic between inference and motor modules using Python, Arduino, and local HTTP streaming for debugging and calibration.\nTuned and calibrated the system to fix motor drift, reduce latency, and correct camera-to-motor alignment errors through iterative testing."
+  },
+  {
+    "objectID": "projects/07-robot-face-tracking/index.html#methods-tools",
+    "href": "projects/07-robot-face-tracking/index.html#methods-tools",
+    "title": "Human-Following Robot with Real-Time Face Tracking",
+    "section": "Methods & Tools",
+    "text": "Methods & Tools\nRubik Pi · MegaPi/mBot Mega · YOLO · Python · Arduino · Real-Time Vision · Embedded ML · Edge Computing"
+  },
+  {
+    "objectID": "projects/07-robot-face-tracking/index.html#key-results",
+    "href": "projects/07-robot-face-tracking/index.html#key-results",
+    "title": "Human-Following Robot with Real-Time Face Tracking",
+    "section": "Key Results",
+    "text": "Key Results\n\nSuccessfully implemented a fully functional human-following robot capable of tracking and re-identifying the target in real time.\nAchieved smooth motor control and stable tracking through iterative calibration and feedback loops.\nDemonstrated reliable fallback behavior with YOLO-based detection during occlusion or temporary recognition failure."
+  },
+  {
+    "objectID": "projects/07-robot-face-tracking/index.html#impact",
+    "href": "projects/07-robot-face-tracking/index.html#impact",
+    "title": "Human-Following Robot with Real-Time Face Tracking",
+    "section": "Impact",
+    "text": "Impact\nThis project showcases the integration of embedded vision, robotics, and machine learning to create real-time interactive systems, demonstrating strong engineering skills in perception, control, and hardware–software integration."
+  },
+  {
+    "objectID": "projects/07-robot-face-tracking/index.html#links",
+    "href": "projects/07-robot-face-tracking/index.html#links",
+    "title": "Human-Following Robot with Real-Time Face Tracking",
+    "section": "Links",
+    "text": "Links\n\nGitHub: will be added soon\nDemo Video: will be added soon"
+  },
+  {
+    "objectID": "projects/01-adidas-sale/index.html",
+    "href": "projects/01-adidas-sale/index.html",
+    "title": "Adidas Sales Analysis",
+    "section": "",
+    "text": "This project analyzes Adidas sales data from Kaggle to understand performance trends across product categories, regions, and customer segments. Using Excel-based data cleaning and dashboard development, the study highlights key revenue drivers and operational challenges in the retail ecosystem."
+  },
+  {
+    "objectID": "projects/01-adidas-sale/index.html#overview",
+    "href": "projects/01-adidas-sale/index.html#overview",
+    "title": "Adidas Sales Analysis",
+    "section": "",
+    "text": "This project analyzes Adidas sales data from Kaggle to understand performance trends across product categories, regions, and customer segments. Using Excel-based data cleaning and dashboard development, the study highlights key revenue drivers and operational challenges in the retail ecosystem."
+  },
+  {
+    "objectID": "projects/01-adidas-sale/index.html#what-i-did",
+    "href": "projects/01-adidas-sale/index.html#what-i-did",
+    "title": "Adidas Sales Analysis",
+    "section": "What I Did",
+    "text": "What I Did\n\nCollected and cleaned raw sales data from Kaggle, addressing missing values, inconsistencies, and formatting issues.\nStructured and categorized supply chain data by product type, gender, and sales region to enhance data usability.\nBuilt interactive Excel dashboards that visualize sales trends, regional performance, and seasonal demand patterns.\nIdentified business insights such as peak sales periods and underperforming regions, informing pricing and inventory decisions."
+  },
+  {
+    "objectID": "projects/01-adidas-sale/index.html#methods-tools",
+    "href": "projects/01-adidas-sale/index.html#methods-tools",
+    "title": "Adidas Sales Analysis",
+    "section": "Methods & Tools",
+    "text": "Methods & Tools\nExcel · Data Cleaning · Data Organization · Interactive Dashboards · Trend Analysis"
+  },
+  {
+    "objectID": "projects/01-adidas-sale/index.html#key-results",
+    "href": "projects/01-adidas-sale/index.html#key-results",
+    "title": "Adidas Sales Analysis",
+    "section": "Key Results",
+    "text": "Key Results\n\nFound that women’s product sales consistently peaked in Q4 across multiple regions.\nIdentified specific regions with lower operating profit margins, providing evidence for targeted strategic adjustments.\nImproved accessibility and interpretability of raw sales data through structured dashboards."
+  },
+  {
+    "objectID": "projects/01-adidas-sale/index.html#impact",
+    "href": "projects/01-adidas-sale/index.html#impact",
+    "title": "Adidas Sales Analysis",
+    "section": "Impact",
+    "text": "Impact\nThis analysis provides businesses with actionable insights into seasonal demand, regional market performance, and product-level trends, supporting informed decision-making in retail operations."
+  },
+  {
+    "objectID": "projects/01-adidas-sale/index.html#links",
+    "href": "projects/01-adidas-sale/index.html#links",
+    "title": "Adidas Sales Analysis",
+    "section": "Links",
+    "text": "Links\n\nGitHub: will be added soon\nDashboard / Report: will be added soon"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "All of my data science projects and research work.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLarge-Scale Reddit AI Discourse Analysis\n\n\n\nNLP\n\nBig Data\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHuman-Following Robot with Real-Time Face Tracking\n\n\n\nRobotics\n\nComputer Vision\n\nReal-Time Systems\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDistributed Big Data Processing of NYC Taxi Trips\n\n\n\nBig Data\n\nData Engineering\n\nCloud\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMeasuring Ethical Risks in AI-Generated News Using NLP\n\n\n\nNLP\n\nAI Ethics\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCOVID-19 & U.S. Economy: State-Level Analysis\n\n\n\nEconomics\n\nData Visualization\n\nPublic Data\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nToronto Building Audit Risk Analysis & Prediction\n\n\n\nRegulatory Analytics\n\nMachine Learning\n\nRisk Modeling\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOil Fraud Crime Pattern Analysis\n\n\n\nGIS\n\nFraud Detection\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdidas Sales Analysis\n\n\n\nBusiness Analytics\n\nRetail\n\nDashboarding\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "experience.html",
     "href": "experience.html",
     "title": "Experience",
     "section": "",
-    "text": "Ciena Corporation · May 2025 – Present\n\nAssist the Internal Audit team by analyzing operational and system access data for risk assessment.\nIdentify anomalies related to access control, authorization, and user activity.\nSupport reporting workflows to enhance oversight of account access and compliance.\n\n\n\n\n\nAmerican University · Aug 2025 – Present\n\nSupport research on sustainable economy and life-cycle investment modeling under faculty supervision.\nConduct literature reviews on portfolio optimization, ESG integration, and intertemporal consumption frameworks.\nAssist in developing and debugging Python scripts for welfare cost and sustainable investment simulations.\nEngage in model interpretation and validation discussions to bridge theory and empirical analysis.\n\n\n\n\n\nAmerican University · Aug 2025 – Present\n\nCollect and analyze large-scale YouTube comments to study public sentiment around targeted topics.\nDevelop a Python-based web scraping and preprocessing pipeline to extract comments, metadata, and engagement metrics.\nBuild the sentiment-analysis framework for classifying comments (positive, negative, neutral).\nContribute to building a validated, ready-to-publish dataset for future modeling.\n\n\n\n\n\nAmerican University · Aug 2025 – Present\n\nTutor students in Python, R, SQL, and Excel for coursework and research support.\nProvide conceptual guidance and debugging assistance across statistics and data-science projects.\nAssist with lab sessions and reinforce best practices for reproducible analysis.\n\n\n\n\n\nAmerican University\n\nManaged event operations across Grossman Hall and Founder’s Lobby at Washington College of Law.\nCoordinated space setup, guest flow, and on-site troubleshooting to ensure seamless events.\n\n\n\n\n\nOpenmate\n\nCollected, stored, and processed company data to support decision-making for the Daegu Provincial Industrial Complex project.\nImproved data workflows and optimized access for internal stakeholders.\n\n\n\n\n\nIndependent Project\n\nFounded and operated a K-pop event-focused café, managing daily operations, budgeting, and marketing.\nBuilt a community through events, customer engagement, and brand development.\nManaged vendor relationships, staffing, and customer service operations."
+    "text": "Ciena Corporation · May 2025 – Aug 2025\n\nAssist the Internal Audit team by analyzing operational and system access data for risk assessment.\nIdentify anomalies related to access control, authorization, and user activity.\nSupport reporting workflows to enhance oversight of account access and compliance.\n\n\n\n\n\nAmerican University · Aug 2025 – Present\n\nSupport research on sustainable economy and life-cycle investment modeling under faculty supervision.\nConduct literature reviews on portfolio optimization, ESG integration, and intertemporal consumption frameworks.\nAssist in developing and debugging Python scripts for welfare cost and sustainable investment simulations.\nEngage in model interpretation and validation discussions to bridge theory and empirical analysis.\n\n\n\n\n\nAmerican University · Aug 2025 – Aug 2025\n\nCollect and analyze large-scale YouTube comments to study public sentiment around targeted topics.\nDevelop a Python-based web scraping and preprocessing pipeline to extract comments, metadata, and engagement metrics.\nBuild the sentiment-analysis framework for classifying comments (positive, negative, neutral).\nContribute to building a validated, ready-to-publish dataset for future modeling.\n\n\n\n\n\nAmerican University · Aug 2025 – Present\n\nTutor students in Python, R, SQL, and Excel for coursework and research support.\nProvide conceptual guidance and debugging assistance across statistics and data-science projects.\nAssist with lab sessions and reinforce best practices for reproducible analysis.\n\n\n\n\n\nAmerican University\n\nManaged event operations across Grossman Hall and Founder’s Lobby at Washington College of Law.\nCoordinated space setup, guest flow, and on-site troubleshooting to ensure seamless events.\n\n\n\n\n\nOpenmate\n\nCollected, stored, and processed company data to support decision-making for the Daegu Provincial Industrial Complex project.\nImproved data workflows and optimized access for internal stakeholders.\n\n\n\n\n\nIndependent Project\n\nFounded and operated a K-pop event-focused café, managing daily operations, budgeting, and marketing.\nBuilt a community through events, customer engagement, and brand development.\nManaged vendor relationships, staffing, and customer service operations."
   },
   {
     "objectID": "experience.html#professional-experience",
     "href": "experience.html#professional-experience",
     "title": "Experience",
     "section": "",
-    "text": "Ciena Corporation · May 2025 – Present\n\nAssist the Internal Audit team by analyzing operational and system access data for risk assessment.\nIdentify anomalies related to access control, authorization, and user activity.\nSupport reporting workflows to enhance oversight of account access and compliance.\n\n\n\n\n\nAmerican University · Aug 2025 – Present\n\nSupport research on sustainable economy and life-cycle investment modeling under faculty supervision.\nConduct literature reviews on portfolio optimization, ESG integration, and intertemporal consumption frameworks.\nAssist in developing and debugging Python scripts for welfare cost and sustainable investment simulations.\nEngage in model interpretation and validation discussions to bridge theory and empirical analysis.\n\n\n\n\n\nAmerican University · Aug 2025 – Present\n\nCollect and analyze large-scale YouTube comments to study public sentiment around targeted topics.\nDevelop a Python-based web scraping and preprocessing pipeline to extract comments, metadata, and engagement metrics.\nBuild the sentiment-analysis framework for classifying comments (positive, negative, neutral).\nContribute to building a validated, ready-to-publish dataset for future modeling.\n\n\n\n\n\nAmerican University · Aug 2025 – Present\n\nTutor students in Python, R, SQL, and Excel for coursework and research support.\nProvide conceptual guidance and debugging assistance across statistics and data-science projects.\nAssist with lab sessions and reinforce best practices for reproducible analysis.\n\n\n\n\n\nAmerican University\n\nManaged event operations across Grossman Hall and Founder’s Lobby at Washington College of Law.\nCoordinated space setup, guest flow, and on-site troubleshooting to ensure seamless events.\n\n\n\n\n\nOpenmate\n\nCollected, stored, and processed company data to support decision-making for the Daegu Provincial Industrial Complex project.\nImproved data workflows and optimized access for internal stakeholders.\n\n\n\n\n\nIndependent Project\n\nFounded and operated a K-pop event-focused café, managing daily operations, budgeting, and marketing.\nBuilt a community through events, customer engagement, and brand development.\nManaged vendor relationships, staffing, and customer service operations."
+    "text": "Ciena Corporation · May 2025 – Aug 2025\n\nAssist the Internal Audit team by analyzing operational and system access data for risk assessment.\nIdentify anomalies related to access control, authorization, and user activity.\nSupport reporting workflows to enhance oversight of account access and compliance.\n\n\n\n\n\nAmerican University · Aug 2025 – Present\n\nSupport research on sustainable economy and life-cycle investment modeling under faculty supervision.\nConduct literature reviews on portfolio optimization, ESG integration, and intertemporal consumption frameworks.\nAssist in developing and debugging Python scripts for welfare cost and sustainable investment simulations.\nEngage in model interpretation and validation discussions to bridge theory and empirical analysis.\n\n\n\n\n\nAmerican University · Aug 2025 – Aug 2025\n\nCollect and analyze large-scale YouTube comments to study public sentiment around targeted topics.\nDevelop a Python-based web scraping and preprocessing pipeline to extract comments, metadata, and engagement metrics.\nBuild the sentiment-analysis framework for classifying comments (positive, negative, neutral).\nContribute to building a validated, ready-to-publish dataset for future modeling.\n\n\n\n\n\nAmerican University · Aug 2025 – Present\n\nTutor students in Python, R, SQL, and Excel for coursework and research support.\nProvide conceptual guidance and debugging assistance across statistics and data-science projects.\nAssist with lab sessions and reinforce best practices for reproducible analysis.\n\n\n\n\n\nAmerican University\n\nManaged event operations across Grossman Hall and Founder’s Lobby at Washington College of Law.\nCoordinated space setup, guest flow, and on-site troubleshooting to ensure seamless events.\n\n\n\n\n\nOpenmate\n\nCollected, stored, and processed company data to support decision-making for the Daegu Provincial Industrial Complex project.\nImproved data workflows and optimized access for internal stakeholders.\n\n\n\n\n\nIndependent Project\n\nFounded and operated a K-pop event-focused café, managing daily operations, budgeting, and marketing.\nBuilt a community through events, customer engagement, and brand development.\nManaged vendor relationships, staffing, and customer service operations."
   },
   {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
+    "objectID": "index.html#academic-achievement",
+    "href": "index.html#academic-achievement",
     "title": "Hi, I’m Anna Kim 👋",
-    "section": "Experience",
-    "text": "Experience\nTwo representative roles from my professional and academic experience. View All →\n\n\n\nInternal Audit Data Analyst (Intern)\n\n\nCiena Corporation · Canada · May 2025 – Present\n\n\n\nAnalyze operational and system access data to support internal audit risk assessments.\n\n\nAssist with access-control reviews and compliance-focused reporting workflows.\n\n\n\n\n\nResearch Assistant — Sustainable Economy & Investment Modeling\n\n\nAmerican University · Aug 2025 – Present\n\n\n\nSupport research on sustainable economy and life-cycle investment modeling.\n\n\nDevelop and debug Python scripts for welfare-cost and investment simulations."
+    "section": "Academic Achievement",
+    "text": "Academic Achievement\nM.S. in Data Science — American University\nCurrent GPA: 4.0 / 4.0"
+  },
+  {
+    "objectID": "index.html#academic-record",
+    "href": "index.html#academic-record",
+    "title": "Hi, I’m Anna Kim 👋",
+    "section": "Academic Record",
+    "text": "Academic Record\n\n\n\n\n\n\n\n\nSemester\nCourse Title\nGrade\n\n\n\n\nSpring 2026\nAdv Quant Method/Machine Learn, Data Ethics & Policy, Statistical Machine Learning\n(In Progress)\n\n\nFall 2025\nNatural Language Processing, Big Data & Cloud Comp, Regression\nA\n\n\nSummer 2025\nData Science\nA\n\n\nSpring 2025\nStatistical Programming in R, Statistical Methods, Acad Writing for Grad Students\nA\n\n\nFall 2024\nGrad Academic Communication, Intro to Grad Academic Writing, Political Analysis\nA\n\n\n\nCumulative GPA: 4.0 / 4.0"
+  },
+  {
+    "objectID": "index.html#semester-highlights-gpa-4.04.0",
+    "href": "index.html#semester-highlights-gpa-4.04.0",
+    "title": "Hi, I’m Anna Kim 👋",
+    "section": "Semester Highlights (GPA 4.0/4.0)",
+    "text": "Semester Highlights (GPA 4.0/4.0)\n\nSpring 2026 (Current)\n\nAdvanced Quantitative Methods & Machine Learning\nData Science: Ethics & Policy\nStatistical Machine Learning\n\n\n\nFall 2025\n\nNatural Language Processing (NLP) / Text As Data (A)\nBig Data & Cloud Computing (A)\nRegression (A)\n\n\n\nSpring & Summer 2025\n\nData Science (A)\nStatistical Programming in R (A)\nStatistical Methods (A)\n\n\n\nFall 2024\n\nPolitical Analysis (A)\nGraduate Academic Communication & Writing (A)\n\n\n\n\nAdvanced Data Science & Machine Learning\n\n\nFocus: Advanced Modeling, NLP, and Big Data\n\n\n\nAdv Quant Method/Machine Learn (FIN-680) — Spring 2026\n\n\nStatistical Machine Learning (STAT-627) — Spring 2026\n\n\nNatural Language Processing / Text As Data (CSC-696) — Grade: A\n\n\nBig Data & Cloud Computing (GTU-500) — Grade: A\n\n\nRegression (STAT-615) — Grade: A\n\n\n\n\n\nStatistical Foundations & Programming\n\n\nFocus: Core Statistics, R Programming, and Ethics\n\n\n\nData Science (DATA-613) — Grade: A\n\n\nStatistical Programming in R (DATA-612) — Grade: A\n\n\nStatistical Methods (STAT-614) — Grade: A\n\n\nData Ethics & Policy (GTU-500) — Spring 2026\n\n\nPolitical Analysis (GOVT-650) — Grade: A\n\n\n\n\n\nAcademic Communication & Research\n\n\nFocus: Professional Writing and Presentation\n\n\n\nAcademic Writing for Grad Students (TESL-010) — Grade: A\n\n\nGrad Academic Communication (ELTA-080) — Grade: A\n\n\nIntro to Grad Academic Writing (ELTA-081) — Grade: A\n\n\nCurrent Overall GPA: 4.0 / 4.0"
+  },
+  {
+    "objectID": "index.html#m.s.-in-data-science-american-university",
+    "href": "index.html#m.s.-in-data-science-american-university",
+    "title": "Hi, I’m Anna Kim 👋",
+    "section": "M.S. in Data Science — American University",
+    "text": "M.S. in Data Science — American University\nCurrent GPA: 4.0 / 4.0"
+  },
+  {
+    "objectID": "academic.html",
+    "href": "academic.html",
+    "title": "Academics",
+    "section": "",
+    "text": "Current GPA: 4.0 / 4.0\n\n\n\nFocus: Advanced Modeling, NLP, and Big Data\n\nAdv Quant Method/Machine Learn (FIN-680) — Spring 2026 (In Progress)\nStatistical Machine Learning (STAT-627) — Spring 2026 (In Progress)\nNatural Language Processing / Text As Data (CSC-696) — Grade: A\nBig Data & Cloud Computing (GTU-500) — Grade: A\n\n\n\n\n\nFocus: Core Statistics, R Programming, and Ethics\n\nData Ethics & Policy (GTU-500) — Spring 2026 (In Progress)\nData Science (DATA-613) — Grade: A\nStatistical Programming in R (DATA-612) — Grade: A\nStatistical Methods (STAT-614) — Grade: A\nPolitical Analysis (GOVT-650) — Grade: A\nRegression (STAT-615) — Grade: A\n\n\n\n\n\nFocus: Professional Writing and Presentation\n\nAcademic Writing for Grad Students (TESL-010) — Grade: A\nGrad Academic Communication (ELTA-080) — Grade: A\nIntro to Grad Academic Writing (ELTA-081) — Grade: A\n\n\n\nAcademic Note: My consistent academic record reflects a dedicated effort to master technical tools and a commitment to high standards in analytical results. I am particularly focused on Large Language Models (LLMs) and Data Ethics, with the ultimate goal of building reliable and trustworthy data analysis systems."
+  },
+  {
+    "objectID": "academic.html#academic-achievement",
+    "href": "academic.html#academic-achievement",
+    "title": "Academics",
+    "section": "",
+    "text": "Current GPA: 4.0 / 4.0 (Outstanding Academic Standing)\n\n\n\n\n\n\nFocus: Advanced Modeling, NLP, and Big Data\n\n\n\nAdv Quant Method/Machine Learn (FIN-680) — Spring 2026\n\n\nStatistical Machine Learning (STAT-627) — Spring 2026\n\n\nNatural Language Processing / Text As Data (CSC-696) — Grade: A\n\n\nBig Data & Cloud Computing (GTU-500) — Grade: A\n\n\nRegression (STAT-615) — Grade: A\n\n\n\n\n\n\nFocus: Core Statistics, R Programming, and Ethics\n\n\n\nData Science (DATA-613) — Grade: A\n\n\nStatistical Programming in R (DATA-612) — Grade: A\n\n\nStatistical Methods (STAT-614) — Grade: A\n\n\nData Ethics & Policy (GTU-500) — Spring 2026\n\n\nPolitical Analysis (GOVT-650) — Grade: A\n\n\n\n\n\n\nFocus: Professional Writing and Presentation\n\n\n\nAcademic Writing for Grad Students (TESL-010) — Grade: A\n\n\nGrad Academic Communication (ELTA-080) — Grade: A\n\n\nIntro to Grad Academic Writing (ELTA-081) — Grade: A\n\n\nCurrent Overall GPA: 4.0 / 4.0\n\n\n\n\n\n\n\n\nAdvanced Analytics: Expertise in building and tuning machine learning models, including NLP and Regression.\nEngineering & Ethics: Proficiency in big data environments and a strong commitment to responsible AI/Data Ethics.\nStatistical Computing: Advanced skills in R and quantitative analysis for data-driven decision making.\nProfessional Communication: Strong ability to synthesize complex data insights into clear academic and professional reports."
+  },
+  {
+    "objectID": "academic.html#m.s.-in-data-science-american-university",
+    "href": "academic.html#m.s.-in-data-science-american-university",
+    "title": "Academics",
+    "section": "",
+    "text": "Current GPA: 4.0 / 4.0\n\n\n\nFocus: Advanced Modeling, NLP, and Big Data\n\nAdv Quant Method/Machine Learn (FIN-680) — Spring 2026 (In Progress)\nStatistical Machine Learning (STAT-627) — Spring 2026 (In Progress)\nNatural Language Processing / Text As Data (CSC-696) — Grade: A\nBig Data & Cloud Computing (GTU-500) — Grade: A\n\n\n\n\n\nFocus: Core Statistics, R Programming, and Ethics\n\nData Ethics & Policy (GTU-500) — Spring 2026 (In Progress)\nData Science (DATA-613) — Grade: A\nStatistical Programming in R (DATA-612) — Grade: A\nStatistical Methods (STAT-614) — Grade: A\nPolitical Analysis (GOVT-650) — Grade: A\nRegression (STAT-615) — Grade: A\n\n\n\n\n\nFocus: Professional Writing and Presentation\n\nAcademic Writing for Grad Students (TESL-010) — Grade: A\nGrad Academic Communication (ELTA-080) — Grade: A\nIntro to Grad Academic Writing (ELTA-081) — Grade: A\n\n\n\nAcademic Note: My consistent academic record reflects a dedicated effort to master technical tools and a commitment to high standards in analytical results. I am particularly focused on Large Language Models (LLMs) and Data Ethics, with the ultimate goal of building reliable and trustworthy data analysis systems."
   }
 ]

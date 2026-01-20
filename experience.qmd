@@ -7,7 +7,7 @@ title: "Experience"
 ::: {.timeline}
 
 ### Internal Audit Data Analyst (Intern, Canada)
-**Ciena Corporation · May 2025 – Present**
+**Ciena Corporation · May 2025 – Aug 2025**
 
 - Assist the Internal Audit team by analyzing operational and system access data for risk assessment.
 - Identify anomalies related to access control, authorization, and user activity.
@@ -26,7 +26,7 @@ title: "Experience"
 ---
 
 ### Research Assistant — YouTube Sentiment Analysis Project
-**American University · Aug 2025 – Present**
+**American University · Aug 2025 – Aug 2025**
 
 - Collect and analyze large-scale YouTube comments to study public sentiment around targeted topics.
 - Develop a Python-based web scraping and preprocessing pipeline to extract comments, metadata, and engagement metrics.
