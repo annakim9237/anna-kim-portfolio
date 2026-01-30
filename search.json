@@ -39,14 +39,14 @@
     "href": "projects/01-adidas-sale/index.html",
     "title": "Adidas Sales Analysis",
     "section": "",
-    "text": "🔗Source Code (Git)    🔗Final Report (PDF)"
+    "text": "This project analyzes Adidas sales data from Kaggle to understand performance trends across product categories, regions, and customer segments. Using Excel-based data cleaning and dashboard development, the study highlights key revenue drivers and operational challenges in the retail ecosystem."
   },
   {
     "objectID": "projects/01-adidas-sale/index.html#overview",
     "href": "projects/01-adidas-sale/index.html#overview",
     "title": "Adidas Sales Analysis",
-    "section": "Overview",
-    "text": "Overview\nThis project analyzes Adidas sales data from Kaggle to understand performance trends across product categories, regions, and customer segments. Using Excel-based data cleaning and dashboard development, the study highlights key revenue drivers and operational challenges in the retail ecosystem."
+    "section": "",
+    "text": "This project analyzes Adidas sales data from Kaggle to understand performance trends across product categories, regions, and customer segments. Using Excel-based data cleaning and dashboard development, the study highlights key revenue drivers and operational challenges in the retail ecosystem."
   },
   {
     "objectID": "projects/01-adidas-sale/index.html#what-i-did",
@@ -298,14 +298,14 @@
     "href": "projects/02-oil-fraud/index.html",
     "title": "Oil Fraud Crime Pattern Analysis",
     "section": "",
-    "text": "🔗Source Code (Git)"
+    "text": "This project investigates nationwide fuel station fraud patterns by integrating regulatory data, business information, and geospatial risk factors. In collaboration with the Korea National Oil Management Institute, the analysis explores behavioral trends, environmental features, and historical violations to build predictive insights for fraud detection."
   },
   {
     "objectID": "projects/02-oil-fraud/index.html#overview",
     "href": "projects/02-oil-fraud/index.html#overview",
     "title": "Oil Fraud Crime Pattern Analysis",
-    "section": "Overview",
-    "text": "Overview\nThis project investigates nationwide fuel station fraud patterns by integrating regulatory data, business information, and geospatial risk factors. In collaboration with the Korea National Oil Management Institute, the analysis explores behavioral trends, environmental features, and historical violations to build predictive insights for fraud detection."
+    "section": "",
+    "text": "This project investigates nationwide fuel station fraud patterns by integrating regulatory data, business information, and geospatial risk factors. In collaboration with the Korea National Oil Management Institute, the analysis explores behavioral trends, environmental features, and historical violations to build predictive insights for fraud detection."
   },
   {
     "objectID": "projects/02-oil-fraud/index.html#what-i-did",
@@ -347,14 +347,14 @@
     "href": "projects/04-covid-economy/index.html",
     "title": "COVID-19 & U.S. Economy: State-Level Analysis",
     "section": "",
-    "text": "🔗Source Code (Git)    🔗Final Report (PDF)"
+    "text": "This project evaluates the economic impact of COVID-19 at the U.S. state level by integrating multiple datasets spanning health data, housing markets, labor statistics, GDP, income, and household debt. Using R and tidyverse tools, the analysis compares pre-pandemic (2017–2019) and post-pandemic (2020–2022) trends to reveal structural economic shifts."
   },
   {
     "objectID": "projects/04-covid-economy/index.html#overview",
     "href": "projects/04-covid-economy/index.html#overview",
     "title": "COVID-19 & U.S. Economy: State-Level Analysis",
-    "section": "Overview",
-    "text": "Overview\nThis project evaluates the economic impact of COVID-19 at the U.S. state level by integrating multiple datasets spanning health data, housing markets, labor statistics, GDP, income, and household debt. Using R and tidyverse tools, the analysis compares pre-pandemic (2017–2019) and post-pandemic (2020–2022) trends to reveal structural economic shifts."
+    "section": "",
+    "text": "This project evaluates the economic impact of COVID-19 at the U.S. state level by integrating multiple datasets spanning health data, housing markets, labor statistics, GDP, income, and household debt. Using R and tidyverse tools, the analysis compares pre-pandemic (2017–2019) and post-pandemic (2020–2022) trends to reveal structural economic shifts."
   },
   {
     "objectID": "projects/04-covid-economy/index.html#what-i-did",
@@ -508,14 +508,14 @@
     "href": "projects/06-nyc-taxi_spark/index.html",
     "title": "Distributed Big Data Processing of NYC Taxi Trips",
     "section": "",
-    "text": "🔗Source Code (Git)    🔗Final Report (PDF)"
+    "text": "This project focuses on building a scalable and distributed data pipeline for analyzing large volumes of NYC taxi trip data. Using PySpark and AWS services, the system processes millions of records, integrates multiple storage layers, and evaluates modern analytical engines to optimize performance and latency."
   },
   {
     "objectID": "projects/06-nyc-taxi_spark/index.html#overview",
     "href": "projects/06-nyc-taxi_spark/index.html#overview",
     "title": "Distributed Big Data Processing of NYC Taxi Trips",
-    "section": "Overview",
-    "text": "Overview\nThis project focuses on building a scalable and distributed data pipeline for analyzing large volumes of NYC taxi trip data. Using PySpark and AWS services, the system processes millions of records, integrates multiple storage layers, and evaluates modern analytical engines to optimize performance and latency."
+    "section": "",
+    "text": "This project focuses on building a scalable and distributed data pipeline for analyzing large volumes of NYC taxi trip data. Using PySpark and AWS services, the system processes millions of records, integrates multiple storage layers, and evaluates modern analytical engines to optimize performance and latency."
   },
   {
     "objectID": "projects/06-nyc-taxi_spark/index.html#what-i-did",
