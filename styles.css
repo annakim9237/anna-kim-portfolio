@@ -1,8 +1,9 @@
 /* css styles */
 
-/* Project card listing images */
+/* Project card listing images (global grid cards) */
 .quarto-listing-grid .card-img,
 .quarto-listing-grid .card-img-top,
+.quarto-listing-grid img.thumbnail-image.card-img,
 .quarto-listing .card img,
 .listing-grid .card img {
   width: 100%;
@@ -11,13 +12,17 @@
   object-position: center;
 }
 
-/* Featured projects on homepage - smaller images */
-#featured-projects .card-img,
+
+/* Featured projects on homepage — larger images */
 #featured-projects .card-img-top,
-#featured-projects .card img {
-  height: 120px !important;
-  max-height: 80%;
+#featured-projects img.thumbnail-image.card-img {
+  width: 100% !important;
+  height: 250px !important;
+  object-fit: contain !important;
+  object-position: center !important;
+  max-height: none !important;   /* max-height 제한 없애기 */
 }
+
 
 /* =========================
    Activities Timeline (1-col)
