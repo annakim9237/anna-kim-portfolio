@@ -1,6 +1,6 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/projects.html",
     "items": [
       "/projects/08-reddit-ai-discussion/index.html",
       "/projects/07-robot-face-tracking/index.html",
@@ -13,7 +13,7 @@
     ]
   },
   {
-    "listing": "/projects.html",
+    "listing": "/index.html",
     "items": [
       "/projects/08-reddit-ai-discussion/index.html",
       "/projects/07-robot-face-tracking/index.html",

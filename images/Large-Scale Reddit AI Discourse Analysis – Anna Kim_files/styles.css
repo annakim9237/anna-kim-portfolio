@@ -1,0 +1,137 @@
+/* css styles */
+
+/* Project card listing images (global grid cards) */
+.quarto-listing-grid .card-img,
+.quarto-listing-grid .card-img-top,
+.quarto-listing-grid img.thumbnail-image.card-img,
+.quarto-listing .card img,
+.listing-grid .card img {
+  width: 100%;
+  height: 190px !important;
+  object-fit: contain;
+  object-position: center;
+}
+
+
+/* Featured projects on homepage — larger images */
+#featured-projects .card-img-top,
+#featured-projects img.thumbnail-image.card-img {
+  width: 100% !important;
+  height: 250px !important;
+  object-fit: contain !important;
+  object-position: center !important;
+  max-height: none !important;   /* max-height 제한 없애기 */
+}
+
+
+/* =========================
+   Activities Timeline (1-col)
+   For: .timeline + .volunteer-grid + .volunteer-card
+   ========================= */
+
+/* Subtitle spacing */
+.volunteer-header { margin-bottom: 1.25rem; }
+.volunteer-subtitle {
+  margin-top: -0.25rem;
+  opacity: 0.85;
+  max-width: 900px;
+}
+
+/* Force 1-column layout */
+.volunteer-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  margin-top: 0.75rem;
+  margin-bottom: 1.75rem;
+}
+
+/* Timeline wrapper: creates the vertical line */
+.timeline {
+  position: relative;
+  padding-left: 2.25rem;   /* space for line + dot */
+  margin-top: 0.75rem;
+}
+
+/* vertical line */
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 0.9rem;            /* aligns with dots */
+  top: 0.25rem;
+  bottom: 0.25rem;
+  width: 2px;
+  background: rgba(0,0,0,0.12);
+  border-radius: 999px;
+}
+
+/* Card base */
+.volunteer-card {
+  position: relative;
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 14px;
+  padding: 1rem 1.1rem;
+  background: #fff;
+}
+
+/* Timeline dot for each card */
+.volunteer-card::before {
+  content: "";
+  position: absolute;
+  left: -2.05rem;          /* moves dot into the timeline gutter */
+  top: 1.15rem;            /* aligns near the title */
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  background: #fff;
+  border: 2px solid rgba(0,0,0,0.45);
+  box-shadow: 0 0 0 4px rgba(0,0,0,0.04);
+}
+
+/* Title: big + clean */
+.volunteer-card h3 {
+  margin: 0 0 0.35rem 0;
+  font-size: 1.05rem;
+  line-height: 1.25;
+  letter-spacing: 0.1px;
+}
+
+/* Meta line: your "**Washington, DC · ...**" renders as <strong> */
+.volunteer-card > p:first-of-type strong {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 0.92rem;
+  opacity: 0.8;
+  margin-bottom: 0.35rem;
+}
+
+/* Bullets spacing */
+.volunteer-card ul {
+  margin: 0.5rem 0 0 1.15rem;
+}
+.volunteer-card li {
+  margin: 0.35rem 0;
+}
+
+/* Hover: subtle, formal */
+.volunteer-card {
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+.volunteer-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(0,0,0,0.07);
+  border-color: rgba(0,0,0,0.18);
+}
+
+/* Section headings (optional polish) */
+h2 {
+  margin-top: 1.75rem;
+}
+
+/* Mobile: tighten gutter */
+@media (max-width: 640px) {
+  .timeline { padding-left: 1.75rem; }
+  .timeline::before { left: 0.65rem; }
+  .volunteer-card::before { left: -1.55rem; }
+}
+

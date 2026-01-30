@@ -1,1 +1,1 @@
-Sitemap: https://b489d9be-ff26-4b36-b2eb-147557ab35bf.netlify.app/sitemap.xml
+Sitemap: https://annakim9237.github.io/anna-kim-portfolio/sitemap.xml

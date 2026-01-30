@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<!-- saved from url=(0055)http://localhost:6738/projects/08-reddit-ai-discussion/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<meta charset="utf-8">
+
 <meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>courseworks – Anna Kim</title>
-<style>
+<title>Large-Scale Reddit AI Discourse Analysis – Anna Kim</title>
+<style class="anchorjs"></style><style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -23,24 +24,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-5b4ad623e5705c0698d39aec6f10cf02.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="./Large-Scale Reddit AI Discourse Analysis – Anna Kim_files/quarto-nav.js"></script>
+<script src="./Large-Scale Reddit AI Discourse Analysis – Anna Kim_files/headroom.min.js"></script>
+<script src="./Large-Scale Reddit AI Discourse Analysis – Anna Kim_files/clipboard.min.js"></script>
+<script src="./Large-Scale Reddit AI Discourse Analysis – Anna Kim_files/autocomplete.umd.js"></script>
+<script src="./Large-Scale Reddit AI Discourse Analysis – Anna Kim_files/fuse.min.js"></script>
+<script src="./Large-Scale Reddit AI Discourse Analysis – Anna Kim_files/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="./Large-Scale Reddit AI Discourse Analysis – Anna Kim_files/quarto.js" type="module"></script>
+<script src="./Large-Scale Reddit AI Discourse Analysis – Anna Kim_files/tabsets.js" type="module"></script>
+<script src="./Large-Scale Reddit AI Discourse Analysis – Anna Kim_files/axe-check.js" type="module"></script>
+<script src="./Large-Scale Reddit AI Discourse Analysis – Anna Kim_files/popper.min.js"></script>
+<script src="./Large-Scale Reddit AI Discourse Analysis – Anna Kim_files/tippy.umd.min.js"></script>
+<script src="./Large-Scale Reddit AI Discourse Analysis – Anna Kim_files/anchor.min.js"></script>
+<link href="./Large-Scale Reddit AI Discourse Analysis – Anna Kim_files/tippy.css" rel="stylesheet">
+<link href="./Large-Scale Reddit AI Discourse Analysis – Anna Kim_files/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="./Large-Scale Reddit AI Discourse Analysis – Anna Kim_files/bootstrap.min.js"></script>
+<link href="./Large-Scale Reddit AI Discourse Analysis – Anna Kim_files/bootstrap-icons.css" rel="stylesheet">
+<link href="./Large-Scale Reddit AI Discourse Analysis – Anna Kim_files/bootstrap-5b4ad623e5705c0698d39aec6f10cf02.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,45 +71,55 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
-</head>
+<link rel="stylesheet" href="./Large-Scale Reddit AI Discourse Analysis – Anna Kim_files/styles.css">
+<style>.ansi-display{font-family:monospace;white-space:pre-wrap;--ansiBlack: #000000;--ansiRed: #cd3131;--ansiGreen: #00BC00;--ansiYellow: #949800;--ansiBlue: #0451a5;--ansiMagenta: #bc05bc;--ansiCyan: #0598bc;--ansiWhite: #555555;--ansiBrightBlack: #666666;--ansiBrightRed: #cd3131;--ansiBrightGreen: #14CE14;--ansiBrightYellow: #b5ba00;--ansiBrightBlue: #0451a5;--ansiBrightMagenta: #bc05bc;--ansiBrightCyan: #0598bc;--ansiBrightWhite: #a5a5a5}.dark-mode .ansi-display{--ansiBlack: #000000;--ansiRed: #cd3131;--ansiGreen: #0DBC79;--ansiYellow: #e5e510;--ansiBlue: #2472c8;--ansiMagenta: #bc3fbc;--ansiCyan: #11a8cd;--ansiWhite: #e5e5e5;--ansiBrightBlack: #666666;--ansiBrightRed: #f14c4c;--ansiBrightGreen: #23d18b;--ansiBrightYellow: #f5f543;--ansiBrightBlue: #3b8eea;--ansiBrightMagenta: #d670d6;--ansiBrightCyan: #29b8db;--ansiBrightWhite: #e5e5e5}@keyframes ansi-displaly-run-blink{50%{opacity:0}}.fui-FluentProvider h2{border-bottom:none;padding-bottom:0}</style><style data-make-styles-bucket="d" data-priority="0"></style><style id="fui-FluentProviderr0"></style><style id="quarto-target-style">
+      section:target::before {
+        content: "";
+        display: block;
+        height: 60px;
+        margin: -60px 0 0;
+      }</style></head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed quarto-light" data-bs-offset="60" data-tabster="{&quot;root&quot;:{}}" style="padding-top: 60px;">
 
-<div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+<i tabindex="0" role="none" data-tabster-dummy="" aria-hidden="true" style="position: fixed; height: 1px; width: 1px; opacity: 0.001; z-index: -1; content-visibility: hidden; top: 0px; left: 0px;"></i><div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top headroom--not-top headroom--not-bottom">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="http://localhost:6738/" data-original-href="http://localhost:6738/index.html">
     <span class="navbar-title">Anna Kim</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
+            <div id="quarto-search" class="type-overlay" title="Search"><div class="aa-Autocomplete" aria-label="Search" role="combobox" aria-expanded="false" aria-haspopup="listbox"><button type="button" class="aa-DetachedSearchButton" title="Search" id="autocomplete-0-label"><div class="aa-DetachedSearchButtonIcon"><svg class="aa-SubmitIcon" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M16.041 15.856c-0.034 0.026-0.067 0.055-0.099 0.087s-0.060 0.064-0.087 0.099c-1.258 1.213-2.969 1.958-4.855 1.958-1.933 0-3.682-0.782-4.95-2.050s-2.050-3.017-2.050-4.95 0.782-3.682 2.050-4.95 3.017-2.050 4.95-2.050 3.682 0.782 4.95 2.050 2.050 3.017 2.050 4.95c0 1.886-0.745 3.597-1.959 4.856zM21.707 20.293l-3.675-3.675c1.231-1.54 1.968-3.493 1.968-5.618 0-2.485-1.008-4.736-2.636-6.364s-3.879-2.636-6.364-2.636-4.736 1.008-6.364 2.636-2.636 3.879-2.636 6.364 1.008 4.736 2.636 6.364 3.879 2.636 6.364 2.636c2.125 0 4.078-0.737 5.618-1.968l3.675 3.675c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414z"></path></svg></div><div class="aa-DetachedSearchButtonPlaceholder"></div><div class="aa-DetachedSearchButtonQuery"></div></button></div></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="http://localhost:6738/" data-original-href="http://localhost:6738/index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link" href="http://localhost:6738/projects.html" data-original-href="http://localhost:6738/projects.html"> 
 <span class="menu-text">projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./activities.html"> 
-<span class="menu-text">activities</span></a>
+    <a class="nav-link" href="http://localhost:6738/leadership_volunteer.html" data-original-href="http://localhost:6738/leadership_volunteer.html"> 
+<span class="menu-text">leadership&amp;volunteer</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./courseworks.html" aria-current="page"> 
-<span class="menu-text">courseworks</span></a>
+    <a class="nav-link" href="http://localhost:6738/experience.html" data-original-href="http://localhost:6738/experience.html"> 
+<span class="menu-text">experience</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="http://localhost:6738/academic.html" data-original-href="http://localhost:6738/academic.html"> 
+<span class="menu-text">academic</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="http://localhost:6738/about.html" data-original-href="http://localhost:6738/about.html"> 
+<span class="menu-text">about</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -118,20 +129,84 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar" style="min-height: calc(-60px + 100vh);">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar" style="top: 60px; max-height: calc(-60px + 100vh);">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="http://localhost:6738/projects/08-reddit-ai-discussion/#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview" data-original-href="http://localhost:6738/projects/08-reddit-ai-discussion/#overview">Overview</a></li>
+  <li><a href="http://localhost:6738/projects/08-reddit-ai-discussion/#what-i-did" id="toc-what-i-did" class="nav-link" data-scroll-target="#what-i-did" data-original-href="http://localhost:6738/projects/08-reddit-ai-discussion/#what-i-did">What I Did</a></li>
+  <li><a href="http://localhost:6738/projects/08-reddit-ai-discussion/#methods-tools" id="toc-methods-tools" class="nav-link" data-scroll-target="#methods-tools" data-original-href="http://localhost:6738/projects/08-reddit-ai-discussion/#methods-tools">Methods &amp; Tools</a></li>
+  <li><a href="http://localhost:6738/projects/08-reddit-ai-discussion/#key-results" id="toc-key-results" class="nav-link" data-scroll-target="#key-results" data-original-href="http://localhost:6738/projects/08-reddit-ai-discussion/#key-results">Key Results</a></li>
+  <li><a href="http://localhost:6738/projects/08-reddit-ai-discussion/#impact" id="toc-impact" class="nav-link" data-scroll-target="#impact" data-original-href="http://localhost:6738/projects/08-reddit-ai-discussion/#impact">Impact</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Large-Scale Reddit AI Discourse Analysis</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category"><a href="http://localhost:6738/index.html#category=Spark">Spark</a></div>
+    <div class="quarto-category"><a href="http://localhost:6738/index.html#category=AWS">AWS</a></div>
+    <div class="quarto-category"><a href="http://localhost:6738/index.html#category=NLP">NLP</a></div>
+    <div class="quarto-category"><a href="http://localhost:6738/index.html#category=Big%20Data">Big Data</a></div>
+    <div class="quarto-category"><a href="http://localhost:6738/index.html#category=Machine%20Learning">Machine Learning</a></div>
+  </div>
+  </div>
 
 
 
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
 
 
+</header>
 
+
+<p>🔗<a href="https://github.com/annakim9237/spark-reddit-ai-discourse-analysis" data-original-href="https://github.com/annakim9237/spark-reddit-ai-discourse-analysis"><strong>Source Code (Git)</strong></a> &nbsp;&nbsp; 🔗<a href="https://kim-anna.quarto.pub/dsan-6000-big-data-project/" data-original-href="https://kim-anna.quarto.pub/dsan-6000-big-data-project/"><strong>Website</strong></a> &nbsp;&nbsp; 🔗<a href="https://github.com/annakim9237/spark-reddit-ai-discourse-analysis/blob/main/GU-DSAN6000-FALL-TEAM05.pdf" data-original-href="https://github.com/annakim9237/spark-reddit-ai-discourse-analysis/blob/main/GU-DSAN6000-FALL-TEAM05.pdf"><strong>Final Report (PDF)</strong></a></p>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="http://localhost:6738/projects/08-reddit-ai-discussion/#overview" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h2>
+<p>This project analyzes large-scale Reddit discussions related to artificial intelligence to understand how topics, language, and timing influence user engagement and content virality. Using distributed data processing and NLP techniques, I examined patterns across multiple AI-focused subreddits and compared AI discourse with politically influenced discussions.</p>
+</section>
+<section id="what-i-did" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-did">What I Did<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="http://localhost:6738/projects/08-reddit-ai-discussion/#what-i-did" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h2>
+<ul>
+<li>Engineered temporal engagement features (day-of-week, hour-of-day) to analyze posting behavior and engagement dynamics.</li>
+<li>Aggregated and processed billions of Reddit rows using PySpark to enable scalable analysis across 15 AI-related subreddits.</li>
+<li>Built an NLP pipeline using regex-based UDFs, tokenization, and <code>CountVectorizer</code> to prepare text data for modeling.</li>
+<li>Trained and compared dual 15-topic LDA models to contrast AI-focused discourse with politically influenced narratives.</li>
+<li>Developed regression and classification models (Lasso, Logistic Regression, Gradient Boosted Trees) using TF–IDF features, topic vectors, and metadata.</li>
+</ul>
+</section>
+<section id="methods-tools" class="level2">
+<h2 class="anchored" data-anchor-id="methods-tools">Methods &amp; Tools<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="http://localhost:6738/projects/08-reddit-ai-discussion/#methods-tools" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h2>
+<p>PySpark · Python · NLP · LDA Topic Modeling · TF–IDF · Logistic Regression · Gradient Boosted Trees · Distributed Computing · Feature Engineering</p>
+</section>
+<section id="key-results" class="level2">
+<h2 class="anchored" data-anchor-id="key-results">Key Results<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="http://localhost:6738/projects/08-reddit-ai-discussion/#key-results" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h2>
+<ul>
+<li>Identified optimal engagement windows by analyzing posting time versus score and comment activity.</li>
+<li>Revealed distinct thematic differences between AI-centric discussions and politically influenced discourse through topic modeling.</li>
+<li>Demonstrated that linguistic features and topic composition are strong predictors of Reddit post virality.</li>
+</ul>
+</section>
+<section id="impact" class="level2">
+<h2 class="anchored" data-anchor-id="impact">Impact<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="http://localhost:6738/projects/08-reddit-ai-discussion/#impact" style="font: 1em / 1 anchorjs-icons; margin-left: 0.1875em; padding-right: 0.1875em; padding-left: 0.1875em;"></a></h2>
+<p>This project demonstrates the application of scalable NLP and machine learning techniques to real-world social media data, highlighting how data-driven insights can explain online engagement patterns and information diffusion at scale.</p>
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -539,4 +614,24 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-</body></html>
+
+<script>
+  window.backupDefine = window.define;
+  window.define = undefined;
+</script>
+<script type="text/javascript" src="./Large-Scale Reddit AI Discourse Analysis – Anna Kim_files/quarto-preview.js"></script>
+<script>
+  window.define = window.backupDefine;
+  window.backupDefine = undefined;
+</script>
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    window.QuartoPreview.init({
+      origin: "",
+      search: "",
+      inputFile: "/Users/jaysworld/American_University/Anna_Kim/portfolio/projects/08-reddit-ai-discussion/index.qmd",
+      isPresentation: false
+    });
+  })
+</script>
+<div><div dir="ltr" class="fui-FluentProvider fui-FluentProviderr0 ___jdtuxv0 f19n0e5 fxugw4r f1o700av fk6fouc fkhj508 figsok6 f1i3iumi"></div></div><i tabindex="0" role="none" data-tabster-dummy="" aria-hidden="true" style="position: fixed; height: 1px; width: 1px; opacity: 0.001; z-index: -1; content-visibility: hidden; top: 0px; left: 0px;"></i></body></html>
