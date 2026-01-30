@@ -1,32 +1,133 @@
 ---
 title: "Toronto Building Audit Risk Analysis & Prediction"
+subtitle: "Multi-Model Machine Learning Classification for RentSafeTO Compliance"
 index: 3
-summary: "Developed audit-risk prediction models and exploratory analyses using Python, SQL, and machine learning to assist regulatory audit teams in identifying high-risk buildings."
-categories: [Regulatory Analytics, Machine Learning, Risk Modeling]
+summary: "A machine learning system predicting RentSafeTO safety compliance across 11,760 Toronto apartment buildings using multi-model classification and SMOTE-enhanced decision trees."
+categories: [Machine Learning, Regulatory Analytics, Classification, Urban Safety]
 image: portfolio-thumbnail-03.png
 ---
 
+::: {.links}
+ 🔗[**Source Code (Git)**](https://github.com/annakim9237/urban-safety-analytics-ml)
+ &nbsp;&nbsp;
+ 🔗[**Demo Video**](https://drive.google.com/file/d/13Qr9iWzZfhB7dFX5eqfO355DM0JyJ3q3/view?usp=sharing)
+:::
+
 ## Overview
-This project analyzes Toronto’s annual building evaluation data to identify audit risks and support regulatory decision-making. By combining SQL-based filtering, exploratory analyses, and supervised machine learning models, the study offers a data-driven approach to predicting high-risk buildings.
 
-## What I Did
-- Conducted exploratory analysis on Toronto’s building audit dataset using SQL and Python to identify structural, financial, and environmental risk indicators.
-- Developed machine learning models (Random Forest, Decision Tree) to classify high-risk buildings and guide audit prioritization.
-- Applied SMOTE to improve predictive performance by addressing severe class imbalance common in fraud and regulatory datasets.
-- Designed geospatial and statistical visualizations using Seaborn, Matplotlib, and Folium to communicate insights clearly.
-- Summarized results through Streamlit dashboards and PowerPoint presentations for audit teams and stakeholders.
+Ensuring safe and habitable housing is an essential component of urban governance—especially in densely populated cities like Toronto, where aging infrastructure and socioeconomic disparities directly influence building quality. RentSafeTO is the city’s primary regulatory program for assessing rental apartment safety, covering a wide range of compliance categories including structural integrity, fire protection, pest management, waste disposal, lighting, ventilation, and general maintenance.
 
-## Methods & Tools
-Python · Pandas · NumPy · SQL · Seaborn · Matplotlib · Folium · Streamlit · Random Forest · Decision Tree · SMOTE
+However, the official inspection process is slow, reactive, and resource-intensive. Most renters and landlords must wait months before receiving inspection outcomes, and inspectors cannot feasibly assess thousands of properties at once. This creates a need for **proactive, data-driven models that estimate building safety risk before formal inspections occur**, allowing informed decision-making for renters, landlords, and municipal agents.
 
-## Key Results
-- Improved fraud detection and audit targeting by correcting class imbalance and enhancing model accuracy.
-- Identified key predictors of high-risk buildings, informing more efficient audit resource allocation.
-- Delivered visual dashboards and reports that simplified interpretation of complex regulatory data.
+This project develops a comprehensive **machine learning pipeline** analyzing **11,760 Toronto apartment buildings** across **40 structural, historical, and environmental features** provided through Toronto Open Data. The system predicts RentSafeTO safety outcomes—pass vs fail or high-risk vs compliant—using classical machine learning models paired with targeted feature engineering and imbalance mitigation strategies.
 
-## Impact
-This project provides a scalable and actionable framework for regulatory audits, enabling departments to detect at-risk buildings early and conduct data-informed inspections.
+The pipeline explores both regression and classification paradigms, using models such as Linear Regression, Random Forest Regression, Decision Trees with SMOTE, and K-Nearest Neighbors. Although regression models show extremely high goodness-of-fit (R² up to 0.98), they fail to capture the unique structure of RentSafeTO scoring—where perfect evaluations map to 100 points regardless of underlying weighted components. Instead, the SMOTE-enhanced decision tree classification approach provides a more interpretable, reliable, and balanced predictive framework, especially given the severe class imbalance in safety failures.
 
-## Links
-- GitHub: will be added soon
-- Streamlit Demo / Report: will be added soon
+Ultimately, this project demonstrates how regulatory datasets—often noisy, biased, and imbalanced—can be transformed into actionable safety insights that support tenants, policymakers, and property managers. It illustrates the practical challenges of urban analytics while showing how machine learning can augment existing inspection systems to improve equity, efficiency, and public well-being.
+
+---
+
+<iframe src="https://drive.google.com/file/d/13Qr9iWzZfhB7dFX5eqfO355DM0JyJ3q3/preview"
+        width="640" height="480" allow="autoplay"></iframe>
+
+---
+
+## Problem Context
+
+- RentSafeTO evaluates buildings across safety standards: fire systems, structural integrity, pests, maintenance, waste control, air circulation, security systems.
+- Inspection schedules are slow and reactive.
+- Predictive modeling supports:
+  - Tenants choosing safe housing  
+  - Landlords identifying weak points  
+  - Municipal governments prioritizing high-risk buildings  
+- Dataset: **11,760 apartment buildings** × **40 structural/geographic/compliance features**  
+
+---
+
+## Data Analysis
+
+- Conducted exploratory analysis on Toronto Open Data  
+- Addressed severe class imbalance (most buildings scored 100)  
+- Cleaned temporal inconsistencies from evolving dataset  
+- Analyzed:
+  - Structural attributes (age, height, floors)
+  - Geographic factors (wards, neighbourhoods)
+  - Historical compliance scores
+  - Audit frequency
+  - Violations across categories (fire, structural, pest, waste, cleaning)
+
+---
+
+## Feature Engineering
+
+Created predictive features from:
+
+- **Building structure** — floors, height, age  
+- **Geography** — ward, location clusters  
+- **Management attributes** — property type, ownership model  
+- **Historical evaluation** — past scores, frequency of audits  
+- **Violation categories** — pest, fire, waste, structural, cleanliness  
+
+---
+
+## Model Development
+
+### Regression Models
+- **Linear Regression**:  
+  - R² = **0.98**, RMSE = 10.01  
+  - High fit but errors spike for rare failing buildings  
+
+- **Random Forest Regression**:  
+  - R² = **0.96**, RMSE = 2.04  
+  - More stable with nonlinear feature interactions  
+
+### Classification Models
+- **Decision Tree + SMOTE**:  
+  - Accuracy = **82.6%**  
+  - Best performance for rare failure cases  
+  - Synthetic minority oversampling improved balance  
+
+- **KNN Classifier**:  
+  - Mean CV score = 0.67  
+  - Limited performance but consistent variance  
+
+---
+
+## Model Selection Rationale
+
+- Regression unsuitable because RentSafeTO uses *binary perfect scores* → results collapse toward 100.
+- Minority class (failures) extremely underrepresented.
+- Classification isolates failure vs compliant buildings more effectively.
+- SMOTE addresses the dataset’s structural limitations.
+- Decision Trees offer transparent rule-based interpretation for regulators and property owners.
+
+---
+
+## Technical Implementation
+
+- **Python**, **Pandas**, **scikit-learn**, **imbalanced-learn**
+- SMOTE oversampling for minority disqualification records  
+- Cross-validation for robust error estimation  
+- Separated notebooks for EDA, feature engineering, training, evaluation  
+
+---
+
+## Business Impact
+
+- Enables preliminary safety risk assessment without waiting for inspectors  
+- Helps renters identify unsafe apartments before signing leases  
+- Guides proactive maintenance strategies for building owners  
+- Improves city-wide inspection efficiency and resource allocation  
+- Establishes foundation for real-time housing risk monitoring  
+
+---
+
+## Conclusion
+
+This project demonstrates how machine learning can support regulatory systems by predicting building-level safety risks in a clear, interpretable, and operationally useful manner. Despite the inherent challenges of highly imbalanced datasets and the rigid scoring structure of RentSafeTO, the SMOTE-enhanced decision tree achieves balanced, realistic performance that aligns with real-world use cases. The model provides transparent, rule-based insights into why a building might be at risk—making it more useful to tenants, landlords, and policymakers than purely numerical regression models.
+
+The results reveal important structural patterns in Toronto’s rental market: older buildings, tall complexes, and properties with repeated historical violations show higher risk. Meanwhile, geographic disparities suggest that socioeconomic factors at the ward level may influence building maintenance quality and inspection frequency.
+
+More broadly, this project illustrates that **urban safety analytics requires both technical rigor and social awareness**. Machine learning alone cannot solve regulatory gaps, but it can dramatically enhance visibility into housing conditions, making data-driven governance more efficient and equitable. Future improvements—such as collecting more failure cases, integrating geospatial features, or applying gradient boosting methods—would further strengthen predictive performance and support fairer housing outcomes across Toronto.
+
+---

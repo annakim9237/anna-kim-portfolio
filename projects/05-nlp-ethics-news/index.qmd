@@ -6,26 +6,114 @@ categories: [NLP, AI Ethics, Machine Learning]
 image: portfolio-thumbnail-05.png
 ---
 
-## Overview
-This project evaluates ethical risks in AI-generated news by combining modern NLP techniques with ethical analysis frameworks. Using DistilBERT and semantic similarity methods, the study identifies harmful patterns such as biased framing, hate-speech tendencies, and ethically drifted content, mapping them directly to the UNESCO AI Ethics principles.
+::: {.links}
+ 🔗[**Source Code (Git)**](https://github.com/annakim9237/ai-generated-news-audit-nlp)
+ &nbsp;&nbsp;
+ 🔗[**Final Report (PDF)**](https://github.com/annakim9237/ai-generated-news-audit-nlp/blob/main/Anna_Kim_CSC_696_Final_Report.pdf)
+  &nbsp;&nbsp;
+ 🔗[**Final Presentation (PDF)**](https://github.com/annakim9237/ai-generated-news-audit-nlp/blob/main/NLP_project_powerpoint.pdf)
+:::
 
-## What I Did
-- Implemented transformer-based text classification models using DistilBERT to detect harmful or ethically questionable content in AI-generated news.
-- Preprocessed and engineered text features using tokenization, padding, truncation, TF–IDF vectors, and topic-aligned embeddings.
-- Applied semantic similarity and cosine-distance methods to align classified content with UNESCO AI Ethics principles.
-- Analyzed ethical drift across different news topics and model outputs to identify patterns of misinformation, bias, and discriminatory framing.
+# Overview
+The rapid growth of large language models has enabled the generation of highly fluent but potentially misleading synthetic news. As generative AI becomes widely integrated into information ecosystems, the ethical risks embedded in AI-generated narratives—such as subtle fairness violations, toxic framing, biased claims, or manipulative persuasion—pose significant challenges for public trust, safety, and policy governance. Traditional toxicity classifiers are insufficient for capturing the multi-dimensional ethical harms that can appear in AI-generated content, especially those involving justice, fairness, or structural inequality.
 
-## Methods & Tools
-DistilBERT · Transformers · Tokenization · TF–IDF · Embeddings · Cosine Similarity · Python · NLP
+This project develops a multi-dimensional ethical auditing framework designed specifically for AI-generated fake news. Unlike single-axis toxicity models, this system evaluates each sentence and article across multiple ethical lenses, combining transformer-based classification, semantic similarity mapping, and ethical principle alignment.
 
-## Key Results
-- Successfully detected ethical violations and hate-speech signals across multiple AI-generated news samples.
-- Identified consistent ethical drift patterns that aligned with specific UNESCO principles, enabling structured interpretation of content risk.
-- Demonstrated how NLP-based classification and similarity scoring can support responsible AI oversight.
+By integrating supervised models with embedding-based reasoning, the pipeline produces:
 
-## Impact
-This project highlights how NLP and ethical frameworks can be combined to assess risks in AI-generated content, providing a foundation for building more responsible AI evaluation tools.
+- multi-label ethical violation detection,
 
-## Links
-- GitHub: will be added soon
-- Project Report: will be added soon
+- interpretable UNESCO principle mappings,
+
+- fine-grained justice and toxicity scoring,
+
+- and article-level risk aggregation for policy or moderation workflows.
+
+The aim is to create a research-grade evaluation pipeline that demonstrates how NLP can operationalize abstract ethical frameworks, enabling more transparent and accountable use of generative AI systems.
+
+---
+
+# System Architecture
+
+## Three-Stage NLP Pipeline
+
+### 1. Justice-Based Ethics Classifier
+- DistilBERT fine-tuned on ETHICS dataset (Hendrycks)
+- Trained on commonsense / justice / combined subsets
+- Detects fairness violations and moral inconsistencies
+- Evaluated distribution shifts across 6 model variants
+
+### 2. Hate Speech & Toxicity Classifier
+- 3-class HateXplain classifier (hate, offensive, normal)
+- Generates probability vectors for each sentence
+- Combined toxicity metric: `p_hate + p_offensive`
+
+### 3. UNESCO Ethics Principle Mapper
+- Sentence-transformer embeddings
+- Cosine similarity mapping to 11 UNESCO AI Ethics principles
+- Produces interpretable ethical-dimension labels
+
+---
+
+# Model Optimization & Ablation
+
+## Techniques
+- Label smoothing (0.1)
+- Dropout (0.2) + attention dropout (0.2)
+- Weight decay
+- Reduced epochs (3 → 1)
+- Metrics: F1 score, calibration, confusion matrix
+
+## Model Variants
+- full_v1 / full_v2  
+- commonsense_v1 / commonsense_v2  
+- justice_v1 / justice_v2  
+
+---
+
+# Ethical Risk Categorization
+
+## 4 Final Risk Categories
+- **both** — justice + hate/offensive  
+- **justice_only** — fairness violations only  
+- **hate_only** — toxicity-only  
+- **none** — no detected violations  
+
+---
+
+# Article-Level Aggregation
+
+## Metrics
+- Average unethical probability
+- Violation ratios (unethical_ratio, hate_offensive_ratio)
+- UNESCO principle dominance
+- KDE distributions & visualization
+
+---
+
+# Technical Stack
+- PyTorch  
+- HuggingFace Transformers  
+- DistilBERT  
+- Sentence-Transformers  
+- scikit-learn, NumPy, Pandas  
+
+---
+
+# Results
+
+- Multi-axis ethical risk detection system  
+- Differentiates justice-based vs toxicity-based harm  
+- Explainable mapping to UNESCO AI Ethics Principles  
+- Supports systematic content auditing & policy development  
+
+The final system successfully identifies and differentiates ethical risks across justice-based fairness violations and hate/offensive toxicity. Sentence-level outputs reveal strong model sensitivity to biased or discriminatory framing, especially in cases where the model detects subtle justice-related inequalities without explicit hate speech. The multi-axis structure demonstrates that ethical harm is not monolithic: many sentences that appear non-toxic still fail justice metrics, highlighting the need for multi-dimensional evaluation beyond standard toxicity checks.
+
+The UNESCO mapping module provides an interpretable layer on top of the classifier outputs, enabling each detected violation to be aligned with principles such as “Fairness and Non-Discrimination,” “Human Oversight,” or “Do No Harm.” This bridging between machine classification and human ethical frameworks makes the system suitable for real-world policy or governance applications.
+
+Article-level aggregation shows clear thematic clustering:
+some documents exhibit concentrated justice violations, while others demonstrate heavy toxicity patterns. The combined risk taxonomy effectively distinguishes documents that are both unfair and offensive—often the most dangerous form of AI-generated misinformation.
+
+Overall, this system demonstrates that ethical risk in AI-generated fake news is multi-dimensional, hierarchical, and often hidden beneath highly fluent text. The architecture provides a practical foundation for future AI safety tools that must detect manipulation, unfair framing, and harmful narratives embedded within synthetic content. The project highlights both the feasibility and necessity of integrating ethics-aware modeling into modern NLP pipelines.
+
+---

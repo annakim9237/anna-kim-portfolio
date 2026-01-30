@@ -73,5 +73,11 @@
   },
   "academic.qmd": {
     "academic.html": "e815b9fd"
+  },
+  "projects/09-hotel-review-nlp/index.qmd": {
+    "index.html": "df190d01"
+  },
+  "projects/10-ict-education/ICT_Education_Impact_index.qmd": {
+    "ICT_Education_Impact_index.html": "73ac9f1b"
   }
 }

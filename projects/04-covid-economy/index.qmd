@@ -6,6 +6,7 @@ categories: [Economics, Data Visualization, Public Data]
 image: portfolio-thumbnail-04.png
 ---
 
+
 ## Overview
 This project evaluates the economic impact of COVID-19 at the U.S. state level by integrating multiple datasets spanning health data, housing markets, labor statistics, GDP, income, and household debt. Using R and tidyverse tools, the analysis compares pre-pandemic (2017–2019) and post-pandemic (2020–2022) trends to reveal structural economic shifts.
 

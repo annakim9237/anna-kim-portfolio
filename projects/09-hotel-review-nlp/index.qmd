@@ -1,0 +1,129 @@
+---
+title: "Hotel Review Sentiment Analysis"
+subtitle: "Classical NLP Pipeline with Linear Model Interpretation"
+index: 9
+summary: "A comprehensive NLP pipeline transforming 515,738 hotel reviews into actionable hospitality insights through classical text processing, sentiment classification, and interpretable linear modeling."
+categories: [NLP, Machine Learning, Classical NLP, Sentiment Analysis]
+image: portfolio-thumbnail-09.png
+---
+
+::: {.links}
+ 🔗[**Source Code (Git)**](https://github.com/annakim9237/hotel-review-sentiment-lab)
+ &nbsp;&nbsp;
+:::
+
+# Overview
+
+Understanding customer sentiment at scale is essential for hospitality management, where guest experience directly influences brand reputation, service improvements, and operational strategy. This project builds a **full classical NLP workflow** to analyze **515,738 hotel reviews** across multiple European cities, transforming unstructured text into measurable sentiment insights. Unlike deep neural models, this project emphasizes **transparency and interpretability**, demonstrating how linear models and careful preprocessing can extract actionable findings from large corpora.
+
+The workflow begins by developing a robust text cleaning pipeline capable of handling a large multilingual review dataset. After data quality checks—including removal of 539 duplicate records—the text undergoes normalization (lowercasing, punctuation stripping, numeric filtering, stopword removal) followed by tokenization and lemmatization to unify morphological variations. These steps create a consistent corpus suitable for downstream modeling.
+
+Exploratory analysis uncovers foundational linguistic structures in the data: review length patterns, frequent tokens and n-grams, lexical diversity, and metadata distributions across six hotel cities (Amsterdam, Barcelona, London, Milan, Paris, Vienna). Temporal patterns highlight how feedback varies across seasons and trip types, revealing behavioral insights about guests.
+
+Classical vectorization techniques—Bag-of-Words and TF-IDF—convert text into numerical representations capturing both raw token frequency and discriminative significance. These transformed features feed into sentiment classification models including Logistic Regression, Naive Bayes, and Linear SVM, evaluated via accuracy, precision, recall, and F1 score using stratified splits.
+
+A key contribution of this project is interpretability: by extracting and ranking coefficient weights from linear models, the system identifies linguistic drivers of sentiment. High-positive terms such as *perfect*, *excellent*, *lovely*, *fine*, and *easy* contrast sharply with negative markers like *dirty*, *worst*, *broken*, *dated*, *noisy*, and *overpriced*. These indicators reflect concrete service dimensions—cleanliness, staff behavior, comfort, and value—directly informing business action.
+
+This project demonstrates how classical NLP paired with interpretable machine learning provides a powerful, transparent, and operationally useful framework for evaluating customer experience at scale. The methodology is fully reproducible and modular, enabling extension to other industries or multilingual settings.
+
+---
+
+## Top Positive Sentiment Words
+![](Positive.png){width="85%"}
+
+## Top Negative Sentiment Words
+![](Negative.png){width="85%"}
+
+---
+
+# Data Preprocessing & Cleaning
+
+- Processed **515,738 hotel reviews**
+- Removed **539 duplicates**
+- Normalization:
+  - lowercasing  
+  - punctuation & numeric filtering  
+  - whitespace cleanup  
+- NLP steps:
+  - tokenization  
+  - NLTK stopword removal  
+  - lemmatization for morphological consistency  
+- Developed reusable preprocessing functions for consistent transformation  
+
+---
+
+# Exploratory Data Analysis
+
+- Review length distributions, lexical diversity measures  
+- Unigram & bigram frequency analysis  
+- Positive vs. negative sentiment token patterns  
+- Reviewer nationality distribution across six hotel cities  
+- Temporal analysis (day, month, year)  
+- Stay duration & trip type segmentation (leisure vs business)  
+
+---
+
+# Feature Engineering
+
+- Bag-of-Words (BoW) document-term matrix  
+- TF-IDF vectorization capturing discriminative term weights  
+- N-gram (unigram/bigram) feature extraction  
+- Contextual multi-word expression modeling  
+
+---
+
+# Sentiment Classification
+
+Models trained:
+- Logistic Regression (L1 & L2 regularization)  
+- Multinomial Naive Bayes  
+- Linear SVM (maximum-margin classifier)
+
+Evaluation:
+- Stratified train–test split  
+- Accuracy, precision, recall, F1-score  
+- Confusion matrix analysis  
+
+---
+
+# Model Interpretability
+
+Extracted linear model coefficients to identify sentiment-driving terms.
+
+**Positive sentiment indicators:**
+- *perfect*, *excellent*, *great*, *lovely*, *fine*, *easy*
+
+**Negative indicators:**
+- *dirty*, *worst*, *terrible*, *horrible*, *dated*, *broken*, *worn*, *noisy*, *uncomfortable*, *overpriced*
+
+Contextual findings:
+- Some negative words appear in positive reviews due to **negation patterns**  
+  (“not terrible”, “no issues, nothing horrible”)  
+
+Business insights extracted:
+- Cleanliness issues  
+- Staff interaction quality  
+- Facility age/maintenance  
+- Room comfort  
+- Value-for-money perception  
+
+---
+
+# Technical Stack
+
+- Python, Pandas, NumPy  
+- NLTK (preprocessing)  
+- scikit-learn (vectorization + modeling)  
+- Matplotlib, Seaborn (EDA visualizations)  
+
+---
+
+# Conclusion
+
+This project provides a fully interpretable, end-to-end NLP pipeline that demonstrates how large-scale customer reviews can be systemically transformed into actionable insights for hospitality management. The use of classical vectorization and linear modeling—rather than opaque deep learning—allows stakeholders to understand *why* specific reviews are classified as positive or negative, aligning the output with operational decision-making.
+
+The interpretability of coefficient weights highlights recurring service strengths and pain points, enabling managers to prioritize resource allocation. Cleanliness-related complaints consistently emerge as the strongest negative drivers, while words denoting ease, comfort, and staff quality dominate positive sentiment.
+
+Beyond hospitality, this pipeline serves as a blueprint for scalable sentiment analysis in any domain where textual customer feedback is abundant. Its modular and transparent design makes it well-suited for enterprise analytics workflows, quality monitoring systems, and multilingual expansion. The results underscore how classical NLP continues to provide value through clarity, stability, and explainability—qualities essential for business strategy and consumer experience optimization.
+
+---

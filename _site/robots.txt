@@ -1,1 +1,1 @@
-Sitemap: https://annakim9237.github.io/anna-kim-portfolio/sitemap.xml
+Sitemap: https://kim-anna.quarto.pub/anna-kim/sitemap.xml

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Large-Scale Reddit AI Discourse Analysis – Anna Kim</title>
+<title>ICT Education Impact Analysis (2017–2023) – Anna Kim</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -131,21 +131,29 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#distributed-computing-infrastructure" id="toc-distributed-computing-infrastructure" class="nav-link" data-scroll-target="#distributed-computing-infrastructure">Distributed Computing Infrastructure</a>
+  <li><a href="#research-purpose" id="toc-research-purpose" class="nav-link" data-scroll-target="#research-purpose">Research Purpose</a></li>
+  <li><a href="#target-regions" id="toc-target-regions" class="nav-link" data-scroll-target="#target-regions">Target Regions</a></li>
+  <li><a href="#research-methodology" id="toc-research-methodology" class="nav-link" data-scroll-target="#research-methodology">Research Methodology</a>
   <ul class="collapse">
-  <li><a href="#cluster-deployment-configuration" id="toc-cluster-deployment-configuration" class="nav-link" data-scroll-target="#cluster-deployment-configuration">Cluster Deployment &amp; Configuration</a></li>
-  <li><a href="#etl-pipeline" id="toc-etl-pipeline" class="nav-link" data-scroll-target="#etl-pipeline">ETL Pipeline</a></li>
+  <li><a href="#data-sources" id="toc-data-sources" class="nav-link" data-scroll-target="#data-sources">Data Sources</a></li>
+  <li><a href="#tools-and-techniques" id="toc-tools-and-techniques" class="nav-link" data-scroll-target="#tools-and-techniques">Tools and Techniques</a></li>
   </ul></li>
-  <li><a href="#nlp-pipeline-pyspark-mllib" id="toc-nlp-pipeline-pyspark-mllib" class="nav-link" data-scroll-target="#nlp-pipeline-pyspark-mllib">NLP Pipeline (PySpark MLlib)</a></li>
-  <li><a href="#machine-learning-classification" id="toc-machine-learning-classification" class="nav-link" data-scroll-target="#machine-learning-classification">Machine Learning Classification</a>
+  <li><a href="#repository-structure" id="toc-repository-structure" class="nav-link" data-scroll-target="#repository-structure">Repository Structure</a></li>
+  <li><a href="#variables" id="toc-variables" class="nav-link" data-scroll-target="#variables">Variables</a>
   <ul class="collapse">
-  <li><a href="#feature-engineering" id="toc-feature-engineering" class="nav-link" data-scroll-target="#feature-engineering">Feature Engineering</a></li>
-  <li><a href="#models-trained" id="toc-models-trained" class="nav-link" data-scroll-target="#models-trained">Models Trained</a></li>
-  <li><a href="#evaluation" id="toc-evaluation" class="nav-link" data-scroll-target="#evaluation">Evaluation</a></li>
+  <li><a href="#dependent-variables-educational-outcomes" id="toc-dependent-variables-educational-outcomes" class="nav-link" data-scroll-target="#dependent-variables-educational-outcomes">Dependent Variables (Educational Outcomes)</a></li>
+  <li><a href="#independent-variables-ict-access-and-infrastructure" id="toc-independent-variables-ict-access-and-infrastructure" class="nav-link" data-scroll-target="#independent-variables-ict-access-and-infrastructure">Independent Variables (ICT Access and Infrastructure)</a></li>
   </ul></li>
-  <li><a href="#technical-implementation" id="toc-technical-implementation" class="nav-link" data-scroll-target="#technical-implementation">Technical Implementation</a></li>
-  <li><a href="#impact" id="toc-impact" class="nav-link" data-scroll-target="#impact">Impact</a></li>
+  <li><a href="#data-analysis-summary" id="toc-data-analysis-summary" class="nav-link" data-scroll-target="#data-analysis-summary">Data Analysis Summary</a>
+  <ul class="collapse">
+  <li><a href="#educational-outcomes" id="toc-educational-outcomes" class="nav-link" data-scroll-target="#educational-outcomes">Educational Outcomes</a></li>
+  <li><a href="#ict-skills-and-digital-literacy" id="toc-ict-skills-and-digital-literacy" class="nav-link" data-scroll-target="#ict-skills-and-digital-literacy">ICT Skills and Digital Literacy</a></li>
+  <li><a href="#correlation-findings" id="toc-correlation-findings" class="nav-link" data-scroll-target="#correlation-findings">Correlation Findings</a></li>
+  </ul></li>
+  <li><a href="#policy-implications" id="toc-policy-implications" class="nav-link" data-scroll-target="#policy-implications">Policy Implications</a></li>
   <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  <li><a href="#how-to-run-this-project" id="toc-how-to-run-this-project" class="nav-link" data-scroll-target="#how-to-run-this-project">How to Run This Project</a></li>
+  <li><a href="#academic-contribution" id="toc-academic-contribution" class="nav-link" data-scroll-target="#academic-contribution">Academic Contribution</a></li>
   </ul>
 </nav>
     </div>
@@ -154,14 +162,13 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Large-Scale Reddit AI Discourse Analysis</h1>
-<p class="subtitle lead">Distributed NLP &amp; Machine Learning Pipeline on Apache Spark</p>
+<h1 class="title">ICT Education Impact Analysis (2017–2023)</h1>
+<p class="subtitle lead">How ICT Influences Educational Improvements in Underprivileged Countries</p>
   <div class="quarto-categories">
-    <div class="quarto-category">Spark</div>
-    <div class="quarto-category">AWS</div>
-    <div class="quarto-category">NLP</div>
-    <div class="quarto-category">Big Data</div>
-    <div class="quarto-category">Machine Learning</div>
+    <div class="quarto-category">ICT</div>
+    <div class="quarto-category">Education</div>
+    <div class="quarto-category">Research</div>
+    <div class="quarto-category">Data Analysis</div>
   </div>
   </div>
 
@@ -180,132 +187,146 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="links">
-<p>🔗<a href="https://github.com/annakim9237/spark-reddit-ai-discourse-analysis"><strong>Source Code (Git)</strong></a> &nbsp;&nbsp; 🔗<a href="https://kim-anna.quarto.pub/dsan-6000-big-data-project/"><strong>Website</strong></a> &nbsp;&nbsp; 🔗<a href="https://github.com/annakim9237/spark-reddit-ai-discourse-analysis/blob/main/GU-DSAN6000-FALL-TEAM05.pdf"><strong>Final Report (PDF)</strong></a></p>
+<p>🔗<a href="https://github.com/annakim9237/ict-education-impact-2017-2023/tree/main"><strong>Source Code (Git)</strong></a> &nbsp;&nbsp; 🔗<a href="https://github.com/annakim9237/ict-education-impact-2017-2023/blob/main/Research-Paper-Final-ict-education-impact-2017-2023.pdf"><strong>Report PDF</strong></a></p>
 </div>
-<section id="overview" class="level1">
-<h1>Overview</h1>
-<p>The rapid acceleration of generative AI adoption between 2023 and 2024 transformed online public discourse, with Reddit emerging as one of the most active, diverse, and influential platforms for AI-related conversations. Understanding how large communities react to, critique, and experiment with emerging AI models requires scalable computational methods that can handle massive volumes of unstructured text.</p>
-<p>This project builds a <strong>distributed big data NLP and machine learning pipeline</strong> to analyze over <strong>3.6 billion Reddit comments</strong> and <strong>567 million submissions</strong> across <strong>15 AI-focused subreddits</strong> over a 14-month window. The pipeline was deployed on a <strong>multi-node Apache Spark cluster</strong> on AWS EC2 (1 master, 3 workers), enabling high-throughput ETL processing, distributed NLP transformations, and parallel ML model training on datasets exceeding local-memory constraints.</p>
-<p>The goal of this analysis is twofold:</p>
-<ol type="1">
-<li><p><strong>Capture large-scale patterns</strong> in public discourse during a pivotal moment of AI mainstream adoption<br>
-— sentiment trends, topic emergence, community segmentation, and engagement cycles.</p></li>
-<li><p><strong>Design a reproducible, cloud-scalable ML architecture</strong> demonstrating industry-relevant distributed engineering skills, particularly for text-heavy workloads.</p></li>
-</ol>
-<p>By combining PySpark MLlib, lexicon-based sentiment analysis, topic modeling (LDA), multi-class classification, and temporal pattern extraction, this project reveals how AI discussions evolved across highly technical and general-consumer Reddit communities. More broadly, it demonstrates how distributed NLP systems can be applied to real-world, high-volume social data to extract meaningful structure at scale.</p>
+<hr>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>This project investigates the question: “How does the use of Information and Communication Technology (ICT) contribute to the improvement of education for children in underprivileged countries between 2017 and 2023?”</p>
+<p>The study uses multidimensional datasets from UNESCO, ITU, and SDG4, conducting cross-country and time-series analyses. It explores how ICT accessibility, digital literacy skills, and infrastructural readiness influence learning outcomes. The research identifies meaningful relationships between ICT development and improvements in reading proficiency, math skills, school completion rates, and digital competencies.</p>
 <hr>
 </section>
-<section id="distributed-computing-infrastructure" class="level1">
-<h1>Distributed Computing Infrastructure</h1>
-<section id="cluster-deployment-configuration" class="level2">
-<h2 class="anchored" data-anchor-id="cluster-deployment-configuration">Cluster Deployment &amp; Configuration</h2>
-<ul>
-<li>Multi-node Apache Spark cluster (1 master, 3 workers) on AWS EC2<br>
-</li>
-<li>Automated provisioning using shell scripts<br>
-</li>
-<li>IAM role integration + S3A support for parquet-based distributed access<br>
-</li>
-<li>Security groups configured for Spark UI, SSH, inter-node communication</li>
-</ul>
+<section id="research-purpose" class="level2">
+<h2 class="anchored" data-anchor-id="research-purpose">Research Purpose</h2>
+<p>The digital divide remains a major obstacle for educational development in underprivileged regions. This study examines whether ICT serves as a mechanism to reduce disparities and strengthen learning outcomes. The project analyzes macro-level indicators, such as internet access, digital literacy rates, and basic educational achievements, focusing on long-term trends from 2017 to 2023.</p>
+<hr>
 </section>
-<section id="etl-pipeline" class="level2">
-<h2 class="anchored" data-anchor-id="etl-pipeline">ETL Pipeline</h2>
+<section id="target-regions" class="level2">
+<h2 class="anchored" data-anchor-id="target-regions">Target Regions</h2>
 <ul>
-<li>Processed <strong>280M+ records</strong> on cluster<br>
-</li>
-<li>Applied partition-based parallelism and caching optimization<br>
-</li>
-<li>Implemented fault tolerance for node failures and long-running jobs</li>
+<li>Sub-Saharan Africa</li>
+<li>Central and Southern Asia</li>
+<li>Eastern and South-Eastern Asia</li>
+<li>Latin America and the Caribbean</li>
 </ul>
 <hr>
 </section>
-</section>
-<section id="nlp-pipeline-pyspark-mllib" class="level1">
-<h1>NLP Pipeline (PySpark MLlib)</h1>
+<section id="research-methodology" class="level2">
+<h2 class="anchored" data-anchor-id="research-methodology">Research Methodology</h2>
+<section id="data-sources" class="level3">
+<h3 class="anchored" data-anchor-id="data-sources">Data Sources</h3>
 <ul>
-<li>Distributed regex text cleaning<br>
-</li>
-<li>Tokenization + custom stopword filtering<br>
-</li>
-<li>Lexicon-based sentiment scoring using vectorized Pandas UDFs<br>
-</li>
-<li>TF–IDF + LDA topic modeling on 20K sampled documents<br>
-</li>
-<li>Temporal sentiment/discussion pattern extraction (hourly/daily cycles)</li>
-</ul>
-<hr>
-</section>
-<section id="machine-learning-classification" class="level1">
-<h1>Machine Learning Classification</h1>
-<section id="feature-engineering" class="level2">
-<h2 class="anchored" data-anchor-id="feature-engineering">Feature Engineering</h2>
-<ul>
-<li>TF–IDF vectorization<br>
-</li>
-<li>LDA topic distributions<br>
-</li>
-<li>Temporal features (day of week, hour, month)<br>
-</li>
-<li>Text length–based metrics</li>
+<li>UNESCO Education Statistics</li>
+<li>ITU ICT Indicators</li>
+<li>World Bank SDG4 Global Database</li>
 </ul>
 </section>
-<section id="models-trained" class="level2">
-<h2 class="anchored" data-anchor-id="models-trained">Models Trained</h2>
+<section id="tools-and-techniques" class="level3">
+<h3 class="anchored" data-anchor-id="tools-and-techniques">Tools and Techniques</h3>
 <ul>
-<li>Logistic Regression (L2 penalty)<br>
-</li>
-<li>Random Forest (50 trees, depth 10)<br>
-</li>
-<li>Linear SVC (One-vs-Rest for multi-class tasks)<br>
-</li>
-<li>MLP classifier (128 → 64 hidden layers)</li>
-</ul>
-</section>
-<section id="evaluation" class="level2">
-<h2 class="anchored" data-anchor-id="evaluation">Evaluation</h2>
-<ul>
-<li>Stratified train/test split<br>
-</li>
-<li>Accuracy, F1, weighted precision/recall<br>
-</li>
-<li>Feature importance analysis (word-level, tree-based)</li>
+<li>Python (pandas, numpy, matplotlib, seaborn)</li>
+<li>Time-series visualization</li>
+<li>Cross-regional comparison</li>
+<li>Correlation and trend analysis</li>
 </ul>
 <hr>
 </section>
 </section>
-<section id="technical-implementation" class="level1">
-<h1>Technical Implementation</h1>
+<section id="repository-structure" class="level2">
+<h2 class="anchored" data-anchor-id="repository-structure">Repository Structure</h2>
+<pre><code>ICTdata/
+├── student-achievements/
+├── completion-rates/
+├── digital-literacy/
+└── ICT-infrastructure/
+
+ict-for-underprivileged-education.ipynb
+
+Research-Paper-Final-ict-education-impact-2017-2023.pdf
+Research-Paper-Final-ict-education-impact-2017-2023.docx
+Kor-Research-Paper-Final-ict-education-impact-2017-2023.pdf
+Kor-Research-Paper-Final-ict-education-impact-2017-2023.docx</code></pre>
+<hr>
+</section>
+<section id="variables" class="level2">
+<h2 class="anchored" data-anchor-id="variables">Variables</h2>
+<section id="dependent-variables-educational-outcomes" class="level3">
+<h3 class="anchored" data-anchor-id="dependent-variables-educational-outcomes">Dependent Variables (Educational Outcomes)</h3>
 <ul>
-<li>Full Spark ML Pipeline: CountVectorizer → IDF → VectorAssembler → StandardScaler<br>
-</li>
-<li>Pandas UDF parallelization for fast sentiment computations<br>
-</li>
-<li>Model persistence using Spark save APIs<br>
-</li>
-<li>Outputs exported to CSV for downstream visualization in Quarto</li>
+<li>Reading proficiency (Grade 2/3, primary, lower secondary)</li>
+<li>Mathematics proficiency</li>
+<li>Primary and upper-secondary completion rates</li>
+<li>Educational attainment levels</li>
+<li>Digital literacy indicators by age</li>
+</ul>
+</section>
+<section id="independent-variables-ict-access-and-infrastructure" class="level3">
+<h3 class="anchored" data-anchor-id="independent-variables-ict-access-and-infrastructure">Independent Variables (ICT Access and Infrastructure)</h3>
+<ul>
+<li>Broadband availability</li>
+<li>Barriers to internet use</li>
+<li>ICT skill levels</li>
+<li>Internet usage in educational environments</li>
 </ul>
 <hr>
 </section>
-<section id="impact" class="level1">
-<h1>Impact</h1>
+</section>
+<section id="data-analysis-summary" class="level2">
+<h2 class="anchored" data-anchor-id="data-analysis-summary">Data Analysis Summary</h2>
+<section id="educational-outcomes" class="level3">
+<h3 class="anchored" data-anchor-id="educational-outcomes">Educational Outcomes</h3>
 <ul>
-<li>Detected community segmentation between technical AI groups and general-user groups<br>
-</li>
-<li>Identified temporal peaks in engagement (late-night posting, release-driven spikes)<br>
-</li>
-<li>Revealed dominant topics such as model capabilities, safety debates, prompt engineering, copyright concerns, and economic anxieties<br>
-</li>
-<li>Captured sentiment variation across subreddits and over time, showing nuanced shifts in optimism vs skepticism as AI systems evolved</li>
+<li>Sub-Saharan Africa displays the largest performance gap.</li>
+<li>Certain countries show steady improvement, though at different magnitudes.</li>
+<li>For example, Benin’s Grade 2 reading proficiency increased from 9.6 percent to 37.7 percent between 2014 and 2019.</li>
+</ul>
+</section>
+<section id="ict-skills-and-digital-literacy" class="level3">
+<h3 class="anchored" data-anchor-id="ict-skills-and-digital-literacy">ICT Skills and Digital Literacy</h3>
+<ul>
+<li>Significant disparities exist among regions.</li>
+<li>Youth aged 15–24 consistently show stronger digital skills than children under 15.</li>
+<li>Basic digital competencies remain limited in many low-income countries.</li>
+</ul>
+</section>
+<section id="correlation-findings" class="level3">
+<h3 class="anchored" data-anchor-id="correlation-findings">Correlation Findings</h3>
+<ul>
+<li>Higher ICT accessibility correlates positively with improved learning outcomes.</li>
+<li>However, causation cannot be confirmed due to data limitations.</li>
+<li>Incomplete or inconsistent reporting reduces statistical robustness in some analyses.</li>
 </ul>
 <hr>
 </section>
-<section id="conclusion" class="level1">
-<h1>Conclusion</h1>
-<p>This project demonstrates that large-scale social media analysis requires both <strong>distributed systems engineering</strong> and <strong>advanced NLP techniques</strong> to reveal meaningful insights hidden within billions of text records. By leveraging Apache Spark, AWS EC2, and scalable Python-based NLP operations, the pipeline efficiently processed multi-terabyte datasets that would have been infeasible on a single machine.</p>
-<p>The findings highlight that discourse around AI is not monolithic: technical communities focus heavily on model performance, benchmarks, and deployment challenges, while general-audience subreddits express broader themes such as job displacement, creativity, safety concerns, and AI’s societal impact. Temporal analysis further shows that community sentiment evolves alongside real-world AI releases and news events.</p>
-<p>This system provides a blueprint for large-scale online discourse monitoring—an approach increasingly relevant as AI adoption grows and public conversations become both more complex and more consequential. The architecture can be extended to real-time monitoring, predictive modeling of discussion dynamics, or comparative studies across social platforms.</p>
+</section>
+<section id="policy-implications" class="level2">
+<h2 class="anchored" data-anchor-id="policy-implications">Policy Implications</h2>
+<ul>
+<li>Long-term investment in ICT infrastructure is essential for sustainable educational development.</li>
+<li>Device distribution alone is not sufficient; structured digital literacy training is required.</li>
+<li>Region-specific policy approaches are necessary, considering socioeconomic and infrastructural differences.</li>
+<li>Improvements in national data reporting systems are needed to support more reliable analysis.</li>
+</ul>
 <hr>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>The project finds strong evidence that ICT positively influences educational outcomes in underprivileged countries. Enhanced digital literacy, improved internet access, and broader ICT availability correlate with higher reading and math proficiency as well as greater school completion rates. The results emphasize the importance of ICT as a transformative tool for educational equity, while also highlighting the need for targeted strategies, infrastructure investment, and better monitoring systems.</p>
+<hr>
+</section>
+<section id="how-to-run-this-project" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-run-this-project">How to Run This Project</h2>
+<pre><code>git clone https://github.com/annakim9237/ict-education-impact-2017-2023.git
+cd ict-education-impact-2017-2023
+
+pip install pandas numpy matplotlib seaborn openpyxl xlrd jupyter
+
+jupyter notebook ict-for-underprivileged-education.ipynb</code></pre>
+<hr>
+</section>
+<section id="academic-contribution" class="level2">
+<h2 class="anchored" data-anchor-id="academic-contribution">Academic Contribution</h2>
+<p>This research provides comprehensive empirical evidence on how ICT development influences educational outcomes across underprivileged countries. It contributes to academic and policy discussions by presenting a multi-year, cross-regional quantitative evaluation based on internationally recognized indicators.</p>
 
 
 </section>

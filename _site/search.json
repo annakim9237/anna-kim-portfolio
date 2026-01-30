@@ -32,7 +32,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "All of my data science projects and research work.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLarge-Scale Reddit AI Discourse Analysis\n\n\n\nSpark\n\nAWS\n\nNLP\n\nBig Data\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHuman-Following Robot with Real-Time Face Tracking\n\n\n\nRobotics\n\nComputer Vision\n\nReal-Time Systems\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDistributed Big Data Processing of NYC Taxi Trips\n\n\n\nBig Data\n\nData Engineering\n\nCloud\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMeasuring Ethical Risks in AI-Generated News Using NLP\n\n\n\nNLP\n\nAI Ethics\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCOVID-19 & U.S. Economy: State-Level Analysis\n\n\n\nEconomics\n\nData Visualization\n\nPublic Data\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nToronto Building Audit Risk Analysis & Prediction\n\n\n\nRegulatory Analytics\n\nMachine Learning\n\nRisk Modeling\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOil Fraud Crime Pattern Analysis\n\n\n\nGIS\n\nFraud Detection\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdidas Sales Analysis\n\n\n\nBusiness Analytics\n\nRetail\n\nDashboarding\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "All of my data science projects and research work.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nICT Education Impact Analysis (2017–2023)\n\n\n\nICT\n\nEducation\n\nResearch\n\nData Analysis\n\n\n\n\n\n\nsummary\n\n\nQuantitative modeling of ICT infrastructure, digital literacy, and learning outcomes using global datasets (2017–2023).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHotel Review Sentiment Analysis\n\n\n\nNLP\n\nMachine Learning\n\nClassical NLP\n\nSentiment Analysis\n\n\n\n\n\n\nsummary\n\n\nA comprehensive NLP pipeline transforming 515,738 hotel reviews into actionable hospitality insights through classical text processing, sentiment classification, and interpretable linear modeling.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLarge-Scale Reddit AI Discourse Analysis\n\n\n\nSpark\n\nAWS\n\nNLP\n\nBig Data\n\nMachine Learning\n\n\n\n\n\n\nsummary\n\n\nA large-scale NLP and machine learning analysis of AI-related discourse on Reddit, combining distributed data processing, topic modeling, and predictive modeling to understand engagement and virality patterns.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHuman-Following Robot with Real-Time Face Tracking\n\n\n\nComputer Vision\n\nRobotics\n\nPython\n\nYOLO\n\nOpenCV\n\n\n\n\n\n\nsummary\n\n\nA real-time identity-aware person-following robot combining OpenCV, head-pose analysis, YOLOv8, and Arduino motor control.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDistributed Big Data Processing of NYC Taxi Trips\n\n\n\nBig Data\n\nData Engineering\n\nCloud\n\n\n\n\n\n\nsummary\n\n\nBuilt a distributed PySpark + AWS pipeline to process millions of NYC taxi records, benchmarked analytical engines, and optimized large-scale data workflows.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMeasuring Ethical Risks in AI-Generated News Using NLP\n\n\n\nNLP\n\nAI Ethics\n\nMachine Learning\n\n\n\n\n\n\nsummary\n\n\nBuilt an NLP pipeline using DistilBERT, Transformers, and semantic similarity methods to detect ethical risks and hate-speech signals in AI-generated news based on the UNESCO AI Ethics framework.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCOVID-19 & U.S. Economy: State-Level Analysis\n\n\n\nEconomics\n\nData Visualization\n\nPublic Data\n\n\n\n\n\n\nsummary\n\n\nMerged 10+ state-level datasets and performed pre/post-COVID economic analysis to visualize changes in GDP, housing, income, unemployment, and debt across all 50 U.S. states.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nToronto Building Audit Risk Analysis & Prediction\n\n\n\nMachine Learning\n\nRegulatory Analytics\n\nClassification\n\nUrban Safety\n\n\n\n\n\n\nsummary\n\n\nA machine learning system predicting RentSafeTO safety compliance across 11,760 Toronto apartment buildings using multi-model classification and SMOTE-enhanced decision trees.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOil Fraud Crime Pattern Analysis\n\n\n\nGIS\n\nFraud Detection\n\nMachine Learning\n\n\n\n\n\n\nsummary\n\n\nConducted nationwide fraud pattern analysis using geospatial data, machine learning, and external risk indicators to identify high-risk fuel stations across South Korea.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdidas Sales Analysis\n\n\n\nBusiness Analytics\n\nRetail\n\nDashboarding\n\n\n\n\n\n\nsummary\n\n\nPerformed data cleaning, organization, and interactive dashboarding using Excel to uncover sales patterns, regional performance, and product-level insights for Adidas.\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/01-adidas-sale/index.html",
@@ -88,98 +88,210 @@
     "href": "projects/07-robot-face-tracking/index.html",
     "title": "Human-Following Robot with Real-Time Face Tracking",
     "section": "",
-    "text": "This project involved building a real-time human-following robot capable of detecting, tracking, and re-identifying a target person using embedded computer vision and machine learning. The system integrates Rubik Pi for face detection and recognition, and MegaPi/mBot Mega for motor control, creating a fully automated movement pipeline from camera input to physical actuation."
+    "text": "🔗Source Code (Git)    🔗Demo Video"
   },
   {
     "objectID": "projects/07-robot-face-tracking/index.html#overview",
     "href": "projects/07-robot-face-tracking/index.html#overview",
     "title": "Human-Following Robot with Real-Time Face Tracking",
-    "section": "",
-    "text": "This project involved building a real-time human-following robot capable of detecting, tracking, and re-identifying a target person using embedded computer vision and machine learning. The system integrates Rubik Pi for face detection and recognition, and MegaPi/mBot Mega for motor control, creating a fully automated movement pipeline from camera input to physical actuation."
+    "section": "Overview",
+    "text": "Overview\nThe Face Detect Follow Robot is an autonomous human-tracking system that recognizes, identifies, and physically follows a specific user in real time. Unlike simple motion-following robots, this project focuses on identity-aware tracking, meaning the robot only follows a registered person instead of anyone appearing in front of the camera. This capability is achieved through a hybrid perception system combining classical computer vision, deep-learning detection, head-pose analysis, and embedded robot control.\nThe robot begins by registering the target user’s face using Haar Cascade detection. Thirty aligned face images are collected for identity matching. During operation, the system continuously detects faces, extracts features, compares them with the registered target, and only activates “follow mode” after multiple consecutive matches ensure stable identification.\nTo handle natural human movement—such as turning the head, rotating the face, or temporarily looking away—the system integrates head pose estimation, adjusting follow direction based on the nose’s relative position. When the target’s face becomes occluded or leaves the camera view, the robot switches to YOLOv8 full-body tracking, maintaining pursuit until the face reappears. This multimodal pipeline ensures reliable tracking even in difficult visual conditions.\nMovement decisions are derived from the target’s horizontal offset from the frame center and the apparent face size relative to distance. Commands are transmitted to an Arduino-controlled robot via serial communication, enabling smooth forward, backward, and lateral motion.\nOverall, this project demonstrates how classical vision, deep-learning detection, and embedded control can be combined to produce a natural, adaptive, human-aware robotic behavior suitable for personal assistance, education, and security applications."
   },
   {
-    "objectID": "projects/07-robot-face-tracking/index.html#what-i-did",
-    "href": "projects/07-robot-face-tracking/index.html#what-i-did",
+    "objectID": "projects/07-robot-face-tracking/index.html#system-description",
+    "href": "projects/07-robot-face-tracking/index.html#system-description",
     "title": "Human-Following Robot with Real-Time Face Tracking",
-    "section": "What I Did",
-    "text": "What I Did\n\nDesigned the end-to-end system architecture integrating Rubik Pi (vision inference) and MegaPi (motor control) into a real-time perception → decision → action loop.\nDeveloped face detection and recognition modules, including alignment, normalization, feature extraction, and tracking logic.\nImplemented a YOLO-based fallback for robust re-identification when face tracking temporarily failed.\nBuilt communication logic between inference and motor modules using Python, Arduino, and local HTTP streaming for debugging and calibration.\nTuned and calibrated the system to fix motor drift, reduce latency, and correct camera-to-motor alignment errors through iterative testing."
+    "section": "System Description",
+    "text": "System Description\nThe robot’s perception pipeline integrates:\n\nFace registration using Haar Cascade detection\n\nFace alignment via eye position normalization\n\nIdentity verification using distance-based comparison\n\nHead pose estimation via nose deviation\n\nYOLOv8 person detection as fallback when face is not visible\n\nSerial communication to coordinate real-time robot motion\n\nTracking stability is enhanced through:\n\nConsecutive match filtering\n\nAdaptive thresholds for follow/search states\n\nDynamic YOLO fallback\n\nCenter-tolerance alignment margins"
   },
   {
-    "objectID": "projects/07-robot-face-tracking/index.html#methods-tools",
-    "href": "projects/07-robot-face-tracking/index.html#methods-tools",
+    "objectID": "projects/07-robot-face-tracking/index.html#technical-architecture",
+    "href": "projects/07-robot-face-tracking/index.html#technical-architecture",
     "title": "Human-Following Robot with Real-Time Face Tracking",
-    "section": "Methods & Tools",
-    "text": "Methods & Tools\nRubik Pi · MegaPi/mBot Mega · YOLO · Python · Arduino · Real-Time Vision · Embedded ML · Edge Computing"
+    "section": "Technical Architecture",
+    "text": "Technical Architecture\n\nComputer Vision\n\nHaar Cascade face/eye/nose detection\n\nEye-based rotational alignment\n\nNose offset for yaw estimation\n\nDistance-based face comparison for ID verification\n\n\n\nDeep Learning\n\nYOLOv8 (Ultralytics) for person detection\n\nRuns every N frames for efficiency\n\nConfidence-based switching between modes\n\n\n\nRobotics Integration\n\nArduino motor controller\n\nReal-time command transmission (PySerial)\n\nCommands: forward, backward, turn left/right, diagonals, stop\n\nAdaptive control based on face size & position"
   },
   {
-    "objectID": "projects/07-robot-face-tracking/index.html#key-results",
-    "href": "projects/07-robot-face-tracking/index.html#key-results",
+    "objectID": "projects/07-robot-face-tracking/index.html#applications",
+    "href": "projects/07-robot-face-tracking/index.html#applications",
     "title": "Human-Following Robot with Real-Time Face Tracking",
-    "section": "Key Results",
-    "text": "Key Results\n\nSuccessfully implemented a fully functional human-following robot capable of tracking and re-identifying the target in real time.\nAchieved smooth motor control and stable tracking through iterative calibration and feedback loops.\nDemonstrated reliable fallback behavior with YOLO-based detection during occlusion or temporary recognition failure."
+    "section": "Applications",
+    "text": "Applications\n\nPersonal assistant robots that follow owners around the home\n\nSecurity robots that identify and track approved individuals\n\nEducational robotics for teaching computer vision pipelines\n\nInteractive robot prototypes for HRI (Human–Robot Interaction) research"
   },
   {
-    "objectID": "projects/07-robot-face-tracking/index.html#impact",
-    "href": "projects/07-robot-face-tracking/index.html#impact",
+    "objectID": "projects/07-robot-face-tracking/index.html#conclusion",
+    "href": "projects/07-robot-face-tracking/index.html#conclusion",
     "title": "Human-Following Robot with Real-Time Face Tracking",
-    "section": "Impact",
-    "text": "Impact\nThis project showcases the integration of embedded vision, robotics, and machine learning to create real-time interactive systems, demonstrating strong engineering skills in perception, control, and hardware–software integration."
-  },
-  {
-    "objectID": "projects/07-robot-face-tracking/index.html#links",
-    "href": "projects/07-robot-face-tracking/index.html#links",
-    "title": "Human-Following Robot with Real-Time Face Tracking",
-    "section": "Links",
-    "text": "Links\n\nGitHub: will be added soon\nDemo Video: will be added soon"
+    "section": "Conclusion",
+    "text": "Conclusion\nThe Face Detect Follow Robot demonstrates a practical fusion of classical CV algorithms, deep-learning detection models, and embedded robot communication to achieve identity-specific human tracking. Through multimodal perception—face alignment, head pose estimation, YOLO fallback detection—the robot maintains stable pursuit across varied visual conditions and natural human behavior.\nThis project highlights the importance of combining interpretability, robustness, and real-time performance in human-centered robotics. While already highly functional, future improvements such as FaceNet embedding-based recognition, ROS navigation, obstacle avoidance, or voice-command integration would further expand its capabilities into a fully autonomous, socially aware robotic system."
   },
   {
     "objectID": "projects/05-nlp-ethics-news/index.html",
     "href": "projects/05-nlp-ethics-news/index.html",
     "title": "Measuring Ethical Risks in AI-Generated News Using NLP",
     "section": "",
-    "text": "This project evaluates ethical risks in AI-generated news by combining modern NLP techniques with ethical analysis frameworks. Using DistilBERT and semantic similarity methods, the study identifies harmful patterns such as biased framing, hate-speech tendencies, and ethically drifted content, mapping them directly to the UNESCO AI Ethics principles."
+    "text": "🔗Source Code (Git)    🔗Final Report (PDF)    🔗Final Presentation (PDF)"
   },
   {
-    "objectID": "projects/05-nlp-ethics-news/index.html#overview",
-    "href": "projects/05-nlp-ethics-news/index.html#overview",
+    "objectID": "projects/05-nlp-ethics-news/index.html#three-stage-nlp-pipeline",
+    "href": "projects/05-nlp-ethics-news/index.html#three-stage-nlp-pipeline",
     "title": "Measuring Ethical Risks in AI-Generated News Using NLP",
+    "section": "Three-Stage NLP Pipeline",
+    "text": "Three-Stage NLP Pipeline\n\n1. Justice-Based Ethics Classifier\n\nDistilBERT fine-tuned on ETHICS dataset (Hendrycks)\nTrained on commonsense / justice / combined subsets\nDetects fairness violations and moral inconsistencies\nEvaluated distribution shifts across 6 model variants\n\n\n\n2. Hate Speech & Toxicity Classifier\n\n3-class HateXplain classifier (hate, offensive, normal)\nGenerates probability vectors for each sentence\nCombined toxicity metric: p_hate + p_offensive\n\n\n\n3. UNESCO Ethics Principle Mapper\n\nSentence-transformer embeddings\nCosine similarity mapping to 11 UNESCO AI Ethics principles\nProduces interpretable ethical-dimension labels"
+  },
+  {
+    "objectID": "projects/05-nlp-ethics-news/index.html#techniques",
+    "href": "projects/05-nlp-ethics-news/index.html#techniques",
+    "title": "Measuring Ethical Risks in AI-Generated News Using NLP",
+    "section": "Techniques",
+    "text": "Techniques\n\nLabel smoothing (0.1)\nDropout (0.2) + attention dropout (0.2)\nWeight decay\nReduced epochs (3 → 1)\nMetrics: F1 score, calibration, confusion matrix"
+  },
+  {
+    "objectID": "projects/05-nlp-ethics-news/index.html#model-variants",
+    "href": "projects/05-nlp-ethics-news/index.html#model-variants",
+    "title": "Measuring Ethical Risks in AI-Generated News Using NLP",
+    "section": "Model Variants",
+    "text": "Model Variants\n\nfull_v1 / full_v2\n\ncommonsense_v1 / commonsense_v2\n\njustice_v1 / justice_v2"
+  },
+  {
+    "objectID": "projects/05-nlp-ethics-news/index.html#final-risk-categories",
+    "href": "projects/05-nlp-ethics-news/index.html#final-risk-categories",
+    "title": "Measuring Ethical Risks in AI-Generated News Using NLP",
+    "section": "4 Final Risk Categories",
+    "text": "4 Final Risk Categories\n\nboth — justice + hate/offensive\n\njustice_only — fairness violations only\n\nhate_only — toxicity-only\n\nnone — no detected violations"
+  },
+  {
+    "objectID": "projects/05-nlp-ethics-news/index.html#metrics",
+    "href": "projects/05-nlp-ethics-news/index.html#metrics",
+    "title": "Measuring Ethical Risks in AI-Generated News Using NLP",
+    "section": "Metrics",
+    "text": "Metrics\n\nAverage unethical probability\nViolation ratios (unethical_ratio, hate_offensive_ratio)\nUNESCO principle dominance\nKDE distributions & visualization"
+  },
+  {
+    "objectID": "projects/09-hotel-review-nlp/index.html",
+    "href": "projects/09-hotel-review-nlp/index.html",
+    "title": "Hotel Review Sentiment Analysis",
     "section": "",
-    "text": "This project evaluates ethical risks in AI-generated news by combining modern NLP techniques with ethical analysis frameworks. Using DistilBERT and semantic similarity methods, the study identifies harmful patterns such as biased framing, hate-speech tendencies, and ethically drifted content, mapping them directly to the UNESCO AI Ethics principles."
+    "text": "🔗Source Code (Git)"
   },
   {
-    "objectID": "projects/05-nlp-ethics-news/index.html#what-i-did",
-    "href": "projects/05-nlp-ethics-news/index.html#what-i-did",
-    "title": "Measuring Ethical Risks in AI-Generated News Using NLP",
-    "section": "What I Did",
-    "text": "What I Did\n\nImplemented transformer-based text classification models using DistilBERT to detect harmful or ethically questionable content in AI-generated news.\nPreprocessed and engineered text features using tokenization, padding, truncation, TF–IDF vectors, and topic-aligned embeddings.\nApplied semantic similarity and cosine-distance methods to align classified content with UNESCO AI Ethics principles.\nAnalyzed ethical drift across different news topics and model outputs to identify patterns of misinformation, bias, and discriminatory framing."
+    "objectID": "projects/09-hotel-review-nlp/index.html#top-positive-sentiment-words",
+    "href": "projects/09-hotel-review-nlp/index.html#top-positive-sentiment-words",
+    "title": "Hotel Review Sentiment Analysis",
+    "section": "Top Positive Sentiment Words",
+    "text": "Top Positive Sentiment Words"
   },
   {
-    "objectID": "projects/05-nlp-ethics-news/index.html#methods-tools",
-    "href": "projects/05-nlp-ethics-news/index.html#methods-tools",
-    "title": "Measuring Ethical Risks in AI-Generated News Using NLP",
-    "section": "Methods & Tools",
-    "text": "Methods & Tools\nDistilBERT · Transformers · Tokenization · TF–IDF · Embeddings · Cosine Similarity · Python · NLP"
+    "objectID": "projects/09-hotel-review-nlp/index.html#top-negative-sentiment-words",
+    "href": "projects/09-hotel-review-nlp/index.html#top-negative-sentiment-words",
+    "title": "Hotel Review Sentiment Analysis",
+    "section": "Top Negative Sentiment Words",
+    "text": "Top Negative Sentiment Words"
   },
   {
-    "objectID": "projects/05-nlp-ethics-news/index.html#key-results",
-    "href": "projects/05-nlp-ethics-news/index.html#key-results",
-    "title": "Measuring Ethical Risks in AI-Generated News Using NLP",
-    "section": "Key Results",
-    "text": "Key Results\n\nSuccessfully detected ethical violations and hate-speech signals across multiple AI-generated news samples.\nIdentified consistent ethical drift patterns that aligned with specific UNESCO principles, enabling structured interpretation of content risk.\nDemonstrated how NLP-based classification and similarity scoring can support responsible AI oversight."
+    "objectID": "projects/10-ict-education/ICT_Education_Impact_index.html",
+    "href": "projects/10-ict-education/ICT_Education_Impact_index.html",
+    "title": "ICT Education Impact Analysis (2017–2023)",
+    "section": "",
+    "text": "🔗Source Code (Git)    🔗Report PDF"
   },
   {
-    "objectID": "projects/05-nlp-ethics-news/index.html#impact",
-    "href": "projects/05-nlp-ethics-news/index.html#impact",
-    "title": "Measuring Ethical Risks in AI-Generated News Using NLP",
-    "section": "Impact",
-    "text": "Impact\nThis project highlights how NLP and ethical frameworks can be combined to assess risks in AI-generated content, providing a foundation for building more responsible AI evaluation tools."
+    "objectID": "projects/10-ict-education/ICT_Education_Impact_index.html#overview",
+    "href": "projects/10-ict-education/ICT_Education_Impact_index.html#overview",
+    "title": "ICT Education Impact Analysis (2017–2023)",
+    "section": "Overview",
+    "text": "Overview\nThis project investigates the question: “How does the use of Information and Communication Technology (ICT) contribute to the improvement of education for children in underprivileged countries between 2017 and 2023?”\nThe study uses multidimensional datasets from UNESCO, ITU, and SDG4, conducting cross-country and time-series analyses. It explores how ICT accessibility, digital literacy skills, and infrastructural readiness influence learning outcomes. The research identifies meaningful relationships between ICT development and improvements in reading proficiency, math skills, school completion rates, and digital competencies."
   },
   {
-    "objectID": "projects/05-nlp-ethics-news/index.html#links",
-    "href": "projects/05-nlp-ethics-news/index.html#links",
-    "title": "Measuring Ethical Risks in AI-Generated News Using NLP",
-    "section": "Links",
-    "text": "Links\n\nGitHub: will be added soon\nProject Report: will be added soon"
+    "objectID": "projects/10-ict-education/ICT_Education_Impact_index.html#research-purpose",
+    "href": "projects/10-ict-education/ICT_Education_Impact_index.html#research-purpose",
+    "title": "ICT Education Impact Analysis (2017–2023)",
+    "section": "Research Purpose",
+    "text": "Research Purpose\nThe digital divide remains a major obstacle for educational development in underprivileged regions. This study examines whether ICT serves as a mechanism to reduce disparities and strengthen learning outcomes. The project analyzes macro-level indicators, such as internet access, digital literacy rates, and basic educational achievements, focusing on long-term trends from 2017 to 2023."
+  },
+  {
+    "objectID": "projects/10-ict-education/ICT_Education_Impact_index.html#target-regions",
+    "href": "projects/10-ict-education/ICT_Education_Impact_index.html#target-regions",
+    "title": "ICT Education Impact Analysis (2017–2023)",
+    "section": "Target Regions",
+    "text": "Target Regions\n\nSub-Saharan Africa\nCentral and Southern Asia\nEastern and South-Eastern Asia\nLatin America and the Caribbean"
+  },
+  {
+    "objectID": "projects/10-ict-education/ICT_Education_Impact_index.html#research-methodology",
+    "href": "projects/10-ict-education/ICT_Education_Impact_index.html#research-methodology",
+    "title": "ICT Education Impact Analysis (2017–2023)",
+    "section": "Research Methodology",
+    "text": "Research Methodology\n\nData Sources\n\nUNESCO Education Statistics\nITU ICT Indicators\nWorld Bank SDG4 Global Database\n\n\n\nTools and Techniques\n\nPython (pandas, numpy, matplotlib, seaborn)\nTime-series visualization\nCross-regional comparison\nCorrelation and trend analysis"
+  },
+  {
+    "objectID": "projects/10-ict-education/ICT_Education_Impact_index.html#repository-structure",
+    "href": "projects/10-ict-education/ICT_Education_Impact_index.html#repository-structure",
+    "title": "ICT Education Impact Analysis (2017–2023)",
+    "section": "Repository Structure",
+    "text": "Repository Structure\nICTdata/\n├── student-achievements/\n├── completion-rates/\n├── digital-literacy/\n└── ICT-infrastructure/\n\nict-for-underprivileged-education.ipynb\n\nResearch-Paper-Final-ict-education-impact-2017-2023.pdf\nResearch-Paper-Final-ict-education-impact-2017-2023.docx\nKor-Research-Paper-Final-ict-education-impact-2017-2023.pdf\nKor-Research-Paper-Final-ict-education-impact-2017-2023.docx"
+  },
+  {
+    "objectID": "projects/10-ict-education/ICT_Education_Impact_index.html#variables",
+    "href": "projects/10-ict-education/ICT_Education_Impact_index.html#variables",
+    "title": "ICT Education Impact Analysis (2017–2023)",
+    "section": "Variables",
+    "text": "Variables\n\nDependent Variables (Educational Outcomes)\n\nReading proficiency (Grade 2/3, primary, lower secondary)\nMathematics proficiency\nPrimary and upper-secondary completion rates\nEducational attainment levels\nDigital literacy indicators by age\n\n\n\nIndependent Variables (ICT Access and Infrastructure)\n\nBroadband availability\nBarriers to internet use\nICT skill levels\nInternet usage in educational environments"
+  },
+  {
+    "objectID": "projects/10-ict-education/ICT_Education_Impact_index.html#data-analysis-summary",
+    "href": "projects/10-ict-education/ICT_Education_Impact_index.html#data-analysis-summary",
+    "title": "ICT Education Impact Analysis (2017–2023)",
+    "section": "Data Analysis Summary",
+    "text": "Data Analysis Summary\n\nEducational Outcomes\n\nSub-Saharan Africa displays the largest performance gap.\nCertain countries show steady improvement, though at different magnitudes.\nFor example, Benin’s Grade 2 reading proficiency increased from 9.6 percent to 37.7 percent between 2014 and 2019.\n\n\n\nICT Skills and Digital Literacy\n\nSignificant disparities exist among regions.\nYouth aged 15–24 consistently show stronger digital skills than children under 15.\nBasic digital competencies remain limited in many low-income countries.\n\n\n\nCorrelation Findings\n\nHigher ICT accessibility correlates positively with improved learning outcomes.\nHowever, causation cannot be confirmed due to data limitations.\nIncomplete or inconsistent reporting reduces statistical robustness in some analyses."
+  },
+  {
+    "objectID": "projects/10-ict-education/ICT_Education_Impact_index.html#policy-implications",
+    "href": "projects/10-ict-education/ICT_Education_Impact_index.html#policy-implications",
+    "title": "ICT Education Impact Analysis (2017–2023)",
+    "section": "Policy Implications",
+    "text": "Policy Implications\n\nLong-term investment in ICT infrastructure is essential for sustainable educational development.\nDevice distribution alone is not sufficient; structured digital literacy training is required.\nRegion-specific policy approaches are necessary, considering socioeconomic and infrastructural differences.\nImprovements in national data reporting systems are needed to support more reliable analysis."
+  },
+  {
+    "objectID": "projects/10-ict-education/ICT_Education_Impact_index.html#conclusion",
+    "href": "projects/10-ict-education/ICT_Education_Impact_index.html#conclusion",
+    "title": "ICT Education Impact Analysis (2017–2023)",
+    "section": "Conclusion",
+    "text": "Conclusion\nThe project finds strong evidence that ICT positively influences educational outcomes in underprivileged countries. Enhanced digital literacy, improved internet access, and broader ICT availability correlate with higher reading and math proficiency as well as greater school completion rates. The results emphasize the importance of ICT as a transformative tool for educational equity, while also highlighting the need for targeted strategies, infrastructure investment, and better monitoring systems."
+  },
+  {
+    "objectID": "projects/10-ict-education/ICT_Education_Impact_index.html#how-to-run-this-project",
+    "href": "projects/10-ict-education/ICT_Education_Impact_index.html#how-to-run-this-project",
+    "title": "ICT Education Impact Analysis (2017–2023)",
+    "section": "How to Run This Project",
+    "text": "How to Run This Project\ngit clone https://github.com/annakim9237/ict-education-impact-2017-2023.git\ncd ict-education-impact-2017-2023\n\npip install pandas numpy matplotlib seaborn openpyxl xlrd jupyter\n\njupyter notebook ict-for-underprivileged-education.ipynb"
+  },
+  {
+    "objectID": "projects/10-ict-education/ICT_Education_Impact_index.html#academic-contribution",
+    "href": "projects/10-ict-education/ICT_Education_Impact_index.html#academic-contribution",
+    "title": "ICT Education Impact Analysis (2017–2023)",
+    "section": "Academic Contribution",
+    "text": "Academic Contribution\nThis research provides comprehensive empirical evidence on how ICT development influences educational outcomes across underprivileged countries. It contributes to academic and policy discussions by presenting a multi-year, cross-regional quantitative evaluation based on internationally recognized indicators."
+  },
+  {
+    "objectID": "leadership_volunteer.html",
+    "href": "leadership_volunteer.html",
+    "title": "Volunteering & Leadership",
+    "section": "",
+    "text": "Leadership, conferences, and volunteering experiences that reflect my commitment to community impact and professional engagement."
+  },
+  {
+    "objectID": "leadership_volunteer.html#leadership-conference-roles",
+    "href": "leadership_volunteer.html#leadership-conference-roles",
+    "title": "Volunteering & Leadership",
+    "section": "Leadership & Conference Roles",
+    "text": "Leadership & Conference Roles\n\n\n\nSession Chair — IEEE Digital Platforms and Societal Harms (DPSH)\nWashington, DC · Oct 14–15, 2024\n- Chaired hybrid sessions (in-person + online) hosted at American University.\n- Facilitated Q&A by preparing discussion questions and guiding post-talk dialogue.\n- Coordinated session flow to ensure smooth timing and audience engagement.\n\n\nContent Reviewer & Developer — AI Global Education Program\nSeeds of Empowerment · 2025\n- Contribute to AI teaching curriculum development for underserved students in developing countries (e.g., Kazakhstan).\n- Review existing materials, propose new content ideas, and develop chapters focused on statistics and data ethics.\n- Support accessible, culturally aware learning resources for global classrooms."
+  },
+  {
+    "objectID": "leadership_volunteer.html#volunteering-community-engagement",
+    "href": "leadership_volunteer.html#volunteering-community-engagement",
+    "title": "Volunteering & Leadership",
+    "section": "Volunteering & Community Engagement",
+    "text": "Volunteering & Community Engagement\n\n\n\nVolunteer — To Do Toronto\nToronto · 2023–2024\n- Supported event operations for a major community media organization connecting culture, arts, and networking.\n- Managed guest check-ins, coordinated logistics, and ensured smooth on-site execution.\n- Assisted with post-event cleanup and organization to maintain efficient workflows.\n\n\nInternational Volunteer — IVHQ & Maximo Nivel\nPeru · Dec 2023\n- Volunteered for two weeks on community development projects, including school construction and small-scale agriculture support.\n- Organized holiday events for children with special needs and seniors.\n- Collaborated with long-term initiatives aimed at sustainable local impact.\n\n\nKorean & Art Teaching — University Volunteer Program\nPhilippines · 2017\n- Taught Korean language and music for two weeks through a university-led volunteer program.\n- Designed interactive lessons introducing Korean culture, basic language skills, and musical activities.\n- Promoted participation and cross-cultural exchange through structured learning sessions.\n\n\nSchool Construction & Child Support Volunteer\nIndia · 2011\n- Assisted with classroom setup and structural support in building a school for children in underprivileged areas.\n- Led recreational and educational activities to support children’s learning and well-being.\n- Strengthened my commitment to educational accessibility and community service."
   },
   {
     "objectID": "projects/02-oil-fraud/index.html",
@@ -229,27 +341,6 @@
     "title": "Oil Fraud Crime Pattern Analysis",
     "section": "Links",
     "text": "Links\n\nGitHub: will be added soon\nReport / Presentation: will be added soon"
-  },
-  {
-    "objectID": "leadership_volunteer.html",
-    "href": "leadership_volunteer.html",
-    "title": "Volunteering & Leadership",
-    "section": "",
-    "text": "Leadership, conferences, and volunteering experiences that reflect my commitment to community impact and professional engagement."
-  },
-  {
-    "objectID": "leadership_volunteer.html#leadership-conference-roles",
-    "href": "leadership_volunteer.html#leadership-conference-roles",
-    "title": "Volunteering & Leadership",
-    "section": "Leadership & Conference Roles",
-    "text": "Leadership & Conference Roles\n\n\n\nSession Chair — IEEE Digital Platforms and Societal Harms (DPSH)\nWashington, DC · Oct 14–15, 2024\n- Chaired hybrid sessions (in-person + online) hosted at American University.\n- Facilitated Q&A by preparing discussion questions and guiding post-talk dialogue.\n- Coordinated session flow to ensure smooth timing and audience engagement.\n\n\nContent Reviewer & Developer — AI Global Education Program\nSeeds of Empowerment · 2025\n- Contribute to AI teaching curriculum development for underserved students in developing countries (e.g., Kazakhstan).\n- Review existing materials, propose new content ideas, and develop chapters focused on statistics and data ethics.\n- Support accessible, culturally aware learning resources for global classrooms."
-  },
-  {
-    "objectID": "leadership_volunteer.html#volunteering-community-engagement",
-    "href": "leadership_volunteer.html#volunteering-community-engagement",
-    "title": "Volunteering & Leadership",
-    "section": "Volunteering & Community Engagement",
-    "text": "Volunteering & Community Engagement\n\n\n\nVolunteer — To Do Toronto\nToronto · 2023–2024\n- Supported event operations for a major community media organization connecting culture, arts, and networking.\n- Managed guest check-ins, coordinated logistics, and ensured smooth on-site execution.\n- Assisted with post-event cleanup and organization to maintain efficient workflows.\n\n\nInternational Volunteer — IVHQ & Maximo Nivel\nPeru · Dec 2023\n- Volunteered for two weeks on community development projects, including school construction and small-scale agriculture support.\n- Organized holiday events for children with special needs and seniors.\n- Collaborated with long-term initiatives aimed at sustainable local impact.\n\n\nKorean & Art Teaching — University Volunteer Program\nPhilippines · 2017\n- Taught Korean language and music for two weeks through a university-led volunteer program.\n- Designed interactive lessons introducing Korean culture, basic language skills, and musical activities.\n- Promoted participation and cross-cultural exchange through structured learning sessions.\n\n\nSchool Construction & Child Support Volunteer\nIndia · 2011\n- Assisted with classroom setup and structural support in building a school for children in underprivileged areas.\n- Led recreational and educational activities to support children’s learning and well-being.\n- Strengthened my commitment to educational accessibility and community service."
   },
   {
     "objectID": "projects/04-covid-economy/index.html",
@@ -305,49 +396,70 @@
     "href": "projects/03-toronto-audit/index.html",
     "title": "Toronto Building Audit Risk Analysis & Prediction",
     "section": "",
-    "text": "This project analyzes Toronto’s annual building evaluation data to identify audit risks and support regulatory decision-making. By combining SQL-based filtering, exploratory analyses, and supervised machine learning models, the study offers a data-driven approach to predicting high-risk buildings."
+    "text": "🔗Source Code (Git)    🔗Demo Video"
   },
   {
     "objectID": "projects/03-toronto-audit/index.html#overview",
     "href": "projects/03-toronto-audit/index.html#overview",
     "title": "Toronto Building Audit Risk Analysis & Prediction",
-    "section": "",
-    "text": "This project analyzes Toronto’s annual building evaluation data to identify audit risks and support regulatory decision-making. By combining SQL-based filtering, exploratory analyses, and supervised machine learning models, the study offers a data-driven approach to predicting high-risk buildings."
+    "section": "Overview",
+    "text": "Overview\nEnsuring safe and habitable housing is an essential component of urban governance—especially in densely populated cities like Toronto, where aging infrastructure and socioeconomic disparities directly influence building quality. RentSafeTO is the city’s primary regulatory program for assessing rental apartment safety, covering a wide range of compliance categories including structural integrity, fire protection, pest management, waste disposal, lighting, ventilation, and general maintenance.\nHowever, the official inspection process is slow, reactive, and resource-intensive. Most renters and landlords must wait months before receiving inspection outcomes, and inspectors cannot feasibly assess thousands of properties at once. This creates a need for proactive, data-driven models that estimate building safety risk before formal inspections occur, allowing informed decision-making for renters, landlords, and municipal agents.\nThis project develops a comprehensive machine learning pipeline analyzing 11,760 Toronto apartment buildings across 40 structural, historical, and environmental features provided through Toronto Open Data. The system predicts RentSafeTO safety outcomes—pass vs fail or high-risk vs compliant—using classical machine learning models paired with targeted feature engineering and imbalance mitigation strategies.\nThe pipeline explores both regression and classification paradigms, using models such as Linear Regression, Random Forest Regression, Decision Trees with SMOTE, and K-Nearest Neighbors. Although regression models show extremely high goodness-of-fit (R² up to 0.98), they fail to capture the unique structure of RentSafeTO scoring—where perfect evaluations map to 100 points regardless of underlying weighted components. Instead, the SMOTE-enhanced decision tree classification approach provides a more interpretable, reliable, and balanced predictive framework, especially given the severe class imbalance in safety failures.\nUltimately, this project demonstrates how regulatory datasets—often noisy, biased, and imbalanced—can be transformed into actionable safety insights that support tenants, policymakers, and property managers. It illustrates the practical challenges of urban analytics while showing how machine learning can augment existing inspection systems to improve equity, efficiency, and public well-being."
   },
   {
-    "objectID": "projects/03-toronto-audit/index.html#what-i-did",
-    "href": "projects/03-toronto-audit/index.html#what-i-did",
+    "objectID": "projects/03-toronto-audit/index.html#problem-context",
+    "href": "projects/03-toronto-audit/index.html#problem-context",
     "title": "Toronto Building Audit Risk Analysis & Prediction",
-    "section": "What I Did",
-    "text": "What I Did\n\nConducted exploratory analysis on Toronto’s building audit dataset using SQL and Python to identify structural, financial, and environmental risk indicators.\nDeveloped machine learning models (Random Forest, Decision Tree) to classify high-risk buildings and guide audit prioritization.\nApplied SMOTE to improve predictive performance by addressing severe class imbalance common in fraud and regulatory datasets.\nDesigned geospatial and statistical visualizations using Seaborn, Matplotlib, and Folium to communicate insights clearly.\nSummarized results through Streamlit dashboards and PowerPoint presentations for audit teams and stakeholders."
+    "section": "Problem Context",
+    "text": "Problem Context\n\nRentSafeTO evaluates buildings across safety standards: fire systems, structural integrity, pests, maintenance, waste control, air circulation, security systems.\nInspection schedules are slow and reactive.\nPredictive modeling supports:\n\nTenants choosing safe housing\n\nLandlords identifying weak points\n\nMunicipal governments prioritizing high-risk buildings\n\n\nDataset: 11,760 apartment buildings × 40 structural/geographic/compliance features"
   },
   {
-    "objectID": "projects/03-toronto-audit/index.html#methods-tools",
-    "href": "projects/03-toronto-audit/index.html#methods-tools",
+    "objectID": "projects/03-toronto-audit/index.html#data-analysis",
+    "href": "projects/03-toronto-audit/index.html#data-analysis",
     "title": "Toronto Building Audit Risk Analysis & Prediction",
-    "section": "Methods & Tools",
-    "text": "Methods & Tools\nPython · Pandas · NumPy · SQL · Seaborn · Matplotlib · Folium · Streamlit · Random Forest · Decision Tree · SMOTE"
+    "section": "Data Analysis",
+    "text": "Data Analysis\n\nConducted exploratory analysis on Toronto Open Data\n\nAddressed severe class imbalance (most buildings scored 100)\n\nCleaned temporal inconsistencies from evolving dataset\n\nAnalyzed:\n\nStructural attributes (age, height, floors)\nGeographic factors (wards, neighbourhoods)\nHistorical compliance scores\nAudit frequency\nViolations across categories (fire, structural, pest, waste, cleaning)"
   },
   {
-    "objectID": "projects/03-toronto-audit/index.html#key-results",
-    "href": "projects/03-toronto-audit/index.html#key-results",
+    "objectID": "projects/03-toronto-audit/index.html#feature-engineering",
+    "href": "projects/03-toronto-audit/index.html#feature-engineering",
     "title": "Toronto Building Audit Risk Analysis & Prediction",
-    "section": "Key Results",
-    "text": "Key Results\n\nImproved fraud detection and audit targeting by correcting class imbalance and enhancing model accuracy.\nIdentified key predictors of high-risk buildings, informing more efficient audit resource allocation.\nDelivered visual dashboards and reports that simplified interpretation of complex regulatory data."
+    "section": "Feature Engineering",
+    "text": "Feature Engineering\nCreated predictive features from:\n\nBuilding structure — floors, height, age\n\nGeography — ward, location clusters\n\nManagement attributes — property type, ownership model\n\nHistorical evaluation — past scores, frequency of audits\n\nViolation categories — pest, fire, waste, structural, cleanliness"
   },
   {
-    "objectID": "projects/03-toronto-audit/index.html#impact",
-    "href": "projects/03-toronto-audit/index.html#impact",
+    "objectID": "projects/03-toronto-audit/index.html#model-development",
+    "href": "projects/03-toronto-audit/index.html#model-development",
     "title": "Toronto Building Audit Risk Analysis & Prediction",
-    "section": "Impact",
-    "text": "Impact\nThis project provides a scalable and actionable framework for regulatory audits, enabling departments to detect at-risk buildings early and conduct data-informed inspections."
+    "section": "Model Development",
+    "text": "Model Development\n\nRegression Models\n\nLinear Regression:\n\nR² = 0.98, RMSE = 10.01\n\nHigh fit but errors spike for rare failing buildings\n\nRandom Forest Regression:\n\nR² = 0.96, RMSE = 2.04\n\nMore stable with nonlinear feature interactions\n\n\n\n\nClassification Models\n\nDecision Tree + SMOTE:\n\nAccuracy = 82.6%\n\nBest performance for rare failure cases\n\nSynthetic minority oversampling improved balance\n\nKNN Classifier:\n\nMean CV score = 0.67\n\nLimited performance but consistent variance"
   },
   {
-    "objectID": "projects/03-toronto-audit/index.html#links",
-    "href": "projects/03-toronto-audit/index.html#links",
+    "objectID": "projects/03-toronto-audit/index.html#model-selection-rationale",
+    "href": "projects/03-toronto-audit/index.html#model-selection-rationale",
     "title": "Toronto Building Audit Risk Analysis & Prediction",
-    "section": "Links",
-    "text": "Links\n\nGitHub: will be added soon\nStreamlit Demo / Report: will be added soon"
+    "section": "Model Selection Rationale",
+    "text": "Model Selection Rationale\n\nRegression unsuitable because RentSafeTO uses binary perfect scores → results collapse toward 100.\nMinority class (failures) extremely underrepresented.\nClassification isolates failure vs compliant buildings more effectively.\nSMOTE addresses the dataset’s structural limitations.\nDecision Trees offer transparent rule-based interpretation for regulators and property owners."
+  },
+  {
+    "objectID": "projects/03-toronto-audit/index.html#technical-implementation",
+    "href": "projects/03-toronto-audit/index.html#technical-implementation",
+    "title": "Toronto Building Audit Risk Analysis & Prediction",
+    "section": "Technical Implementation",
+    "text": "Technical Implementation\n\nPython, Pandas, scikit-learn, imbalanced-learn\nSMOTE oversampling for minority disqualification records\n\nCross-validation for robust error estimation\n\nSeparated notebooks for EDA, feature engineering, training, evaluation"
+  },
+  {
+    "objectID": "projects/03-toronto-audit/index.html#business-impact",
+    "href": "projects/03-toronto-audit/index.html#business-impact",
+    "title": "Toronto Building Audit Risk Analysis & Prediction",
+    "section": "Business Impact",
+    "text": "Business Impact\n\nEnables preliminary safety risk assessment without waiting for inspectors\n\nHelps renters identify unsafe apartments before signing leases\n\nGuides proactive maintenance strategies for building owners\n\nImproves city-wide inspection efficiency and resource allocation\n\nEstablishes foundation for real-time housing risk monitoring"
+  },
+  {
+    "objectID": "projects/03-toronto-audit/index.html#conclusion",
+    "href": "projects/03-toronto-audit/index.html#conclusion",
+    "title": "Toronto Building Audit Risk Analysis & Prediction",
+    "section": "Conclusion",
+    "text": "Conclusion\nThis project demonstrates how machine learning can support regulatory systems by predicting building-level safety risks in a clear, interpretable, and operationally useful manner. Despite the inherent challenges of highly imbalanced datasets and the rigid scoring structure of RentSafeTO, the SMOTE-enhanced decision tree achieves balanced, realistic performance that aligns with real-world use cases. The model provides transparent, rule-based insights into why a building might be at risk—making it more useful to tenants, landlords, and policymakers than purely numerical regression models.\nThe results reveal important structural patterns in Toronto’s rental market: older buildings, tall complexes, and properties with repeated historical violations show higher risk. Meanwhile, geographic disparities suggest that socioeconomic factors at the ward level may influence building maintenance quality and inspection frequency.\nMore broadly, this project illustrates that urban safety analytics requires both technical rigor and social awareness. Machine learning alone cannot solve regulatory gaps, but it can dramatically enhance visibility into housing conditions, making data-driven governance more efficient and equitable. Future improvements—such as collecting more failure cases, integrating geospatial features, or applying gradient boosting methods—would further strengthen predictive performance and support fairer housing outcomes across Toronto."
   },
   {
     "objectID": "projects/08-reddit-ai-discussion/index.html",
@@ -357,39 +469,39 @@
     "text": "🔗Source Code (Git)    🔗Website    🔗Final Report (PDF)"
   },
   {
-    "objectID": "projects/08-reddit-ai-discussion/index.html#overview",
-    "href": "projects/08-reddit-ai-discussion/index.html#overview",
+    "objectID": "projects/08-reddit-ai-discussion/index.html#cluster-deployment-configuration",
+    "href": "projects/08-reddit-ai-discussion/index.html#cluster-deployment-configuration",
     "title": "Large-Scale Reddit AI Discourse Analysis",
-    "section": "Overview",
-    "text": "Overview\nThis project analyzes large-scale Reddit discussions related to artificial intelligence to understand how topics, language, and timing influence user engagement and content virality. Using distributed data processing and NLP techniques, I examined patterns across multiple AI-focused subreddits and compared AI discourse with politically influenced discussions."
+    "section": "Cluster Deployment & Configuration",
+    "text": "Cluster Deployment & Configuration\n\nMulti-node Apache Spark cluster (1 master, 3 workers) on AWS EC2\n\nAutomated provisioning using shell scripts\n\nIAM role integration + S3A support for parquet-based distributed access\n\nSecurity groups configured for Spark UI, SSH, inter-node communication"
   },
   {
-    "objectID": "projects/08-reddit-ai-discussion/index.html#what-i-did",
-    "href": "projects/08-reddit-ai-discussion/index.html#what-i-did",
+    "objectID": "projects/08-reddit-ai-discussion/index.html#etl-pipeline",
+    "href": "projects/08-reddit-ai-discussion/index.html#etl-pipeline",
     "title": "Large-Scale Reddit AI Discourse Analysis",
-    "section": "What I Did",
-    "text": "What I Did\n\nEngineered temporal engagement features (day-of-week, hour-of-day) to analyze posting behavior and engagement dynamics.\nAggregated and processed billions of Reddit rows using PySpark to enable scalable analysis across 15 AI-related subreddits.\nBuilt an NLP pipeline using regex-based UDFs, tokenization, and CountVectorizer to prepare text data for modeling.\nTrained and compared dual 15-topic LDA models to contrast AI-focused discourse with politically influenced narratives.\nDeveloped regression and classification models (Lasso, Logistic Regression, Gradient Boosted Trees) using TF–IDF features, topic vectors, and metadata."
+    "section": "ETL Pipeline",
+    "text": "ETL Pipeline\n\nProcessed 280M+ records on cluster\n\nApplied partition-based parallelism and caching optimization\n\nImplemented fault tolerance for node failures and long-running jobs"
   },
   {
-    "objectID": "projects/08-reddit-ai-discussion/index.html#methods-tools",
-    "href": "projects/08-reddit-ai-discussion/index.html#methods-tools",
+    "objectID": "projects/08-reddit-ai-discussion/index.html#feature-engineering",
+    "href": "projects/08-reddit-ai-discussion/index.html#feature-engineering",
     "title": "Large-Scale Reddit AI Discourse Analysis",
-    "section": "Methods & Tools",
-    "text": "Methods & Tools\nPySpark · Python · NLP · LDA Topic Modeling · TF–IDF · Logistic Regression · Gradient Boosted Trees · Distributed Computing · Feature Engineering"
+    "section": "Feature Engineering",
+    "text": "Feature Engineering\n\nTF–IDF vectorization\n\nLDA topic distributions\n\nTemporal features (day of week, hour, month)\n\nText length–based metrics"
   },
   {
-    "objectID": "projects/08-reddit-ai-discussion/index.html#key-results",
-    "href": "projects/08-reddit-ai-discussion/index.html#key-results",
+    "objectID": "projects/08-reddit-ai-discussion/index.html#models-trained",
+    "href": "projects/08-reddit-ai-discussion/index.html#models-trained",
     "title": "Large-Scale Reddit AI Discourse Analysis",
-    "section": "Key Results",
-    "text": "Key Results\n\nIdentified optimal engagement windows by analyzing posting time versus score and comment activity.\nRevealed distinct thematic differences between AI-centric discussions and politically influenced discourse through topic modeling.\nDemonstrated that linguistic features and topic composition are strong predictors of Reddit post virality."
+    "section": "Models Trained",
+    "text": "Models Trained\n\nLogistic Regression (L2 penalty)\n\nRandom Forest (50 trees, depth 10)\n\nLinear SVC (One-vs-Rest for multi-class tasks)\n\nMLP classifier (128 → 64 hidden layers)"
   },
   {
-    "objectID": "projects/08-reddit-ai-discussion/index.html#impact",
-    "href": "projects/08-reddit-ai-discussion/index.html#impact",
+    "objectID": "projects/08-reddit-ai-discussion/index.html#evaluation",
+    "href": "projects/08-reddit-ai-discussion/index.html#evaluation",
     "title": "Large-Scale Reddit AI Discourse Analysis",
-    "section": "Impact",
-    "text": "Impact\nThis project demonstrates the application of scalable NLP and machine learning techniques to real-world social media data, highlighting how data-driven insights can explain online engagement patterns and information diffusion at scale."
+    "section": "Evaluation",
+    "text": "Evaluation\n\nStratified train/test split\n\nAccuracy, F1, weighted precision/recall\n\nFeature importance analysis (word-level, tree-based)"
   },
   {
     "objectID": "projects/06-nyc-taxi_spark/index.html",
@@ -445,14 +557,14 @@
     "href": "index.html",
     "title": "Hi, I’m Anna Kim 👋",
     "section": "",
-    "text": "Data Science M.S. @ American University\nCurrent GPA: 4.0 / 4.0\nInterested in NLP, Machine Learning, Data Engineering and Large-Scale Data Analytics.\nI work on data-driven projects that combine statistical modeling, machine learning, and real-world datasets to extract insights and build responsible AI systems.\n🔗 LinkedIn\n🔗 School Email\n🔗 Work Email"
+    "text": "Data Science M.S. @ American University\nCurrent GPA: 4.0 / 4.0\nInterested in NLP, Machine Learning, Data Engineering and Large-Scale Data Analytics.\nI work on data-driven projects that combine statistical modeling, machine learning, and real-world datasets to extract insights and build responsible AI systems.\n🔗 LinkedIn\n🔗 Github\n🔗 Email"
   },
   {
     "objectID": "index.html#featured-projects",
     "href": "index.html#featured-projects",
     "title": "Hi, I’m Anna Kim 👋",
     "section": "Featured Projects",
-    "text": "Featured Projects\nThese are my latest six projects. Check out the full list for more interesting work! View All →\n\n\n\n\n\n\n\n\n\n\nLarge-Scale Reddit AI Discourse Analysis\n\n\n\nSpark\n\nAWS\n\nNLP\n\nBig Data\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\n\n\n\nHuman-Following Robot with Real-Time Face Tracking\n\n\n\nRobotics\n\nComputer Vision\n\nReal-Time Systems\n\n\n\n\n\n\n\n\n\n\n\n\n\nDistributed Big Data Processing of NYC Taxi Trips\n\n\n\nBig Data\n\nData Engineering\n\nCloud\n\n\n\n\n\n\n\n\n\n\n\n\n\nMeasuring Ethical Risks in AI-Generated News Using NLP\n\n\n\nNLP\n\nAI Ethics\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\n\n\n\nCOVID-19 & U.S. Economy: State-Level Analysis\n\n\n\nEconomics\n\nData Visualization\n\nPublic Data\n\n\n\n\n\n\n\n\n\n\n\n\n\nToronto Building Audit Risk Analysis & Prediction\n\n\n\nRegulatory Analytics\n\nMachine Learning\n\nRisk Modeling\n\n\n\n\n\n\nNo matching items"
+    "text": "Featured Projects\nThese are my latest six projects. Check out the full list for more interesting work! View All →\n\n\n\n\n\n\n\n\n\n\nICT Education Impact Analysis (2017–2023)\n\n\n\nICT\n\nEducation\n\nResearch\n\nData Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\nHotel Review Sentiment Analysis\n\n\n\nNLP\n\nMachine Learning\n\nClassical NLP\n\nSentiment Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\nLarge-Scale Reddit AI Discourse Analysis\n\n\n\nSpark\n\nAWS\n\nNLP\n\nBig Data\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\n\n\n\nHuman-Following Robot with Real-Time Face Tracking\n\n\n\nComputer Vision\n\nRobotics\n\nPython\n\nYOLO\n\nOpenCV\n\n\n\n\n\n\n\n\n\n\n\n\n\nDistributed Big Data Processing of NYC Taxi Trips\n\n\n\nBig Data\n\nData Engineering\n\nCloud\n\n\n\n\n\n\n\n\n\n\n\n\n\nMeasuring Ethical Risks in AI-Generated News Using NLP\n\n\n\nNLP\n\nAI Ethics\n\nMachine Learning\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#leadership-volunteering",

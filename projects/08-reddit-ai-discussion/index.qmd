@@ -1,34 +1,107 @@
 ---
 title: "Large-Scale Reddit AI Discourse Analysis"
+subtitle: "Distributed NLP & Machine Learning Pipeline on Apache Spark"
 index: 8
 summary: "A large-scale NLP and machine learning analysis of AI-related discourse on Reddit, combining distributed data processing, topic modeling, and predictive modeling to understand engagement and virality patterns."
 categories: [Spark, AWS, NLP, Big Data, Machine Learning]
 image: portfolio-thumbnail-08.png
 ---
+
+::: {.links}
  🔗[**Source Code (Git)**](https://github.com/annakim9237/spark-reddit-ai-discourse-analysis)
  &nbsp;&nbsp;
  🔗[**Website**](https://kim-anna.quarto.pub/dsan-6000-big-data-project/)
  &nbsp;&nbsp;
  🔗[**Final Report (PDF)**](https://github.com/annakim9237/spark-reddit-ai-discourse-analysis/blob/main/GU-DSAN6000-FALL-TEAM05.pdf)
+::: 
 
-## Overview
-This project analyzes large-scale Reddit discussions related to artificial intelligence to understand how topics, language, and timing influence user engagement and content virality. Using distributed data processing and NLP techniques, I examined patterns across multiple AI-focused subreddits and compared AI discourse with politically influenced discussions.
+# Overview
 
-## What I Did
-- Engineered temporal engagement features (day-of-week, hour-of-day) to analyze posting behavior and engagement dynamics.
-- Aggregated and processed billions of Reddit rows using PySpark to enable scalable analysis across 15 AI-related subreddits.
-- Built an NLP pipeline using regex-based UDFs, tokenization, and `CountVectorizer` to prepare text data for modeling.
-- Trained and compared dual 15-topic LDA models to contrast AI-focused discourse with politically influenced narratives.
-- Developed regression and classification models (Lasso, Logistic Regression, Gradient Boosted Trees) using TF–IDF features, topic vectors, and metadata.
+The rapid acceleration of generative AI adoption between 2023 and 2024 transformed online public discourse, with Reddit emerging as one of the most active, diverse, and influential platforms for AI-related conversations. Understanding how large communities react to, critique, and experiment with emerging AI models requires scalable computational methods that can handle massive volumes of unstructured text.
 
-## Methods & Tools
-PySpark · Python · NLP · LDA Topic Modeling · TF–IDF · Logistic Regression · Gradient Boosted Trees · Distributed Computing · Feature Engineering
+This project builds a **distributed big data NLP and machine learning pipeline** to analyze over **3.6 billion Reddit comments** and **567 million submissions** across **15 AI-focused subreddits** over a 14-month window. The pipeline was deployed on a **multi-node Apache Spark cluster** on AWS EC2 (1 master, 3 workers), enabling high-throughput ETL processing, distributed NLP transformations, and parallel ML model training on datasets exceeding local-memory constraints.
 
-## Key Results
-- Identified optimal engagement windows by analyzing posting time versus score and comment activity.
-- Revealed distinct thematic differences between AI-centric discussions and politically influenced discourse through topic modeling.
-- Demonstrated that linguistic features and topic composition are strong predictors of Reddit post virality.
+The goal of this analysis is twofold:
 
-## Impact
-This project demonstrates the application of scalable NLP and machine learning techniques to real-world social media data, highlighting how data-driven insights can explain online engagement patterns and information diffusion at scale.
+1. **Capture large-scale patterns** in public discourse during a pivotal moment of AI mainstream adoption  
+   — sentiment trends, topic emergence, community segmentation, and engagement cycles.
 
+2. **Design a reproducible, cloud-scalable ML architecture** demonstrating industry-relevant distributed engineering skills, particularly for text-heavy workloads.
+
+By combining PySpark MLlib, lexicon-based sentiment analysis, topic modeling (LDA), multi-class classification, and temporal pattern extraction, this project reveals how AI discussions evolved across highly technical and general-consumer Reddit communities. More broadly, it demonstrates how distributed NLP systems can be applied to real-world, high-volume social data to extract meaningful structure at scale.
+
+---
+
+# Distributed Computing Infrastructure
+
+## Cluster Deployment & Configuration
+- Multi-node Apache Spark cluster (1 master, 3 workers) on AWS EC2  
+- Automated provisioning using shell scripts  
+- IAM role integration + S3A support for parquet-based distributed access  
+- Security groups configured for Spark UI, SSH, inter-node communication  
+
+## ETL Pipeline
+- Processed **280M+ records** on cluster  
+- Applied partition-based parallelism and caching optimization  
+- Implemented fault tolerance for node failures and long-running jobs  
+
+---
+
+# NLP Pipeline (PySpark MLlib)
+
+- Distributed regex text cleaning  
+- Tokenization + custom stopword filtering  
+- Lexicon-based sentiment scoring using vectorized Pandas UDFs  
+- TF–IDF + LDA topic modeling on 20K sampled documents  
+- Temporal sentiment/discussion pattern extraction (hourly/daily cycles)  
+
+---
+
+# Machine Learning Classification
+
+## Feature Engineering
+- TF–IDF vectorization  
+- LDA topic distributions  
+- Temporal features (day of week, hour, month)  
+- Text length–based metrics  
+
+## Models Trained
+- Logistic Regression (L2 penalty)  
+- Random Forest (50 trees, depth 10)  
+- Linear SVC (One-vs-Rest for multi-class tasks)  
+- MLP classifier (128 → 64 hidden layers)  
+
+## Evaluation
+- Stratified train/test split  
+- Accuracy, F1, weighted precision/recall  
+- Feature importance analysis (word-level, tree-based)  
+
+---
+
+# Technical Implementation
+
+- Full Spark ML Pipeline: CountVectorizer → IDF → VectorAssembler → StandardScaler  
+- Pandas UDF parallelization for fast sentiment computations  
+- Model persistence using Spark save APIs  
+- Outputs exported to CSV for downstream visualization in Quarto  
+
+---
+
+# Impact
+
+- Detected community segmentation between technical AI groups and general-user groups  
+- Identified temporal peaks in engagement (late-night posting, release-driven spikes)  
+- Revealed dominant topics such as model capabilities, safety debates, prompt engineering, copyright concerns, and economic anxieties  
+- Captured sentiment variation across subreddits and over time, showing nuanced shifts in optimism vs skepticism as AI systems evolved  
+
+---
+
+# Conclusion
+
+This project demonstrates that large-scale social media analysis requires both **distributed systems engineering** and **advanced NLP techniques** to reveal meaningful insights hidden within billions of text records. By leveraging Apache Spark, AWS EC2, and scalable Python-based NLP operations, the pipeline efficiently processed multi-terabyte datasets that would have been infeasible on a single machine.
+
+The findings highlight that discourse around AI is not monolithic: technical communities focus heavily on model performance, benchmarks, and deployment challenges, while general-audience subreddits express broader themes such as job displacement, creativity, safety concerns, and AI’s societal impact. Temporal analysis further shows that community sentiment evolves alongside real-world AI releases and news events.
+
+This system provides a blueprint for large-scale online discourse monitoring—an approach increasingly relevant as AI adoption grows and public conversations become both more complex and more consequential. The architecture can be extended to real-time monitoring, predictive modeling of discussion dynamics, or comparative studies across social platforms.
+
+---

@@ -29,8 +29,9 @@ I work on data-driven projects that combine statistical modeling, machine learni
 and real-world datasets to extract insights and build responsible AI systems.  
 
 🔗 **[LinkedIn](https://www.linkedin.com/in/kim-anna)**  
-🔗 **[School Email](mailto:hk1505a@american.edu)**  
-🔗 **[Work Email](mailto:annakim9237@gmail.com)**
+🔗 **[Github](https://github.com/annakim9237?tab=repositories&q=&type=public&language=&sort=)**  
+🔗 **[Email](mailto:hk1505a@american.edu)**  
+
 :::
 :::
 
@@ -47,7 +48,7 @@ and real-world datasets to extract insights and build responsible AI systems.
 ## Leadership & Volunteering
 
 **A quick look at two representative activities. Explore more about my leadership and community work.**  
-[See All →](leadership-volunteering.qmd){.view-all-link style="float: right;"}
+[See All →](leadership_volunteer.qmd){.view-all-link style="float: right;"}
 
 
 <div class="home-activity-stack">

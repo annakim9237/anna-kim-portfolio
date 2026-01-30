@@ -6,6 +6,7 @@ categories: [Business Analytics, Retail, Dashboarding]
 image: portfolio-thumbnail-01.png
 ---
 
+
 ## Overview
 This project analyzes Adidas sales data from Kaggle to understand performance trends across product categories, regions, and customer segments. Using Excel-based data cleaning and dashboard development, the study highlights key revenue drivers and operational challenges in the retail ecosystem.
 

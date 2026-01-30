@@ -1,0 +1,147 @@
+---
+title: "ICT Education Impact Analysis (2017–2023)"
+subtitle: "How ICT Influences Educational Improvements in Underprivileged Countries"
+summary: "Quantitative modeling of ICT infrastructure, digital literacy, and learning outcomes using global datasets (2017–2023)."
+index: 10
+categories: [ICT, Education, Research, Data Analysis]
+image: portfolio-thumbnail-10.png
+---
+
+::: {.links}
+ 🔗[**Source Code (Git)**](https://github.com/annakim9237/ict-education-impact-2017-2023/tree/main)
+ &nbsp;&nbsp;
+  🔗[**Report PDF**](https://github.com/annakim9237/ict-education-impact-2017-2023/blob/main/Research-Paper-Final-ict-education-impact-2017-2023.pdf)
+:::
+
+---
+
+## Overview
+
+This project investigates the question:
+"How does the use of Information and Communication Technology (ICT) contribute to the improvement of education for children in underprivileged countries between 2017 and 2023?"
+
+The study uses multidimensional datasets from UNESCO, ITU, and SDG4, conducting cross-country and time-series analyses. It explores how ICT accessibility, digital literacy skills, and infrastructural readiness influence learning outcomes. The research identifies meaningful relationships between ICT development and improvements in reading proficiency, math skills, school completion rates, and digital competencies.
+
+---
+
+## Research Purpose
+
+The digital divide remains a major obstacle for educational development in underprivileged regions. This study examines whether ICT serves as a mechanism to reduce disparities and strengthen learning outcomes. The project analyzes macro-level indicators, such as internet access, digital literacy rates, and basic educational achievements, focusing on long-term trends from 2017 to 2023.
+
+---
+
+## Target Regions
+
+- Sub-Saharan Africa
+- Central and Southern Asia
+- Eastern and South-Eastern Asia
+- Latin America and the Caribbean
+
+---
+
+## Research Methodology
+
+### Data Sources
+- UNESCO Education Statistics
+- ITU ICT Indicators
+- World Bank SDG4 Global Database
+
+### Tools and Techniques
+- Python (pandas, numpy, matplotlib, seaborn)
+- Time-series visualization
+- Cross-regional comparison
+- Correlation and trend analysis
+
+---
+
+## Repository Structure
+
+```
+ICTdata/
+├── student-achievements/
+├── completion-rates/
+├── digital-literacy/
+└── ICT-infrastructure/
+
+ict-for-underprivileged-education.ipynb
+
+Research-Paper-Final-ict-education-impact-2017-2023.pdf
+Research-Paper-Final-ict-education-impact-2017-2023.docx
+Kor-Research-Paper-Final-ict-education-impact-2017-2023.pdf
+Kor-Research-Paper-Final-ict-education-impact-2017-2023.docx
+```
+
+---
+
+## Variables
+
+### Dependent Variables (Educational Outcomes)
+
+- Reading proficiency (Grade 2/3, primary, lower secondary)
+- Mathematics proficiency
+- Primary and upper-secondary completion rates
+- Educational attainment levels
+- Digital literacy indicators by age
+
+### Independent Variables (ICT Access and Infrastructure)
+
+- Broadband availability
+- Barriers to internet use
+- ICT skill levels
+- Internet usage in educational environments
+
+---
+
+## Data Analysis Summary
+
+### Educational Outcomes
+
+- Sub-Saharan Africa displays the largest performance gap.
+- Certain countries show steady improvement, though at different magnitudes.
+- For example, Benin’s Grade 2 reading proficiency increased from 9.6 percent to 37.7 percent between 2014 and 2019.
+
+### ICT Skills and Digital Literacy
+
+- Significant disparities exist among regions.
+- Youth aged 15–24 consistently show stronger digital skills than children under 15.
+- Basic digital competencies remain limited in many low-income countries.
+
+### Correlation Findings
+
+- Higher ICT accessibility correlates positively with improved learning outcomes.
+- However, causation cannot be confirmed due to data limitations.
+- Incomplete or inconsistent reporting reduces statistical robustness in some analyses.
+
+---
+
+## Policy Implications
+
+- Long-term investment in ICT infrastructure is essential for sustainable educational development.
+- Device distribution alone is not sufficient; structured digital literacy training is required.
+- Region-specific policy approaches are necessary, considering socioeconomic and infrastructural differences.
+- Improvements in national data reporting systems are needed to support more reliable analysis.
+
+---
+
+## Conclusion
+
+The project finds strong evidence that ICT positively influences educational outcomes in underprivileged countries. Enhanced digital literacy, improved internet access, and broader ICT availability correlate with higher reading and math proficiency as well as greater school completion rates. The results emphasize the importance of ICT as a transformative tool for educational equity, while also highlighting the need for targeted strategies, infrastructure investment, and better monitoring systems.
+
+---
+
+## How to Run This Project
+
+```
+git clone https://github.com/annakim9237/ict-education-impact-2017-2023.git
+cd ict-education-impact-2017-2023
+
+pip install pandas numpy matplotlib seaborn openpyxl xlrd jupyter
+
+jupyter notebook ict-for-underprivileged-education.ipynb
+```
+
+---
+
+## Academic Contribution
+
+This research provides comprehensive empirical evidence on how ICT development influences educational outcomes across underprivileged countries. It contributes to academic and policy discussions by presenting a multi-year, cross-regional quantitative evaluation based on internationally recognized indicators.

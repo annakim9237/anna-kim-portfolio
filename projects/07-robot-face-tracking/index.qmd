@@ -1,32 +1,97 @@
 ---
 title: "Human-Following Robot with Real-Time Face Tracking"
+subtitle: "Autonomous Person-Following Robot with Face Recognition, Head Pose Estimation & YOLOv8"
 index: 7
-summary: "Designed and built a real-time human-following robot using Rubik Pi for on-device face recognition and MegaPi for motor control, integrating vision, ML inference, and movement control into a unified pipeline."
-categories: [Robotics, Computer Vision, Real-Time Systems]
+summary: "A real-time identity-aware person-following robot combining OpenCV, head-pose analysis, YOLOv8, and Arduino motor control."
+categories: [Computer Vision, Robotics, Python, YOLO, OpenCV]
 image: ./portfolio-thumbnail-07.png
 ---
 
+::: {.links}
+ 🔗[**Source Code (Git)**](https://github.com/annakim9237/face-detect-follow-robot/tree/main)
+ &nbsp;&nbsp;
+ 🔗[**Demo Video**](https://drive.google.com/file/d/1utfABIncloF9ycNS5VVR6UQAQ3fVVdho/view?usp=drive_link)
+:::
+
 ## Overview
-This project involved building a real-time human-following robot capable of detecting, tracking, and re-identifying a target person using embedded computer vision and machine learning. The system integrates Rubik Pi for face detection and recognition, and MegaPi/mBot Mega for motor control, creating a fully automated movement pipeline from camera input to physical actuation.
 
-## What I Did
-- Designed the end-to-end system architecture integrating Rubik Pi (vision inference) and MegaPi (motor control) into a real-time perception → decision → action loop.
-- Developed face detection and recognition modules, including alignment, normalization, feature extraction, and tracking logic.
-- Implemented a YOLO-based fallback for robust re-identification when face tracking temporarily failed.
-- Built communication logic between inference and motor modules using Python, Arduino, and local HTTP streaming for debugging and calibration.
-- Tuned and calibrated the system to fix motor drift, reduce latency, and correct camera-to-motor alignment errors through iterative testing.
+The Face Detect Follow Robot is an autonomous human-tracking system that recognizes, identifies, and physically follows a specific user in real time. Unlike simple motion-following robots, this project focuses on **identity-aware tracking**, meaning the robot only follows a registered person instead of anyone appearing in front of the camera. This capability is achieved through a hybrid perception system combining classical computer vision, deep-learning detection, head-pose analysis, and embedded robot control.
 
-## Methods & Tools
-Rubik Pi · MegaPi/mBot Mega · YOLO · Python · Arduino · Real-Time Vision · Embedded ML · Edge Computing
+The robot begins by registering the target user’s face using Haar Cascade detection. Thirty aligned face images are collected for identity matching. During operation, the system continuously detects faces, extracts features, compares them with the registered target, and only activates “follow mode” after multiple consecutive matches ensure stable identification.
 
-## Key Results
-- Successfully implemented a fully functional human-following robot capable of tracking and re-identifying the target in real time.
-- Achieved smooth motor control and stable tracking through iterative calibration and feedback loops.
-- Demonstrated reliable fallback behavior with YOLO-based detection during occlusion or temporary recognition failure.
+To handle natural human movement—such as turning the head, rotating the face, or temporarily looking away—the system integrates **head pose estimation**, adjusting follow direction based on the nose’s relative position. When the target’s face becomes occluded or leaves the camera view, the robot switches to **YOLOv8 full-body tracking**, maintaining pursuit until the face reappears. This multimodal pipeline ensures reliable tracking even in difficult visual conditions.
 
-## Impact
-This project showcases the integration of embedded vision, robotics, and machine learning to create real-time interactive systems, demonstrating strong engineering skills in perception, control, and hardware–software integration.
+Movement decisions are derived from the target’s horizontal offset from the frame center and the apparent face size relative to distance. Commands are transmitted to an Arduino-controlled robot via serial communication, enabling smooth forward, backward, and lateral motion.
 
-## Links
-- GitHub: will be added soon
-- Demo Video: will be added soon
+Overall, this project demonstrates how classical vision, deep-learning detection, and embedded control can be combined to produce a natural, adaptive, human-aware robotic behavior suitable for personal assistance, education, and security applications.
+
+---
+
+<div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
+  <iframe 
+    src="https://drive.google.com/file/d/1utfABIncloF9ycNS5VVR6UQAQ3fVVdho/preview" 
+    width="720" 
+    height="480" 
+    allow="autoplay">
+  </iframe>
+</div>
+
+---
+
+## System Description
+
+The robot’s perception pipeline integrates:
+
+- **Face registration** using Haar Cascade detection  
+- **Face alignment** via eye position normalization  
+- **Identity verification** using distance-based comparison  
+- **Head pose estimation** via nose deviation  
+- **YOLOv8 person detection** as fallback when face is not visible  
+- **Serial communication** to coordinate real-time robot motion  
+
+Tracking stability is enhanced through:
+
+- Consecutive match filtering  
+- Adaptive thresholds for follow/search states  
+- Dynamic YOLO fallback  
+- Center-tolerance alignment margins  
+
+---
+
+## Technical Architecture
+
+### Computer Vision
+- Haar Cascade face/eye/nose detection  
+- Eye-based rotational alignment  
+- Nose offset for yaw estimation  
+- Distance-based face comparison for ID verification  
+
+### Deep Learning
+- YOLOv8 (Ultralytics) for person detection  
+- Runs every *N* frames for efficiency  
+- Confidence-based switching between modes  
+
+### Robotics Integration
+- Arduino motor controller  
+- Real-time command transmission (PySerial)  
+- Commands: forward, backward, turn left/right, diagonals, stop  
+- Adaptive control based on face size & position  
+
+---
+
+## Applications
+
+- **Personal assistant robots** that follow owners around the home  
+- **Security robots** that identify and track approved individuals  
+- **Educational robotics** for teaching computer vision pipelines  
+- **Interactive robot prototypes** for HRI (Human–Robot Interaction) research  
+
+---
+
+## Conclusion
+
+The Face Detect Follow Robot demonstrates a practical fusion of classical CV algorithms, deep-learning detection models, and embedded robot communication to achieve identity-specific human tracking. Through multimodal perception—face alignment, head pose estimation, YOLO fallback detection—the robot maintains stable pursuit across varied visual conditions and natural human behavior.
+
+This project highlights the importance of combining **interpretability**, **robustness**, and **real-time performance** in human-centered robotics. While already highly functional, future improvements such as FaceNet embedding-based recognition, ROS navigation, obstacle avoidance, or voice-command integration would further expand its capabilities into a fully autonomous, socially aware robotic system.
+
+---

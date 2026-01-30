@@ -131,11 +131,15 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#what-i-did" id="toc-what-i-did" class="nav-link" data-scroll-target="#what-i-did">What I Did</a></li>
-  <li><a href="#methods-tools" id="toc-methods-tools" class="nav-link" data-scroll-target="#methods-tools">Methods &amp; Tools</a></li>
-  <li><a href="#key-results" id="toc-key-results" class="nav-link" data-scroll-target="#key-results">Key Results</a></li>
-  <li><a href="#impact" id="toc-impact" class="nav-link" data-scroll-target="#impact">Impact</a></li>
-  <li><a href="#links" id="toc-links" class="nav-link" data-scroll-target="#links">Links</a></li>
+  <li><a href="#system-description" id="toc-system-description" class="nav-link" data-scroll-target="#system-description">System Description</a></li>
+  <li><a href="#technical-architecture" id="toc-technical-architecture" class="nav-link" data-scroll-target="#technical-architecture">Technical Architecture</a>
+  <ul class="collapse">
+  <li><a href="#computer-vision" id="toc-computer-vision" class="nav-link" data-scroll-target="#computer-vision">Computer Vision</a></li>
+  <li><a href="#deep-learning" id="toc-deep-learning" class="nav-link" data-scroll-target="#deep-learning">Deep Learning</a></li>
+  <li><a href="#robotics-integration" id="toc-robotics-integration" class="nav-link" data-scroll-target="#robotics-integration">Robotics Integration</a></li>
+  </ul></li>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications">Applications</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
   </ul>
 </nav>
     </div>
@@ -145,10 +149,13 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Human-Following Robot with Real-Time Face Tracking</h1>
+<p class="subtitle lead">Autonomous Person-Following Robot with Face Recognition, Head Pose Estimation &amp; YOLOv8</p>
   <div class="quarto-categories">
-    <div class="quarto-category">Robotics</div>
     <div class="quarto-category">Computer Vision</div>
-    <div class="quarto-category">Real-Time Systems</div>
+    <div class="quarto-category">Robotics</div>
+    <div class="quarto-category">Python</div>
+    <div class="quarto-category">YOLO</div>
+    <div class="quarto-category">OpenCV</div>
   </div>
   </div>
 
@@ -166,42 +173,106 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div class="links">
+<p>🔗<a href="https://github.com/annakim9237/face-detect-follow-robot/tree/main"><strong>Source Code (Git)</strong></a> &nbsp;&nbsp; 🔗<a href="https://drive.google.com/file/d/1utfABIncloF9ycNS5VVR6UQAQ3fVVdho/view?usp=drive_link"><strong>Demo Video</strong></a></p>
+</div>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>This project involved building a real-time human-following robot capable of detecting, tracking, and re-identifying a target person using embedded computer vision and machine learning. The system integrates Rubik Pi for face detection and recognition, and MegaPi/mBot Mega for motor control, creating a fully automated movement pipeline from camera input to physical actuation.</p>
+<p>The Face Detect Follow Robot is an autonomous human-tracking system that recognizes, identifies, and physically follows a specific user in real time. Unlike simple motion-following robots, this project focuses on <strong>identity-aware tracking</strong>, meaning the robot only follows a registered person instead of anyone appearing in front of the camera. This capability is achieved through a hybrid perception system combining classical computer vision, deep-learning detection, head-pose analysis, and embedded robot control.</p>
+<p>The robot begins by registering the target user’s face using Haar Cascade detection. Thirty aligned face images are collected for identity matching. During operation, the system continuously detects faces, extracts features, compares them with the registered target, and only activates “follow mode” after multiple consecutive matches ensure stable identification.</p>
+<p>To handle natural human movement—such as turning the head, rotating the face, or temporarily looking away—the system integrates <strong>head pose estimation</strong>, adjusting follow direction based on the nose’s relative position. When the target’s face becomes occluded or leaves the camera view, the robot switches to <strong>YOLOv8 full-body tracking</strong>, maintaining pursuit until the face reappears. This multimodal pipeline ensures reliable tracking even in difficult visual conditions.</p>
+<p>Movement decisions are derived from the target’s horizontal offset from the frame center and the apparent face size relative to distance. Commands are transmitted to an Arduino-controlled robot via serial communication, enabling smooth forward, backward, and lateral motion.</p>
+<p>Overall, this project demonstrates how classical vision, deep-learning detection, and embedded control can be combined to produce a natural, adaptive, human-aware robotic behavior suitable for personal assistance, education, and security applications.</p>
+<hr>
+<div style="text-align: center; margin-top: 20px; margin-bottom: 20px;">
+<p><iframe src="https://drive.google.com/file/d/1utfABIncloF9ycNS5VVR6UQAQ3fVVdho/preview" width="720" height="480" allow="autoplay"> </iframe></p>
+</div>
+<hr>
 </section>
-<section id="what-i-did" class="level2">
-<h2 class="anchored" data-anchor-id="what-i-did">What I Did</h2>
+<section id="system-description" class="level2">
+<h2 class="anchored" data-anchor-id="system-description">System Description</h2>
+<p>The robot’s perception pipeline integrates:</p>
 <ul>
-<li>Designed the end-to-end system architecture integrating Rubik Pi (vision inference) and MegaPi (motor control) into a real-time perception → decision → action loop.</li>
-<li>Developed face detection and recognition modules, including alignment, normalization, feature extraction, and tracking logic.</li>
-<li>Implemented a YOLO-based fallback for robust re-identification when face tracking temporarily failed.</li>
-<li>Built communication logic between inference and motor modules using Python, Arduino, and local HTTP streaming for debugging and calibration.</li>
-<li>Tuned and calibrated the system to fix motor drift, reduce latency, and correct camera-to-motor alignment errors through iterative testing.</li>
+<li><strong>Face registration</strong> using Haar Cascade detection<br>
+</li>
+<li><strong>Face alignment</strong> via eye position normalization<br>
+</li>
+<li><strong>Identity verification</strong> using distance-based comparison<br>
+</li>
+<li><strong>Head pose estimation</strong> via nose deviation<br>
+</li>
+<li><strong>YOLOv8 person detection</strong> as fallback when face is not visible<br>
+</li>
+<li><strong>Serial communication</strong> to coordinate real-time robot motion</li>
+</ul>
+<p>Tracking stability is enhanced through:</p>
+<ul>
+<li>Consecutive match filtering<br>
+</li>
+<li>Adaptive thresholds for follow/search states<br>
+</li>
+<li>Dynamic YOLO fallback<br>
+</li>
+<li>Center-tolerance alignment margins</li>
+</ul>
+<hr>
+</section>
+<section id="technical-architecture" class="level2">
+<h2 class="anchored" data-anchor-id="technical-architecture">Technical Architecture</h2>
+<section id="computer-vision" class="level3">
+<h3 class="anchored" data-anchor-id="computer-vision">Computer Vision</h3>
+<ul>
+<li>Haar Cascade face/eye/nose detection<br>
+</li>
+<li>Eye-based rotational alignment<br>
+</li>
+<li>Nose offset for yaw estimation<br>
+</li>
+<li>Distance-based face comparison for ID verification</li>
 </ul>
 </section>
-<section id="methods-tools" class="level2">
-<h2 class="anchored" data-anchor-id="methods-tools">Methods &amp; Tools</h2>
-<p>Rubik Pi · MegaPi/mBot Mega · YOLO · Python · Arduino · Real-Time Vision · Embedded ML · Edge Computing</p>
-</section>
-<section id="key-results" class="level2">
-<h2 class="anchored" data-anchor-id="key-results">Key Results</h2>
+<section id="deep-learning" class="level3">
+<h3 class="anchored" data-anchor-id="deep-learning">Deep Learning</h3>
 <ul>
-<li>Successfully implemented a fully functional human-following robot capable of tracking and re-identifying the target in real time.</li>
-<li>Achieved smooth motor control and stable tracking through iterative calibration and feedback loops.</li>
-<li>Demonstrated reliable fallback behavior with YOLO-based detection during occlusion or temporary recognition failure.</li>
+<li>YOLOv8 (Ultralytics) for person detection<br>
+</li>
+<li>Runs every <em>N</em> frames for efficiency<br>
+</li>
+<li>Confidence-based switching between modes</li>
 </ul>
 </section>
-<section id="impact" class="level2">
-<h2 class="anchored" data-anchor-id="impact">Impact</h2>
-<p>This project showcases the integration of embedded vision, robotics, and machine learning to create real-time interactive systems, demonstrating strong engineering skills in perception, control, and hardware–software integration.</p>
-</section>
-<section id="links" class="level2">
-<h2 class="anchored" data-anchor-id="links">Links</h2>
+<section id="robotics-integration" class="level3">
+<h3 class="anchored" data-anchor-id="robotics-integration">Robotics Integration</h3>
 <ul>
-<li>GitHub: will be added soon</li>
-<li>Demo Video: will be added soon</li>
+<li>Arduino motor controller<br>
+</li>
+<li>Real-time command transmission (PySerial)<br>
+</li>
+<li>Commands: forward, backward, turn left/right, diagonals, stop<br>
+</li>
+<li>Adaptive control based on face size &amp; position</li>
 </ul>
+<hr>
+</section>
+</section>
+<section id="applications" class="level2">
+<h2 class="anchored" data-anchor-id="applications">Applications</h2>
+<ul>
+<li><strong>Personal assistant robots</strong> that follow owners around the home<br>
+</li>
+<li><strong>Security robots</strong> that identify and track approved individuals<br>
+</li>
+<li><strong>Educational robotics</strong> for teaching computer vision pipelines<br>
+</li>
+<li><strong>Interactive robot prototypes</strong> for HRI (Human–Robot Interaction) research</li>
+</ul>
+<hr>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>The Face Detect Follow Robot demonstrates a practical fusion of classical CV algorithms, deep-learning detection models, and embedded robot communication to achieve identity-specific human tracking. Through multimodal perception—face alignment, head pose estimation, YOLO fallback detection—the robot maintains stable pursuit across varied visual conditions and natural human behavior.</p>
+<p>This project highlights the importance of combining <strong>interpretability</strong>, <strong>robustness</strong>, and <strong>real-time performance</strong> in human-centered robotics. While already highly functional, future improvements such as FaceNet embedding-based recognition, ROS navigation, obstacle avoidance, or voice-command integration would further expand its capabilities into a fully autonomous, socially aware robotic system.</p>
+<hr>
 
 
 </section>
@@ -280,7 +351,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/annakim9237\.github\.io\/anna-kim-portfolio\/");
+        var filterRegex = new RegExp("https:\/\/kim-anna\.quarto\.pub\/anna-kim");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

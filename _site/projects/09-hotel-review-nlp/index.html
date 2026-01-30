@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Large-Scale Reddit AI Discourse Analysis – Anna Kim</title>
+<title>Hotel Review Sentiment Analysis – Anna Kim</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -130,21 +130,17 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#distributed-computing-infrastructure" id="toc-distributed-computing-infrastructure" class="nav-link" data-scroll-target="#distributed-computing-infrastructure">Distributed Computing Infrastructure</a>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
   <ul class="collapse">
-  <li><a href="#cluster-deployment-configuration" id="toc-cluster-deployment-configuration" class="nav-link" data-scroll-target="#cluster-deployment-configuration">Cluster Deployment &amp; Configuration</a></li>
-  <li><a href="#etl-pipeline" id="toc-etl-pipeline" class="nav-link" data-scroll-target="#etl-pipeline">ETL Pipeline</a></li>
+  <li><a href="#top-positive-sentiment-words" id="toc-top-positive-sentiment-words" class="nav-link" data-scroll-target="#top-positive-sentiment-words">Top Positive Sentiment Words</a></li>
+  <li><a href="#top-negative-sentiment-words" id="toc-top-negative-sentiment-words" class="nav-link" data-scroll-target="#top-negative-sentiment-words">Top Negative Sentiment Words</a></li>
   </ul></li>
-  <li><a href="#nlp-pipeline-pyspark-mllib" id="toc-nlp-pipeline-pyspark-mllib" class="nav-link" data-scroll-target="#nlp-pipeline-pyspark-mllib">NLP Pipeline (PySpark MLlib)</a></li>
-  <li><a href="#machine-learning-classification" id="toc-machine-learning-classification" class="nav-link" data-scroll-target="#machine-learning-classification">Machine Learning Classification</a>
-  <ul class="collapse">
+  <li><a href="#data-preprocessing-cleaning" id="toc-data-preprocessing-cleaning" class="nav-link" data-scroll-target="#data-preprocessing-cleaning">Data Preprocessing &amp; Cleaning</a></li>
+  <li><a href="#exploratory-data-analysis" id="toc-exploratory-data-analysis" class="nav-link" data-scroll-target="#exploratory-data-analysis">Exploratory Data Analysis</a></li>
   <li><a href="#feature-engineering" id="toc-feature-engineering" class="nav-link" data-scroll-target="#feature-engineering">Feature Engineering</a></li>
-  <li><a href="#models-trained" id="toc-models-trained" class="nav-link" data-scroll-target="#models-trained">Models Trained</a></li>
-  <li><a href="#evaluation" id="toc-evaluation" class="nav-link" data-scroll-target="#evaluation">Evaluation</a></li>
-  </ul></li>
-  <li><a href="#technical-implementation" id="toc-technical-implementation" class="nav-link" data-scroll-target="#technical-implementation">Technical Implementation</a></li>
-  <li><a href="#impact" id="toc-impact" class="nav-link" data-scroll-target="#impact">Impact</a></li>
+  <li><a href="#sentiment-classification" id="toc-sentiment-classification" class="nav-link" data-scroll-target="#sentiment-classification">Sentiment Classification</a></li>
+  <li><a href="#model-interpretability" id="toc-model-interpretability" class="nav-link" data-scroll-target="#model-interpretability">Model Interpretability</a></li>
+  <li><a href="#technical-stack" id="toc-technical-stack" class="nav-link" data-scroll-target="#technical-stack">Technical Stack</a></li>
   <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
   </ul>
 </nav>
@@ -154,14 +150,13 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Large-Scale Reddit AI Discourse Analysis</h1>
-<p class="subtitle lead">Distributed NLP &amp; Machine Learning Pipeline on Apache Spark</p>
+<h1 class="title">Hotel Review Sentiment Analysis</h1>
+<p class="subtitle lead">Classical NLP Pipeline with Linear Model Interpretation</p>
   <div class="quarto-categories">
-    <div class="quarto-category">Spark</div>
-    <div class="quarto-category">AWS</div>
     <div class="quarto-category">NLP</div>
-    <div class="quarto-category">Big Data</div>
     <div class="quarto-category">Machine Learning</div>
+    <div class="quarto-category">Classical NLP</div>
+    <div class="quarto-category">Sentiment Analysis</div>
   </div>
   </div>
 
@@ -180,131 +175,126 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="links">
-<p>🔗<a href="https://github.com/annakim9237/spark-reddit-ai-discourse-analysis"><strong>Source Code (Git)</strong></a> &nbsp;&nbsp; 🔗<a href="https://kim-anna.quarto.pub/dsan-6000-big-data-project/"><strong>Website</strong></a> &nbsp;&nbsp; 🔗<a href="https://github.com/annakim9237/spark-reddit-ai-discourse-analysis/blob/main/GU-DSAN6000-FALL-TEAM05.pdf"><strong>Final Report (PDF)</strong></a></p>
+<p>🔗<a href="https://github.com/annakim9237/hotel-review-sentiment-lab"><strong>Source Code (Git)</strong></a> &nbsp;&nbsp;</p>
 </div>
 <section id="overview" class="level1">
 <h1>Overview</h1>
-<p>The rapid acceleration of generative AI adoption between 2023 and 2024 transformed online public discourse, with Reddit emerging as one of the most active, diverse, and influential platforms for AI-related conversations. Understanding how large communities react to, critique, and experiment with emerging AI models requires scalable computational methods that can handle massive volumes of unstructured text.</p>
-<p>This project builds a <strong>distributed big data NLP and machine learning pipeline</strong> to analyze over <strong>3.6 billion Reddit comments</strong> and <strong>567 million submissions</strong> across <strong>15 AI-focused subreddits</strong> over a 14-month window. The pipeline was deployed on a <strong>multi-node Apache Spark cluster</strong> on AWS EC2 (1 master, 3 workers), enabling high-throughput ETL processing, distributed NLP transformations, and parallel ML model training on datasets exceeding local-memory constraints.</p>
-<p>The goal of this analysis is twofold:</p>
-<ol type="1">
-<li><p><strong>Capture large-scale patterns</strong> in public discourse during a pivotal moment of AI mainstream adoption<br>
-— sentiment trends, topic emergence, community segmentation, and engagement cycles.</p></li>
-<li><p><strong>Design a reproducible, cloud-scalable ML architecture</strong> demonstrating industry-relevant distributed engineering skills, particularly for text-heavy workloads.</p></li>
-</ol>
-<p>By combining PySpark MLlib, lexicon-based sentiment analysis, topic modeling (LDA), multi-class classification, and temporal pattern extraction, this project reveals how AI discussions evolved across highly technical and general-consumer Reddit communities. More broadly, it demonstrates how distributed NLP systems can be applied to real-world, high-volume social data to extract meaningful structure at scale.</p>
+<p>Understanding customer sentiment at scale is essential for hospitality management, where guest experience directly influences brand reputation, service improvements, and operational strategy. This project builds a <strong>full classical NLP workflow</strong> to analyze <strong>515,738 hotel reviews</strong> across multiple European cities, transforming unstructured text into measurable sentiment insights. Unlike deep neural models, this project emphasizes <strong>transparency and interpretability</strong>, demonstrating how linear models and careful preprocessing can extract actionable findings from large corpora.</p>
+<p>The workflow begins by developing a robust text cleaning pipeline capable of handling a large multilingual review dataset. After data quality checks—including removal of 539 duplicate records—the text undergoes normalization (lowercasing, punctuation stripping, numeric filtering, stopword removal) followed by tokenization and lemmatization to unify morphological variations. These steps create a consistent corpus suitable for downstream modeling.</p>
+<p>Exploratory analysis uncovers foundational linguistic structures in the data: review length patterns, frequent tokens and n-grams, lexical diversity, and metadata distributions across six hotel cities (Amsterdam, Barcelona, London, Milan, Paris, Vienna). Temporal patterns highlight how feedback varies across seasons and trip types, revealing behavioral insights about guests.</p>
+<p>Classical vectorization techniques—Bag-of-Words and TF-IDF—convert text into numerical representations capturing both raw token frequency and discriminative significance. These transformed features feed into sentiment classification models including Logistic Regression, Naive Bayes, and Linear SVM, evaluated via accuracy, precision, recall, and F1 score using stratified splits.</p>
+<p>A key contribution of this project is interpretability: by extracting and ranking coefficient weights from linear models, the system identifies linguistic drivers of sentiment. High-positive terms such as <em>perfect</em>, <em>excellent</em>, <em>lovely</em>, <em>fine</em>, and <em>easy</em> contrast sharply with negative markers like <em>dirty</em>, <em>worst</em>, <em>broken</em>, <em>dated</em>, <em>noisy</em>, and <em>overpriced</em>. These indicators reflect concrete service dimensions—cleanliness, staff behavior, comfort, and value—directly informing business action.</p>
+<p>This project demonstrates how classical NLP paired with interpretable machine learning provides a powerful, transparent, and operationally useful framework for evaluating customer experience at scale. The methodology is fully reproducible and modular, enabling extension to other industries or multilingual settings.</p>
 <hr>
+<section id="top-positive-sentiment-words" class="level2">
+<h2 class="anchored" data-anchor-id="top-positive-sentiment-words">Top Positive Sentiment Words</h2>
+<p><img src="Positive.png" class="img-fluid" style="width:85.0%"></p>
 </section>
-<section id="distributed-computing-infrastructure" class="level1">
-<h1>Distributed Computing Infrastructure</h1>
-<section id="cluster-deployment-configuration" class="level2">
-<h2 class="anchored" data-anchor-id="cluster-deployment-configuration">Cluster Deployment &amp; Configuration</h2>
-<ul>
-<li>Multi-node Apache Spark cluster (1 master, 3 workers) on AWS EC2<br>
-</li>
-<li>Automated provisioning using shell scripts<br>
-</li>
-<li>IAM role integration + S3A support for parquet-based distributed access<br>
-</li>
-<li>Security groups configured for Spark UI, SSH, inter-node communication</li>
-</ul>
-</section>
-<section id="etl-pipeline" class="level2">
-<h2 class="anchored" data-anchor-id="etl-pipeline">ETL Pipeline</h2>
-<ul>
-<li>Processed <strong>280M+ records</strong> on cluster<br>
-</li>
-<li>Applied partition-based parallelism and caching optimization<br>
-</li>
-<li>Implemented fault tolerance for node failures and long-running jobs</li>
-</ul>
+<section id="top-negative-sentiment-words" class="level2">
+<h2 class="anchored" data-anchor-id="top-negative-sentiment-words">Top Negative Sentiment Words</h2>
+<p><img src="Negative.png" class="img-fluid" style="width:85.0%"></p>
 <hr>
 </section>
 </section>
-<section id="nlp-pipeline-pyspark-mllib" class="level1">
-<h1>NLP Pipeline (PySpark MLlib)</h1>
+<section id="data-preprocessing-cleaning" class="level1">
+<h1>Data Preprocessing &amp; Cleaning</h1>
 <ul>
-<li>Distributed regex text cleaning<br>
+<li>Processed <strong>515,738 hotel reviews</strong></li>
+<li>Removed <strong>539 duplicates</strong></li>
+<li>Normalization:
+<ul>
+<li>lowercasing<br>
 </li>
-<li>Tokenization + custom stopword filtering<br>
+<li>punctuation &amp; numeric filtering<br>
 </li>
-<li>Lexicon-based sentiment scoring using vectorized Pandas UDFs<br>
+<li>whitespace cleanup<br>
 </li>
-<li>TF–IDF + LDA topic modeling on 20K sampled documents<br>
+</ul></li>
+<li>NLP steps:
+<ul>
+<li>tokenization<br>
 </li>
-<li>Temporal sentiment/discussion pattern extraction (hourly/daily cycles)</li>
+<li>NLTK stopword removal<br>
+</li>
+<li>lemmatization for morphological consistency<br>
+</li>
+</ul></li>
+<li>Developed reusable preprocessing functions for consistent transformation</li>
 </ul>
 <hr>
 </section>
-<section id="machine-learning-classification" class="level1">
-<h1>Machine Learning Classification</h1>
-<section id="feature-engineering" class="level2">
-<h2 class="anchored" data-anchor-id="feature-engineering">Feature Engineering</h2>
+<section id="exploratory-data-analysis" class="level1">
+<h1>Exploratory Data Analysis</h1>
 <ul>
-<li>TF–IDF vectorization<br>
+<li>Review length distributions, lexical diversity measures<br>
 </li>
-<li>LDA topic distributions<br>
+<li>Unigram &amp; bigram frequency analysis<br>
 </li>
-<li>Temporal features (day of week, hour, month)<br>
+<li>Positive vs.&nbsp;negative sentiment token patterns<br>
 </li>
-<li>Text length–based metrics</li>
-</ul>
-</section>
-<section id="models-trained" class="level2">
-<h2 class="anchored" data-anchor-id="models-trained">Models Trained</h2>
-<ul>
-<li>Logistic Regression (L2 penalty)<br>
+<li>Reviewer nationality distribution across six hotel cities<br>
 </li>
-<li>Random Forest (50 trees, depth 10)<br>
+<li>Temporal analysis (day, month, year)<br>
 </li>
-<li>Linear SVC (One-vs-Rest for multi-class tasks)<br>
-</li>
-<li>MLP classifier (128 → 64 hidden layers)</li>
-</ul>
-</section>
-<section id="evaluation" class="level2">
-<h2 class="anchored" data-anchor-id="evaluation">Evaluation</h2>
-<ul>
-<li>Stratified train/test split<br>
-</li>
-<li>Accuracy, F1, weighted precision/recall<br>
-</li>
-<li>Feature importance analysis (word-level, tree-based)</li>
+<li>Stay duration &amp; trip type segmentation (leisure vs business)</li>
 </ul>
 <hr>
 </section>
-</section>
-<section id="technical-implementation" class="level1">
-<h1>Technical Implementation</h1>
+<section id="feature-engineering" class="level1">
+<h1>Feature Engineering</h1>
 <ul>
-<li>Full Spark ML Pipeline: CountVectorizer → IDF → VectorAssembler → StandardScaler<br>
+<li>Bag-of-Words (BoW) document-term matrix<br>
 </li>
-<li>Pandas UDF parallelization for fast sentiment computations<br>
+<li>TF-IDF vectorization capturing discriminative term weights<br>
 </li>
-<li>Model persistence using Spark save APIs<br>
+<li>N-gram (unigram/bigram) feature extraction<br>
 </li>
-<li>Outputs exported to CSV for downstream visualization in Quarto</li>
+<li>Contextual multi-word expression modeling</li>
 </ul>
 <hr>
 </section>
-<section id="impact" class="level1">
-<h1>Impact</h1>
+<section id="sentiment-classification" class="level1">
+<h1>Sentiment Classification</h1>
+<p>Models trained: - Logistic Regression (L1 &amp; L2 regularization)<br>
+- Multinomial Naive Bayes<br>
+- Linear SVM (maximum-margin classifier)</p>
+<p>Evaluation: - Stratified train–test split<br>
+- Accuracy, precision, recall, F1-score<br>
+- Confusion matrix analysis</p>
+<hr>
+</section>
+<section id="model-interpretability" class="level1">
+<h1>Model Interpretability</h1>
+<p>Extracted linear model coefficients to identify sentiment-driving terms.</p>
+<p><strong>Positive sentiment indicators:</strong> - <em>perfect</em>, <em>excellent</em>, <em>great</em>, <em>lovely</em>, <em>fine</em>, <em>easy</em></p>
+<p><strong>Negative indicators:</strong> - <em>dirty</em>, <em>worst</em>, <em>terrible</em>, <em>horrible</em>, <em>dated</em>, <em>broken</em>, <em>worn</em>, <em>noisy</em>, <em>uncomfortable</em>, <em>overpriced</em></p>
+<p>Contextual findings: - Some negative words appear in positive reviews due to <strong>negation patterns</strong><br>
+(“not terrible”, “no issues, nothing horrible”)</p>
+<p>Business insights extracted: - Cleanliness issues<br>
+- Staff interaction quality<br>
+- Facility age/maintenance<br>
+- Room comfort<br>
+- Value-for-money perception</p>
+<hr>
+</section>
+<section id="technical-stack" class="level1">
+<h1>Technical Stack</h1>
 <ul>
-<li>Detected community segmentation between technical AI groups and general-user groups<br>
+<li>Python, Pandas, NumPy<br>
 </li>
-<li>Identified temporal peaks in engagement (late-night posting, release-driven spikes)<br>
+<li>NLTK (preprocessing)<br>
 </li>
-<li>Revealed dominant topics such as model capabilities, safety debates, prompt engineering, copyright concerns, and economic anxieties<br>
+<li>scikit-learn (vectorization + modeling)<br>
 </li>
-<li>Captured sentiment variation across subreddits and over time, showing nuanced shifts in optimism vs skepticism as AI systems evolved</li>
+<li>Matplotlib, Seaborn (EDA visualizations)</li>
 </ul>
 <hr>
 </section>
 <section id="conclusion" class="level1">
 <h1>Conclusion</h1>
-<p>This project demonstrates that large-scale social media analysis requires both <strong>distributed systems engineering</strong> and <strong>advanced NLP techniques</strong> to reveal meaningful insights hidden within billions of text records. By leveraging Apache Spark, AWS EC2, and scalable Python-based NLP operations, the pipeline efficiently processed multi-terabyte datasets that would have been infeasible on a single machine.</p>
-<p>The findings highlight that discourse around AI is not monolithic: technical communities focus heavily on model performance, benchmarks, and deployment challenges, while general-audience subreddits express broader themes such as job displacement, creativity, safety concerns, and AI’s societal impact. Temporal analysis further shows that community sentiment evolves alongside real-world AI releases and news events.</p>
-<p>This system provides a blueprint for large-scale online discourse monitoring—an approach increasingly relevant as AI adoption grows and public conversations become both more complex and more consequential. The architecture can be extended to real-time monitoring, predictive modeling of discussion dynamics, or comparative studies across social platforms.</p>
+<p>This project provides a fully interpretable, end-to-end NLP pipeline that demonstrates how large-scale customer reviews can be systemically transformed into actionable insights for hospitality management. The use of classical vectorization and linear modeling—rather than opaque deep learning—allows stakeholders to understand <em>why</em> specific reviews are classified as positive or negative, aligning the output with operational decision-making.</p>
+<p>The interpretability of coefficient weights highlights recurring service strengths and pain points, enabling managers to prioritize resource allocation. Cleanliness-related complaints consistently emerge as the strongest negative drivers, while words denoting ease, comfort, and staff quality dominate positive sentiment.</p>
+<p>Beyond hospitality, this pipeline serves as a blueprint for scalable sentiment analysis in any domain where textual customer feedback is abundant. Its modular and transparent design makes it well-suited for enterprise analytics workflows, quality monitoring systems, and multilingual expansion. The results underscore how classical NLP continues to provide value through clarity, stability, and explainability—qualities essential for business strategy and consumer experience optimization.</p>
 <hr>
 
 
