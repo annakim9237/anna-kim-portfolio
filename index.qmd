@@ -6,7 +6,7 @@ listing:
     type: grid
     max-items: 6
     sort: "index desc"
-    fields: [title, categories]
+    fields: [image, title, categories]
 ---
 
 ::: {.columns align="center"}

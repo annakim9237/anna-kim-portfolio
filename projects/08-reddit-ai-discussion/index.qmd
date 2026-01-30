@@ -2,9 +2,14 @@
 title: "Large-Scale Reddit AI Discourse Analysis"
 index: 8
 summary: "A large-scale NLP and machine learning analysis of AI-related discourse on Reddit, combining distributed data processing, topic modeling, and predictive modeling to understand engagement and virality patterns."
-categories: [NLP, Big Data, Machine Learning]
+categories: [Spark, AWS, NLP, Big Data, Machine Learning]
 image: portfolio-thumbnail-08.png
 ---
+ 🔗[**Source Code (Git)**](https://github.com/annakim9237/spark-reddit-ai-discourse-analysis)
+ &nbsp;&nbsp;
+ 🔗[**Website**](https://kim-anna.quarto.pub/dsan-6000-big-data-project/)
+ &nbsp;&nbsp;
+ 🔗[**Final Report (PDF)**](https://github.com/annakim9237/spark-reddit-ai-discourse-analysis/blob/main/GU-DSAN6000-FALL-TEAM05.pdf)
 
 ## Overview
 This project analyzes large-scale Reddit discussions related to artificial intelligence to understand how topics, language, and timing influence user engagement and content virality. Using distributed data processing and NLP techniques, I examined patterns across multiple AI-focused subreddits and compared AI discourse with politically influenced discussions.
@@ -27,6 +32,3 @@ PySpark · Python · NLP · LDA Topic Modeling · TF–IDF · Logistic Regressio
 ## Impact
 This project demonstrates the application of scalable NLP and machine learning techniques to real-world social media data, highlighting how data-driven insights can explain online engagement patterns and information diffusion at scale.
 
-## Links
-- GitHub: will be added soon
-- Report / Demo: will be added soon

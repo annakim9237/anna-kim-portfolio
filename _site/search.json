@@ -46,7 +46,7 @@
     "href": "index.html#featured-projects",
     "title": "Hi, I’m Anna Kim 👋",
     "section": "Featured Projects",
-    "text": "Featured Projects\nThese are my latest six projects. Check out the full list for more interesting work! View All →\n\n\n\n\n\n\n\nLarge-Scale Reddit AI Discourse Analysis\n\n\n\nNLP\n\nBig Data\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\nHuman-Following Robot with Real-Time Face Tracking\n\n\n\nRobotics\n\nComputer Vision\n\nReal-Time Systems\n\n\n\n\n\n\n\n\n\n\nDistributed Big Data Processing of NYC Taxi Trips\n\n\n\nBig Data\n\nData Engineering\n\nCloud\n\n\n\n\n\n\n\n\n\n\nMeasuring Ethical Risks in AI-Generated News Using NLP\n\n\n\nNLP\n\nAI Ethics\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\nCOVID-19 & U.S. Economy: State-Level Analysis\n\n\n\nEconomics\n\nData Visualization\n\nPublic Data\n\n\n\n\n\n\n\n\n\n\nToronto Building Audit Risk Analysis & Prediction\n\n\n\nRegulatory Analytics\n\nMachine Learning\n\nRisk Modeling\n\n\n\n\n\n\nNo matching items"
+    "text": "Featured Projects\nThese are my latest six projects. Check out the full list for more interesting work! View All →\n\n\n\n\n\n\n\n\n\n\nLarge-Scale Reddit AI Discourse Analysis\n\n\n\nSpark\n\nAWS\n\nNLP\n\nBig Data\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\n\n\n\nHuman-Following Robot with Real-Time Face Tracking\n\n\n\nRobotics\n\nComputer Vision\n\nReal-Time Systems\n\n\n\n\n\n\n\n\n\n\n\n\n\nDistributed Big Data Processing of NYC Taxi Trips\n\n\n\nBig Data\n\nData Engineering\n\nCloud\n\n\n\n\n\n\n\n\n\n\n\n\n\nMeasuring Ethical Risks in AI-Generated News Using NLP\n\n\n\nNLP\n\nAI Ethics\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\n\n\n\nCOVID-19 & U.S. Economy: State-Level Analysis\n\n\n\nEconomics\n\nData Visualization\n\nPublic Data\n\n\n\n\n\n\n\n\n\n\n\n\n\nToronto Building Audit Risk Analysis & Prediction\n\n\n\nRegulatory Analytics\n\nMachine Learning\n\nRisk Modeling\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#leadership-volunteering",
@@ -116,14 +116,14 @@
     "href": "projects/08-reddit-ai-discussion/index.html",
     "title": "Large-Scale Reddit AI Discourse Analysis",
     "section": "",
-    "text": "This project analyzes large-scale Reddit discussions related to artificial intelligence to understand how topics, language, and timing influence user engagement and content virality. Using distributed data processing and NLP techniques, I examined patterns across multiple AI-focused subreddits and compared AI discourse with politically influenced discussions."
+    "text": "🔗Source Code (Git)    🔗Website    🔗Final Report (PDF)"
   },
   {
     "objectID": "projects/08-reddit-ai-discussion/index.html#overview",
     "href": "projects/08-reddit-ai-discussion/index.html#overview",
     "title": "Large-Scale Reddit AI Discourse Analysis",
-    "section": "",
-    "text": "This project analyzes large-scale Reddit discussions related to artificial intelligence to understand how topics, language, and timing influence user engagement and content virality. Using distributed data processing and NLP techniques, I examined patterns across multiple AI-focused subreddits and compared AI discourse with politically influenced discussions."
+    "section": "Overview",
+    "text": "Overview\nThis project analyzes large-scale Reddit discussions related to artificial intelligence to understand how topics, language, and timing influence user engagement and content virality. Using distributed data processing and NLP techniques, I examined patterns across multiple AI-focused subreddits and compared AI discourse with politically influenced discussions."
   },
   {
     "objectID": "projects/08-reddit-ai-discussion/index.html#what-i-did",
@@ -480,7 +480,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "All of my data science projects and research work.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLarge-Scale Reddit AI Discourse Analysis\n\n\n\nNLP\n\nBig Data\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHuman-Following Robot with Real-Time Face Tracking\n\n\n\nRobotics\n\nComputer Vision\n\nReal-Time Systems\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDistributed Big Data Processing of NYC Taxi Trips\n\n\n\nBig Data\n\nData Engineering\n\nCloud\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMeasuring Ethical Risks in AI-Generated News Using NLP\n\n\n\nNLP\n\nAI Ethics\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCOVID-19 & U.S. Economy: State-Level Analysis\n\n\n\nEconomics\n\nData Visualization\n\nPublic Data\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nToronto Building Audit Risk Analysis & Prediction\n\n\n\nRegulatory Analytics\n\nMachine Learning\n\nRisk Modeling\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOil Fraud Crime Pattern Analysis\n\n\n\nGIS\n\nFraud Detection\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdidas Sales Analysis\n\n\n\nBusiness Analytics\n\nRetail\n\nDashboarding\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "All of my data science projects and research work.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLarge-Scale Reddit AI Discourse Analysis\n\n\n\nSpark\n\nAWS\n\nNLP\n\nBig Data\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHuman-Following Robot with Real-Time Face Tracking\n\n\n\nRobotics\n\nComputer Vision\n\nReal-Time Systems\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDistributed Big Data Processing of NYC Taxi Trips\n\n\n\nBig Data\n\nData Engineering\n\nCloud\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMeasuring Ethical Risks in AI-Generated News Using NLP\n\n\n\nNLP\n\nAI Ethics\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCOVID-19 & U.S. Economy: State-Level Analysis\n\n\n\nEconomics\n\nData Visualization\n\nPublic Data\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nToronto Building Audit Risk Analysis & Prediction\n\n\n\nRegulatory Analytics\n\nMachine Learning\n\nRisk Modeling\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOil Fraud Crime Pattern Analysis\n\n\n\nGIS\n\nFraud Detection\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdidas Sales Analysis\n\n\n\nBusiness Analytics\n\nRetail\n\nDashboarding\n\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "experience.html",
