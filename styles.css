@@ -23,6 +23,17 @@
   max-height: none !important;   /* max-height 제한 없애기 */
 }
 
+/* Featured Projects — category tags: same size, but bold + darker */
+#featured-projects .listing-category {
+  font-weight: 600 !important;      /* make it bold */
+  color: #333 !important;            /* darker text color */
+  border-color: #bbb !important;     /* slightly darker border */
+}
+
+.card-other-values td:first-child {
+  display: none;
+}
+
 
 /* =========================
    Activities Timeline (1-col)

@@ -131,11 +131,18 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#what-i-did" id="toc-what-i-did" class="nav-link" data-scroll-target="#what-i-did">What I Did</a></li>
-  <li><a href="#methods-tools" id="toc-methods-tools" class="nav-link" data-scroll-target="#methods-tools">Methods &amp; Tools</a></li>
-  <li><a href="#key-results" id="toc-key-results" class="nav-link" data-scroll-target="#key-results">Key Results</a></li>
-  <li><a href="#impact" id="toc-impact" class="nav-link" data-scroll-target="#impact">Impact</a></li>
-  <li><a href="#links" id="toc-links" class="nav-link" data-scroll-target="#links">Links</a></li>
+  <li><a href="#problem-context" id="toc-problem-context" class="nav-link" data-scroll-target="#problem-context">Problem Context</a></li>
+  <li><a href="#data-analysis" id="toc-data-analysis" class="nav-link" data-scroll-target="#data-analysis">Data Analysis</a></li>
+  <li><a href="#feature-engineering" id="toc-feature-engineering" class="nav-link" data-scroll-target="#feature-engineering">Feature Engineering</a></li>
+  <li><a href="#model-development" id="toc-model-development" class="nav-link" data-scroll-target="#model-development">Model Development</a>
+  <ul class="collapse">
+  <li><a href="#regression-models" id="toc-regression-models" class="nav-link" data-scroll-target="#regression-models">Regression Models</a></li>
+  <li><a href="#classification-models" id="toc-classification-models" class="nav-link" data-scroll-target="#classification-models">Classification Models</a></li>
+  </ul></li>
+  <li><a href="#model-selection-rationale" id="toc-model-selection-rationale" class="nav-link" data-scroll-target="#model-selection-rationale">Model Selection Rationale</a></li>
+  <li><a href="#technical-implementation" id="toc-technical-implementation" class="nav-link" data-scroll-target="#technical-implementation">Technical Implementation</a></li>
+  <li><a href="#business-impact" id="toc-business-impact" class="nav-link" data-scroll-target="#business-impact">Business Impact</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
   </ul>
 </nav>
     </div>
@@ -145,10 +152,12 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Toronto Building Audit Risk Analysis &amp; Prediction</h1>
+<p class="subtitle lead">Multi-Model Machine Learning Classification for RentSafeTO Compliance</p>
   <div class="quarto-categories">
-    <div class="quarto-category">Regulatory Analytics</div>
     <div class="quarto-category">Machine Learning</div>
-    <div class="quarto-category">Risk Modeling</div>
+    <div class="quarto-category">Regulatory Analytics</div>
+    <div class="quarto-category">Classification</div>
+    <div class="quarto-category">Urban Safety</div>
   </div>
   </div>
 
@@ -166,42 +175,159 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div class="links">
+<p>🔗<a href="https://github.com/annakim9237/urban-safety-analytics-ml"><strong>Source Code (Git)</strong></a> &nbsp;&nbsp; 🔗<a href="https://drive.google.com/file/d/13Qr9iWzZfhB7dFX5eqfO355DM0JyJ3q3/view?usp=sharing"><strong>Demo Video</strong></a></p>
+</div>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>This project analyzes Toronto’s annual building evaluation data to identify audit risks and support regulatory decision-making. By combining SQL-based filtering, exploratory analyses, and supervised machine learning models, the study offers a data-driven approach to predicting high-risk buildings.</p>
+<p>Ensuring safe and habitable housing is an essential component of urban governance—especially in densely populated cities like Toronto, where aging infrastructure and socioeconomic disparities directly influence building quality. RentSafeTO is the city’s primary regulatory program for assessing rental apartment safety, covering a wide range of compliance categories including structural integrity, fire protection, pest management, waste disposal, lighting, ventilation, and general maintenance.</p>
+<p>However, the official inspection process is slow, reactive, and resource-intensive. Most renters and landlords must wait months before receiving inspection outcomes, and inspectors cannot feasibly assess thousands of properties at once. This creates a need for <strong>proactive, data-driven models that estimate building safety risk before formal inspections occur</strong>, allowing informed decision-making for renters, landlords, and municipal agents.</p>
+<p>This project develops a comprehensive <strong>machine learning pipeline</strong> analyzing <strong>11,760 Toronto apartment buildings</strong> across <strong>40 structural, historical, and environmental features</strong> provided through Toronto Open Data. The system predicts RentSafeTO safety outcomes—pass vs fail or high-risk vs compliant—using classical machine learning models paired with targeted feature engineering and imbalance mitigation strategies.</p>
+<p>The pipeline explores both regression and classification paradigms, using models such as Linear Regression, Random Forest Regression, Decision Trees with SMOTE, and K-Nearest Neighbors. Although regression models show extremely high goodness-of-fit (R² up to 0.98), they fail to capture the unique structure of RentSafeTO scoring—where perfect evaluations map to 100 points regardless of underlying weighted components. Instead, the SMOTE-enhanced decision tree classification approach provides a more interpretable, reliable, and balanced predictive framework, especially given the severe class imbalance in safety failures.</p>
+<p>Ultimately, this project demonstrates how regulatory datasets—often noisy, biased, and imbalanced—can be transformed into actionable safety insights that support tenants, policymakers, and property managers. It illustrates the practical challenges of urban analytics while showing how machine learning can augment existing inspection systems to improve equity, efficiency, and public well-being.</p>
+<hr>
+<iframe src="https://drive.google.com/file/d/13Qr9iWzZfhB7dFX5eqfO355DM0JyJ3q3/preview" width="640" height="480" allow="autoplay">
+</iframe>
+<hr>
 </section>
-<section id="what-i-did" class="level2">
-<h2 class="anchored" data-anchor-id="what-i-did">What I Did</h2>
+<section id="problem-context" class="level2">
+<h2 class="anchored" data-anchor-id="problem-context">Problem Context</h2>
 <ul>
-<li>Conducted exploratory analysis on Toronto’s building audit dataset using SQL and Python to identify structural, financial, and environmental risk indicators.</li>
-<li>Developed machine learning models (Random Forest, Decision Tree) to classify high-risk buildings and guide audit prioritization.</li>
-<li>Applied SMOTE to improve predictive performance by addressing severe class imbalance common in fraud and regulatory datasets.</li>
-<li>Designed geospatial and statistical visualizations using Seaborn, Matplotlib, and Folium to communicate insights clearly.</li>
-<li>Summarized results through Streamlit dashboards and PowerPoint presentations for audit teams and stakeholders.</li>
+<li>RentSafeTO evaluates buildings across safety standards: fire systems, structural integrity, pests, maintenance, waste control, air circulation, security systems.</li>
+<li>Inspection schedules are slow and reactive.</li>
+<li>Predictive modeling supports:
+<ul>
+<li>Tenants choosing safe housing<br>
+</li>
+<li>Landlords identifying weak points<br>
+</li>
+<li>Municipal governments prioritizing high-risk buildings<br>
+</li>
+</ul></li>
+<li>Dataset: <strong>11,760 apartment buildings</strong> × <strong>40 structural/geographic/compliance features</strong></li>
+</ul>
+<hr>
+</section>
+<section id="data-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="data-analysis">Data Analysis</h2>
+<ul>
+<li>Conducted exploratory analysis on Toronto Open Data<br>
+</li>
+<li>Addressed severe class imbalance (most buildings scored 100)<br>
+</li>
+<li>Cleaned temporal inconsistencies from evolving dataset<br>
+</li>
+<li>Analyzed:
+<ul>
+<li>Structural attributes (age, height, floors)</li>
+<li>Geographic factors (wards, neighbourhoods)</li>
+<li>Historical compliance scores</li>
+<li>Audit frequency</li>
+<li>Violations across categories (fire, structural, pest, waste, cleaning)</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="feature-engineering" class="level2">
+<h2 class="anchored" data-anchor-id="feature-engineering">Feature Engineering</h2>
+<p>Created predictive features from:</p>
+<ul>
+<li><strong>Building structure</strong> — floors, height, age<br>
+</li>
+<li><strong>Geography</strong> — ward, location clusters<br>
+</li>
+<li><strong>Management attributes</strong> — property type, ownership model<br>
+</li>
+<li><strong>Historical evaluation</strong> — past scores, frequency of audits<br>
+</li>
+<li><strong>Violation categories</strong> — pest, fire, waste, structural, cleanliness</li>
+</ul>
+<hr>
+</section>
+<section id="model-development" class="level2">
+<h2 class="anchored" data-anchor-id="model-development">Model Development</h2>
+<section id="regression-models" class="level3">
+<h3 class="anchored" data-anchor-id="regression-models">Regression Models</h3>
+<ul>
+<li><strong>Linear Regression</strong>:
+<ul>
+<li>R² = <strong>0.98</strong>, RMSE = 10.01<br>
+</li>
+<li>High fit but errors spike for rare failing buildings</li>
+</ul></li>
+<li><strong>Random Forest Regression</strong>:
+<ul>
+<li>R² = <strong>0.96</strong>, RMSE = 2.04<br>
+</li>
+<li>More stable with nonlinear feature interactions</li>
+</ul></li>
 </ul>
 </section>
-<section id="methods-tools" class="level2">
-<h2 class="anchored" data-anchor-id="methods-tools">Methods &amp; Tools</h2>
-<p>Python · Pandas · NumPy · SQL · Seaborn · Matplotlib · Folium · Streamlit · Random Forest · Decision Tree · SMOTE</p>
-</section>
-<section id="key-results" class="level2">
-<h2 class="anchored" data-anchor-id="key-results">Key Results</h2>
+<section id="classification-models" class="level3">
+<h3 class="anchored" data-anchor-id="classification-models">Classification Models</h3>
 <ul>
-<li>Improved fraud detection and audit targeting by correcting class imbalance and enhancing model accuracy.</li>
-<li>Identified key predictors of high-risk buildings, informing more efficient audit resource allocation.</li>
-<li>Delivered visual dashboards and reports that simplified interpretation of complex regulatory data.</li>
-</ul>
-</section>
-<section id="impact" class="level2">
-<h2 class="anchored" data-anchor-id="impact">Impact</h2>
-<p>This project provides a scalable and actionable framework for regulatory audits, enabling departments to detect at-risk buildings early and conduct data-informed inspections.</p>
-</section>
-<section id="links" class="level2">
-<h2 class="anchored" data-anchor-id="links">Links</h2>
+<li><strong>Decision Tree + SMOTE</strong>:
 <ul>
-<li>GitHub: will be added soon</li>
-<li>Streamlit Demo / Report: will be added soon</li>
+<li>Accuracy = <strong>82.6%</strong><br>
+</li>
+<li>Best performance for rare failure cases<br>
+</li>
+<li>Synthetic minority oversampling improved balance</li>
+</ul></li>
+<li><strong>KNN Classifier</strong>:
+<ul>
+<li>Mean CV score = 0.67<br>
+</li>
+<li>Limited performance but consistent variance</li>
+</ul></li>
 </ul>
+<hr>
+</section>
+</section>
+<section id="model-selection-rationale" class="level2">
+<h2 class="anchored" data-anchor-id="model-selection-rationale">Model Selection Rationale</h2>
+<ul>
+<li>Regression unsuitable because RentSafeTO uses <em>binary perfect scores</em> → results collapse toward 100.</li>
+<li>Minority class (failures) extremely underrepresented.</li>
+<li>Classification isolates failure vs compliant buildings more effectively.</li>
+<li>SMOTE addresses the dataset’s structural limitations.</li>
+<li>Decision Trees offer transparent rule-based interpretation for regulators and property owners.</li>
+</ul>
+<hr>
+</section>
+<section id="technical-implementation" class="level2">
+<h2 class="anchored" data-anchor-id="technical-implementation">Technical Implementation</h2>
+<ul>
+<li><strong>Python</strong>, <strong>Pandas</strong>, <strong>scikit-learn</strong>, <strong>imbalanced-learn</strong></li>
+<li>SMOTE oversampling for minority disqualification records<br>
+</li>
+<li>Cross-validation for robust error estimation<br>
+</li>
+<li>Separated notebooks for EDA, feature engineering, training, evaluation</li>
+</ul>
+<hr>
+</section>
+<section id="business-impact" class="level2">
+<h2 class="anchored" data-anchor-id="business-impact">Business Impact</h2>
+<ul>
+<li>Enables preliminary safety risk assessment without waiting for inspectors<br>
+</li>
+<li>Helps renters identify unsafe apartments before signing leases<br>
+</li>
+<li>Guides proactive maintenance strategies for building owners<br>
+</li>
+<li>Improves city-wide inspection efficiency and resource allocation<br>
+</li>
+<li>Establishes foundation for real-time housing risk monitoring</li>
+</ul>
+<hr>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>This project demonstrates how machine learning can support regulatory systems by predicting building-level safety risks in a clear, interpretable, and operationally useful manner. Despite the inherent challenges of highly imbalanced datasets and the rigid scoring structure of RentSafeTO, the SMOTE-enhanced decision tree achieves balanced, realistic performance that aligns with real-world use cases. The model provides transparent, rule-based insights into why a building might be at risk—making it more useful to tenants, landlords, and policymakers than purely numerical regression models.</p>
+<p>The results reveal important structural patterns in Toronto’s rental market: older buildings, tall complexes, and properties with repeated historical violations show higher risk. Meanwhile, geographic disparities suggest that socioeconomic factors at the ward level may influence building maintenance quality and inspection frequency.</p>
+<p>More broadly, this project illustrates that <strong>urban safety analytics requires both technical rigor and social awareness</strong>. Machine learning alone cannot solve regulatory gaps, but it can dramatically enhance visibility into housing conditions, making data-driven governance more efficient and equitable. Future improvements—such as collecting more failure cases, integrating geospatial features, or applying gradient boosting methods—would further strengthen predictive performance and support fairer housing outcomes across Toronto.</p>
+<hr>
 
 
 </section>

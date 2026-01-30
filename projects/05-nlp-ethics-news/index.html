@@ -131,11 +131,30 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#what-i-did" id="toc-what-i-did" class="nav-link" data-scroll-target="#what-i-did">What I Did</a></li>
-  <li><a href="#methods-tools" id="toc-methods-tools" class="nav-link" data-scroll-target="#methods-tools">Methods &amp; Tools</a></li>
-  <li><a href="#key-results" id="toc-key-results" class="nav-link" data-scroll-target="#key-results">Key Results</a></li>
-  <li><a href="#impact" id="toc-impact" class="nav-link" data-scroll-target="#impact">Impact</a></li>
-  <li><a href="#links" id="toc-links" class="nav-link" data-scroll-target="#links">Links</a></li>
+  <li><a href="#system-architecture" id="toc-system-architecture" class="nav-link" data-scroll-target="#system-architecture">System Architecture</a>
+  <ul class="collapse">
+  <li><a href="#three-stage-nlp-pipeline" id="toc-three-stage-nlp-pipeline" class="nav-link" data-scroll-target="#three-stage-nlp-pipeline">Three-Stage NLP Pipeline</a>
+  <ul class="collapse">
+  <li><a href="#justice-based-ethics-classifier" id="toc-justice-based-ethics-classifier" class="nav-link" data-scroll-target="#justice-based-ethics-classifier">1. Justice-Based Ethics Classifier</a></li>
+  <li><a href="#hate-speech-toxicity-classifier" id="toc-hate-speech-toxicity-classifier" class="nav-link" data-scroll-target="#hate-speech-toxicity-classifier">2. Hate Speech &amp; Toxicity Classifier</a></li>
+  <li><a href="#unesco-ethics-principle-mapper" id="toc-unesco-ethics-principle-mapper" class="nav-link" data-scroll-target="#unesco-ethics-principle-mapper">3. UNESCO Ethics Principle Mapper</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#model-optimization-ablation" id="toc-model-optimization-ablation" class="nav-link" data-scroll-target="#model-optimization-ablation">Model Optimization &amp; Ablation</a>
+  <ul class="collapse">
+  <li><a href="#techniques" id="toc-techniques" class="nav-link" data-scroll-target="#techniques">Techniques</a></li>
+  <li><a href="#model-variants" id="toc-model-variants" class="nav-link" data-scroll-target="#model-variants">Model Variants</a></li>
+  </ul></li>
+  <li><a href="#ethical-risk-categorization" id="toc-ethical-risk-categorization" class="nav-link" data-scroll-target="#ethical-risk-categorization">Ethical Risk Categorization</a>
+  <ul class="collapse">
+  <li><a href="#final-risk-categories" id="toc-final-risk-categories" class="nav-link" data-scroll-target="#final-risk-categories">4 Final Risk Categories</a></li>
+  </ul></li>
+  <li><a href="#article-level-aggregation" id="toc-article-level-aggregation" class="nav-link" data-scroll-target="#article-level-aggregation">Article-Level Aggregation</a>
+  <ul class="collapse">
+  <li><a href="#metrics" id="toc-metrics" class="nav-link" data-scroll-target="#metrics">Metrics</a></li>
+  </ul></li>
+  <li><a href="#technical-stack" id="toc-technical-stack" class="nav-link" data-scroll-target="#technical-stack">Technical Stack</a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
   </ul>
 </nav>
     </div>
@@ -166,41 +185,139 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>This project evaluates ethical risks in AI-generated news by combining modern NLP techniques with ethical analysis frameworks. Using DistilBERT and semantic similarity methods, the study identifies harmful patterns such as biased framing, hate-speech tendencies, and ethically drifted content, mapping them directly to the UNESCO AI Ethics principles.</p>
-</section>
-<section id="what-i-did" class="level2">
-<h2 class="anchored" data-anchor-id="what-i-did">What I Did</h2>
+<div class="links">
+<p>🔗<a href="https://github.com/annakim9237/ai-generated-news-audit-nlp"><strong>Source Code (Git)</strong></a> &nbsp;&nbsp; 🔗<a href="https://github.com/annakim9237/ai-generated-news-audit-nlp/blob/main/Anna_Kim_CSC_696_Final_Report.pdf"><strong>Final Report (PDF)</strong></a> &nbsp;&nbsp; 🔗<a href="https://github.com/annakim9237/ai-generated-news-audit-nlp/blob/main/NLP_project_powerpoint.pdf"><strong>Final Presentation (PDF)</strong></a></p>
+</div>
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<p>The rapid growth of large language models has enabled the generation of highly fluent but potentially misleading synthetic news. As generative AI becomes widely integrated into information ecosystems, the ethical risks embedded in AI-generated narratives—such as subtle fairness violations, toxic framing, biased claims, or manipulative persuasion—pose significant challenges for public trust, safety, and policy governance. Traditional toxicity classifiers are insufficient for capturing the multi-dimensional ethical harms that can appear in AI-generated content, especially those involving justice, fairness, or structural inequality.</p>
+<p>This project develops a multi-dimensional ethical auditing framework designed specifically for AI-generated fake news. Unlike single-axis toxicity models, this system evaluates each sentence and article across multiple ethical lenses, combining transformer-based classification, semantic similarity mapping, and ethical principle alignment.</p>
+<p>By integrating supervised models with embedding-based reasoning, the pipeline produces:</p>
 <ul>
-<li>Implemented transformer-based text classification models using DistilBERT to detect harmful or ethically questionable content in AI-generated news.</li>
-<li>Preprocessed and engineered text features using tokenization, padding, truncation, TF–IDF vectors, and topic-aligned embeddings.</li>
-<li>Applied semantic similarity and cosine-distance methods to align classified content with UNESCO AI Ethics principles.</li>
-<li>Analyzed ethical drift across different news topics and model outputs to identify patterns of misinformation, bias, and discriminatory framing.</li>
+<li><p>multi-label ethical violation detection,</p></li>
+<li><p>interpretable UNESCO principle mappings,</p></li>
+<li><p>fine-grained justice and toxicity scoring,</p></li>
+<li><p>and article-level risk aggregation for policy or moderation workflows.</p></li>
+</ul>
+<p>The aim is to create a research-grade evaluation pipeline that demonstrates how NLP can operationalize abstract ethical frameworks, enabling more transparent and accountable use of generative AI systems.</p>
+<hr>
+</section>
+<section id="system-architecture" class="level1">
+<h1>System Architecture</h1>
+<section id="three-stage-nlp-pipeline" class="level2">
+<h2 class="anchored" data-anchor-id="three-stage-nlp-pipeline">Three-Stage NLP Pipeline</h2>
+<section id="justice-based-ethics-classifier" class="level3">
+<h3 class="anchored" data-anchor-id="justice-based-ethics-classifier">1. Justice-Based Ethics Classifier</h3>
+<ul>
+<li>DistilBERT fine-tuned on ETHICS dataset (Hendrycks)</li>
+<li>Trained on commonsense / justice / combined subsets</li>
+<li>Detects fairness violations and moral inconsistencies</li>
+<li>Evaluated distribution shifts across 6 model variants</li>
 </ul>
 </section>
-<section id="methods-tools" class="level2">
-<h2 class="anchored" data-anchor-id="methods-tools">Methods &amp; Tools</h2>
-<p>DistilBERT · Transformers · Tokenization · TF–IDF · Embeddings · Cosine Similarity · Python · NLP</p>
-</section>
-<section id="key-results" class="level2">
-<h2 class="anchored" data-anchor-id="key-results">Key Results</h2>
+<section id="hate-speech-toxicity-classifier" class="level3">
+<h3 class="anchored" data-anchor-id="hate-speech-toxicity-classifier">2. Hate Speech &amp; Toxicity Classifier</h3>
 <ul>
-<li>Successfully detected ethical violations and hate-speech signals across multiple AI-generated news samples.</li>
-<li>Identified consistent ethical drift patterns that aligned with specific UNESCO principles, enabling structured interpretation of content risk.</li>
-<li>Demonstrated how NLP-based classification and similarity scoring can support responsible AI oversight.</li>
+<li>3-class HateXplain classifier (hate, offensive, normal)</li>
+<li>Generates probability vectors for each sentence</li>
+<li>Combined toxicity metric: <code>p_hate + p_offensive</code></li>
 </ul>
 </section>
-<section id="impact" class="level2">
-<h2 class="anchored" data-anchor-id="impact">Impact</h2>
-<p>This project highlights how NLP and ethical frameworks can be combined to assess risks in AI-generated content, providing a foundation for building more responsible AI evaluation tools.</p>
-</section>
-<section id="links" class="level2">
-<h2 class="anchored" data-anchor-id="links">Links</h2>
+<section id="unesco-ethics-principle-mapper" class="level3">
+<h3 class="anchored" data-anchor-id="unesco-ethics-principle-mapper">3. UNESCO Ethics Principle Mapper</h3>
 <ul>
-<li>GitHub: will be added soon</li>
-<li>Project Report: will be added soon</li>
+<li>Sentence-transformer embeddings</li>
+<li>Cosine similarity mapping to 11 UNESCO AI Ethics principles</li>
+<li>Produces interpretable ethical-dimension labels</li>
 </ul>
+<hr>
+</section>
+</section>
+</section>
+<section id="model-optimization-ablation" class="level1">
+<h1>Model Optimization &amp; Ablation</h1>
+<section id="techniques" class="level2">
+<h2 class="anchored" data-anchor-id="techniques">Techniques</h2>
+<ul>
+<li>Label smoothing (0.1)</li>
+<li>Dropout (0.2) + attention dropout (0.2)</li>
+<li>Weight decay</li>
+<li>Reduced epochs (3 → 1)</li>
+<li>Metrics: F1 score, calibration, confusion matrix</li>
+</ul>
+</section>
+<section id="model-variants" class="level2">
+<h2 class="anchored" data-anchor-id="model-variants">Model Variants</h2>
+<ul>
+<li>full_v1 / full_v2<br>
+</li>
+<li>commonsense_v1 / commonsense_v2<br>
+</li>
+<li>justice_v1 / justice_v2</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="ethical-risk-categorization" class="level1">
+<h1>Ethical Risk Categorization</h1>
+<section id="final-risk-categories" class="level2">
+<h2 class="anchored" data-anchor-id="final-risk-categories">4 Final Risk Categories</h2>
+<ul>
+<li><strong>both</strong> — justice + hate/offensive<br>
+</li>
+<li><strong>justice_only</strong> — fairness violations only<br>
+</li>
+<li><strong>hate_only</strong> — toxicity-only<br>
+</li>
+<li><strong>none</strong> — no detected violations</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="article-level-aggregation" class="level1">
+<h1>Article-Level Aggregation</h1>
+<section id="metrics" class="level2">
+<h2 class="anchored" data-anchor-id="metrics">Metrics</h2>
+<ul>
+<li>Average unethical probability</li>
+<li>Violation ratios (unethical_ratio, hate_offensive_ratio)</li>
+<li>UNESCO principle dominance</li>
+<li>KDE distributions &amp; visualization</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="technical-stack" class="level1">
+<h1>Technical Stack</h1>
+<ul>
+<li>PyTorch<br>
+</li>
+<li>HuggingFace Transformers<br>
+</li>
+<li>DistilBERT<br>
+</li>
+<li>Sentence-Transformers<br>
+</li>
+<li>scikit-learn, NumPy, Pandas</li>
+</ul>
+<hr>
+</section>
+<section id="results" class="level1">
+<h1>Results</h1>
+<ul>
+<li>Multi-axis ethical risk detection system<br>
+</li>
+<li>Differentiates justice-based vs toxicity-based harm<br>
+</li>
+<li>Explainable mapping to UNESCO AI Ethics Principles<br>
+</li>
+<li>Supports systematic content auditing &amp; policy development</li>
+</ul>
+<p>The final system successfully identifies and differentiates ethical risks across justice-based fairness violations and hate/offensive toxicity. Sentence-level outputs reveal strong model sensitivity to biased or discriminatory framing, especially in cases where the model detects subtle justice-related inequalities without explicit hate speech. The multi-axis structure demonstrates that ethical harm is not monolithic: many sentences that appear non-toxic still fail justice metrics, highlighting the need for multi-dimensional evaluation beyond standard toxicity checks.</p>
+<p>The UNESCO mapping module provides an interpretable layer on top of the classifier outputs, enabling each detected violation to be aligned with principles such as “Fairness and Non-Discrimination,” “Human Oversight,” or “Do No Harm.” This bridging between machine classification and human ethical frameworks makes the system suitable for real-world policy or governance applications.</p>
+<p>Article-level aggregation shows clear thematic clustering: some documents exhibit concentrated justice violations, while others demonstrate heavy toxicity patterns. The combined risk taxonomy effectively distinguishes documents that are both unfair and offensive—often the most dangerous form of AI-generated misinformation.</p>
+<p>Overall, this system demonstrates that ethical risk in AI-generated fake news is multi-dimensional, hierarchical, and often hidden beneath highly fluent text. The architecture provides a practical foundation for future AI safety tools that must detect manipulation, unfair framing, and harmful narratives embedded within synthetic content. The project highlights both the feasibility and necessity of integrating ethics-aware modeling into modern NLP pipelines.</p>
+<hr>
 
 
 </section>

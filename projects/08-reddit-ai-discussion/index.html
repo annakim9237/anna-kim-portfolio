@@ -131,10 +131,21 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#what-i-did" id="toc-what-i-did" class="nav-link" data-scroll-target="#what-i-did">What I Did</a></li>
-  <li><a href="#methods-tools" id="toc-methods-tools" class="nav-link" data-scroll-target="#methods-tools">Methods &amp; Tools</a></li>
-  <li><a href="#key-results" id="toc-key-results" class="nav-link" data-scroll-target="#key-results">Key Results</a></li>
+  <li><a href="#distributed-computing-infrastructure" id="toc-distributed-computing-infrastructure" class="nav-link" data-scroll-target="#distributed-computing-infrastructure">Distributed Computing Infrastructure</a>
+  <ul class="collapse">
+  <li><a href="#cluster-deployment-configuration" id="toc-cluster-deployment-configuration" class="nav-link" data-scroll-target="#cluster-deployment-configuration">Cluster Deployment &amp; Configuration</a></li>
+  <li><a href="#etl-pipeline" id="toc-etl-pipeline" class="nav-link" data-scroll-target="#etl-pipeline">ETL Pipeline</a></li>
+  </ul></li>
+  <li><a href="#nlp-pipeline-pyspark-mllib" id="toc-nlp-pipeline-pyspark-mllib" class="nav-link" data-scroll-target="#nlp-pipeline-pyspark-mllib">NLP Pipeline (PySpark MLlib)</a></li>
+  <li><a href="#machine-learning-classification" id="toc-machine-learning-classification" class="nav-link" data-scroll-target="#machine-learning-classification">Machine Learning Classification</a>
+  <ul class="collapse">
+  <li><a href="#feature-engineering" id="toc-feature-engineering" class="nav-link" data-scroll-target="#feature-engineering">Feature Engineering</a></li>
+  <li><a href="#models-trained" id="toc-models-trained" class="nav-link" data-scroll-target="#models-trained">Models Trained</a></li>
+  <li><a href="#evaluation" id="toc-evaluation" class="nav-link" data-scroll-target="#evaluation">Evaluation</a></li>
+  </ul></li>
+  <li><a href="#technical-implementation" id="toc-technical-implementation" class="nav-link" data-scroll-target="#technical-implementation">Technical Implementation</a></li>
   <li><a href="#impact" id="toc-impact" class="nav-link" data-scroll-target="#impact">Impact</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
   </ul>
 </nav>
     </div>
@@ -144,6 +155,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Large-Scale Reddit AI Discourse Analysis</h1>
+<p class="subtitle lead">Distributed NLP &amp; Machine Learning Pipeline on Apache Spark</p>
   <div class="quarto-categories">
     <div class="quarto-category">Spark</div>
     <div class="quarto-category">AWS</div>
@@ -167,36 +179,133 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div class="links">
 <p>🔗<a href="https://github.com/annakim9237/spark-reddit-ai-discourse-analysis"><strong>Source Code (Git)</strong></a> &nbsp;&nbsp; 🔗<a href="https://kim-anna.quarto.pub/dsan-6000-big-data-project/"><strong>Website</strong></a> &nbsp;&nbsp; 🔗<a href="https://github.com/annakim9237/spark-reddit-ai-discourse-analysis/blob/main/GU-DSAN6000-FALL-TEAM05.pdf"><strong>Final Report (PDF)</strong></a></p>
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>This project analyzes large-scale Reddit discussions related to artificial intelligence to understand how topics, language, and timing influence user engagement and content virality. Using distributed data processing and NLP techniques, I examined patterns across multiple AI-focused subreddits and compared AI discourse with politically influenced discussions.</p>
+</div>
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<p>The rapid acceleration of generative AI adoption between 2023 and 2024 transformed online public discourse, with Reddit emerging as one of the most active, diverse, and influential platforms for AI-related conversations. Understanding how large communities react to, critique, and experiment with emerging AI models requires scalable computational methods that can handle massive volumes of unstructured text.</p>
+<p>This project builds a <strong>distributed big data NLP and machine learning pipeline</strong> to analyze over <strong>3.6 billion Reddit comments</strong> and <strong>567 million submissions</strong> across <strong>15 AI-focused subreddits</strong> over a 14-month window. The pipeline was deployed on a <strong>multi-node Apache Spark cluster</strong> on AWS EC2 (1 master, 3 workers), enabling high-throughput ETL processing, distributed NLP transformations, and parallel ML model training on datasets exceeding local-memory constraints.</p>
+<p>The goal of this analysis is twofold:</p>
+<ol type="1">
+<li><p><strong>Capture large-scale patterns</strong> in public discourse during a pivotal moment of AI mainstream adoption<br>
+— sentiment trends, topic emergence, community segmentation, and engagement cycles.</p></li>
+<li><p><strong>Design a reproducible, cloud-scalable ML architecture</strong> demonstrating industry-relevant distributed engineering skills, particularly for text-heavy workloads.</p></li>
+</ol>
+<p>By combining PySpark MLlib, lexicon-based sentiment analysis, topic modeling (LDA), multi-class classification, and temporal pattern extraction, this project reveals how AI discussions evolved across highly technical and general-consumer Reddit communities. More broadly, it demonstrates how distributed NLP systems can be applied to real-world, high-volume social data to extract meaningful structure at scale.</p>
+<hr>
 </section>
-<section id="what-i-did" class="level2">
-<h2 class="anchored" data-anchor-id="what-i-did">What I Did</h2>
+<section id="distributed-computing-infrastructure" class="level1">
+<h1>Distributed Computing Infrastructure</h1>
+<section id="cluster-deployment-configuration" class="level2">
+<h2 class="anchored" data-anchor-id="cluster-deployment-configuration">Cluster Deployment &amp; Configuration</h2>
 <ul>
-<li>Engineered temporal engagement features (day-of-week, hour-of-day) to analyze posting behavior and engagement dynamics.</li>
-<li>Aggregated and processed billions of Reddit rows using PySpark to enable scalable analysis across 15 AI-related subreddits.</li>
-<li>Built an NLP pipeline using regex-based UDFs, tokenization, and <code>CountVectorizer</code> to prepare text data for modeling.</li>
-<li>Trained and compared dual 15-topic LDA models to contrast AI-focused discourse with politically influenced narratives.</li>
-<li>Developed regression and classification models (Lasso, Logistic Regression, Gradient Boosted Trees) using TF–IDF features, topic vectors, and metadata.</li>
+<li>Multi-node Apache Spark cluster (1 master, 3 workers) on AWS EC2<br>
+</li>
+<li>Automated provisioning using shell scripts<br>
+</li>
+<li>IAM role integration + S3A support for parquet-based distributed access<br>
+</li>
+<li>Security groups configured for Spark UI, SSH, inter-node communication</li>
 </ul>
 </section>
-<section id="methods-tools" class="level2">
-<h2 class="anchored" data-anchor-id="methods-tools">Methods &amp; Tools</h2>
-<p>PySpark · Python · NLP · LDA Topic Modeling · TF–IDF · Logistic Regression · Gradient Boosted Trees · Distributed Computing · Feature Engineering</p>
-</section>
-<section id="key-results" class="level2">
-<h2 class="anchored" data-anchor-id="key-results">Key Results</h2>
+<section id="etl-pipeline" class="level2">
+<h2 class="anchored" data-anchor-id="etl-pipeline">ETL Pipeline</h2>
 <ul>
-<li>Identified optimal engagement windows by analyzing posting time versus score and comment activity.</li>
-<li>Revealed distinct thematic differences between AI-centric discussions and politically influenced discourse through topic modeling.</li>
-<li>Demonstrated that linguistic features and topic composition are strong predictors of Reddit post virality.</li>
+<li>Processed <strong>280M+ records</strong> on cluster<br>
+</li>
+<li>Applied partition-based parallelism and caching optimization<br>
+</li>
+<li>Implemented fault tolerance for node failures and long-running jobs</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="nlp-pipeline-pyspark-mllib" class="level1">
+<h1>NLP Pipeline (PySpark MLlib)</h1>
+<ul>
+<li>Distributed regex text cleaning<br>
+</li>
+<li>Tokenization + custom stopword filtering<br>
+</li>
+<li>Lexicon-based sentiment scoring using vectorized Pandas UDFs<br>
+</li>
+<li>TF–IDF + LDA topic modeling on 20K sampled documents<br>
+</li>
+<li>Temporal sentiment/discussion pattern extraction (hourly/daily cycles)</li>
+</ul>
+<hr>
+</section>
+<section id="machine-learning-classification" class="level1">
+<h1>Machine Learning Classification</h1>
+<section id="feature-engineering" class="level2">
+<h2 class="anchored" data-anchor-id="feature-engineering">Feature Engineering</h2>
+<ul>
+<li>TF–IDF vectorization<br>
+</li>
+<li>LDA topic distributions<br>
+</li>
+<li>Temporal features (day of week, hour, month)<br>
+</li>
+<li>Text length–based metrics</li>
 </ul>
 </section>
-<section id="impact" class="level2">
-<h2 class="anchored" data-anchor-id="impact">Impact</h2>
-<p>This project demonstrates the application of scalable NLP and machine learning techniques to real-world social media data, highlighting how data-driven insights can explain online engagement patterns and information diffusion at scale.</p>
+<section id="models-trained" class="level2">
+<h2 class="anchored" data-anchor-id="models-trained">Models Trained</h2>
+<ul>
+<li>Logistic Regression (L2 penalty)<br>
+</li>
+<li>Random Forest (50 trees, depth 10)<br>
+</li>
+<li>Linear SVC (One-vs-Rest for multi-class tasks)<br>
+</li>
+<li>MLP classifier (128 → 64 hidden layers)</li>
+</ul>
+</section>
+<section id="evaluation" class="level2">
+<h2 class="anchored" data-anchor-id="evaluation">Evaluation</h2>
+<ul>
+<li>Stratified train/test split<br>
+</li>
+<li>Accuracy, F1, weighted precision/recall<br>
+</li>
+<li>Feature importance analysis (word-level, tree-based)</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="technical-implementation" class="level1">
+<h1>Technical Implementation</h1>
+<ul>
+<li>Full Spark ML Pipeline: CountVectorizer → IDF → VectorAssembler → StandardScaler<br>
+</li>
+<li>Pandas UDF parallelization for fast sentiment computations<br>
+</li>
+<li>Model persistence using Spark save APIs<br>
+</li>
+<li>Outputs exported to CSV for downstream visualization in Quarto</li>
+</ul>
+<hr>
+</section>
+<section id="impact" class="level1">
+<h1>Impact</h1>
+<ul>
+<li>Detected community segmentation between technical AI groups and general-user groups<br>
+</li>
+<li>Identified temporal peaks in engagement (late-night posting, release-driven spikes)<br>
+</li>
+<li>Revealed dominant topics such as model capabilities, safety debates, prompt engineering, copyright concerns, and economic anxieties<br>
+</li>
+<li>Captured sentiment variation across subreddits and over time, showing nuanced shifts in optimism vs skepticism as AI systems evolved</li>
+</ul>
+<hr>
+</section>
+<section id="conclusion" class="level1">
+<h1>Conclusion</h1>
+<p>This project demonstrates that large-scale social media analysis requires both <strong>distributed systems engineering</strong> and <strong>advanced NLP techniques</strong> to reveal meaningful insights hidden within billions of text records. By leveraging Apache Spark, AWS EC2, and scalable Python-based NLP operations, the pipeline efficiently processed multi-terabyte datasets that would have been infeasible on a single machine.</p>
+<p>The findings highlight that discourse around AI is not monolithic: technical communities focus heavily on model performance, benchmarks, and deployment challenges, while general-audience subreddits express broader themes such as job displacement, creativity, safety concerns, and AI’s societal impact. Temporal analysis further shows that community sentiment evolves alongside real-world AI releases and news events.</p>
+<p>This system provides a blueprint for large-scale online discourse monitoring—an approach increasingly relevant as AI adoption grows and public conversations become both more complex and more consequential. The architecture can be extended to real-time monitoring, predictive modeling of discussion dynamics, or comparative studies across social platforms.</p>
+<hr>
 
 
 </section>
