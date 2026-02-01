@@ -2,7 +2,8 @@
   {
     "listing": "/projects.html",
     "items": [
-      "/projects/10-ict-education/ICT_Education_Impact_index.html",
+      "/projects/10-ict-education/index.html",
+      "/projects/11-healthcare-ai-2025/index.html",
       "/projects/09-hotel-review-nlp/index.html",
       "/projects/08-reddit-ai-discussion/index.html",
       "/projects/07-robot-face-tracking/index.html",
@@ -17,7 +18,8 @@
   {
     "listing": "/index.html",
     "items": [
-      "/projects/10-ict-education/ICT_Education_Impact_index.html",
+      "/projects/10-ict-education/index.html",
+      "/projects/11-healthcare-ai-2025/index.html",
       "/projects/09-hotel-review-nlp/index.html",
       "/projects/08-reddit-ai-discussion/index.html",
       "/projects/07-robot-face-tracking/index.html",
