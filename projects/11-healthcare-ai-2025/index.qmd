@@ -1,0 +1,114 @@
+---
+title: "Digital Health AI Platform (HealthTech 2025)"
+subtitle: "AI-Assisted Mental Health Monitoring Prototype"
+categories: ["HealthTech", "AI", "Data Science", "UX/UI", "Public Health"]
+summary: "A concept-level AI-assisted digital health platform designed to support continuous mental-health monitoring, clinician visibility, and early-warning risk detection. Built for the HealthTech 2025 Innovation Competition using a demo prototype with synthetic data."
+index: 10
+image: portfolio-thumbnail-11.png
+---
+
+## Business Context and Competition Scenario
+
+This project was developed for the **HealthTech 2025 Innovation Competition** hosted by American University’s Department of Health Studies and the Veloric Center for Entrepreneurship.  
+The challenge simulated a realistic public health funding environment in which a local Washington, D.C. hospital offers a **$500,000 development and pilot grant** to the winning team. The goal was to design a scalable, technology-driven solution addressing a major health disparity, with a particular emphasis on underserved and marginalized communities.
+
+Our team focused on gaps in **mental health continuity of care**, especially the lack of structured support between therapy sessions. Using national mental health statistics and public health research as our foundation, we designed an AI-assisted digital platform concept intended to support early detection, adherence monitoring, and clinician visibility.
+
+## Demo Videos
+
+::: {style="position:relative;padding-top:56.25%;height:0;overflow:hidden;border-radius:12px;"}
+<iframe
+  src="https://drive.google.com/file/d/1ww_WLgju0TAGtR8b-6LqetauBc-4shKD/preview"
+  style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+  allow="autoplay"
+  allowfullscreen>
+</iframe>
+:::
+
+<br>
+
+::: {style="position:relative;padding-top:56.25%;height:0;overflow:hidden;border-radius:12px;"}
+<iframe
+  src="https://drive.google.com/file/d/1ploq5_e-m1Hhg2r0HHUr_AQUJtiJGq3H/preview"
+  style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+  allow="autoplay"
+  allowfullscreen>
+</iframe>
+:::
+
+
+### Target Users
+- Hospitals  
+- Mental health facilities  
+- Psychiatric clinics  
+- Community-based behavioral health programs  
+
+These institutions would use the platform to monitor patient well-being between visits, enable proactive clinician interventions, and improve long-term outcomes.
+
+### Launch Strategy
+Our proposed two-phase approach:
+
+1. **Phase 1 — Rapid Release:**  
+   Deploy the core patient app (daily check-ins) and clinician dashboard (trend visualization & adherence tracking).  
+
+2. **Phase 2 — AI Enhancements:**  
+   Add pattern detection, early-warning risk scoring, and an escalation pathway supported by our emergency response prototype device.
+
+This approach prioritizes **time to value**, ensuring clinics receive immediate operational benefits while allowing for iterative upgrades.
+
+### Business Model
+We proposed a **B2B subscription model**:
+- Clinic/hospital site licenses  
+- Tiered features (analytics, AI enhancements, pilot support)  
+- Early adoption incentives such as waived onboarding fees and free pilot trials  
+
+This model aligns with the rapidly expanding U.S. behavioral health market and supports long-term sustainability.
+
+### Marketing & Growth Strategy
+- Partnerships with behavioral health organizations  
+- Presence at health-tech innovation forums  
+- Pilot deployments to validate workflow integration  
+- Academic collaborations for validating early research components  
+
+---
+
+## Privacy & Ethics Considerations
+
+- No real patient data was used in this project.  
+- All demos and examples rely on **synthetic or mock data**.  
+- AI outputs included in this prototype represent **conceptual decision-support logic**, not validated clinical tools.  
+- The project follows ethical digital health principles, emphasizing transparency, safety, and human oversight in all decision-support features.
+
+---
+
+## Team Roles
+
+- **Erika Atoma (MS Data Science)** — Product & Software Development  
+- **Hyunjung Kim (MS Data Science)** — Product & Software Development  
+- **Maya Porter (BS Public Health)** — Public Health Research  
+- **Maulie Clermont (MS Biostatistics)** — Public Health Research  
+
+Each member contributed domain-specific knowledge ranging from software prototyping and AI/analytics design to clinical workflow analysis and evidence-based justifications.
+
+---
+
+## Acknowledgements
+
+- **HealthTech 2025 Competition — American University**  
+- **Department of Health Studies**  
+- **Veloric Center for Entrepreneurship**  
+- Faculty mentors and judges who provided feedback and evaluation throughout the competition.
+
+---
+
+## Project Note (Important)
+
+**This project was created for an *innovation/idea competition*, not as a full production system.**  
+We developed:
+- A **demo-level prototype** (UI mockups, dashboard example, device concept)  
+- **Conceptual AI workflow designs** using synthetic examples  
+- **System architecture sketches** and proposed business/clinical integration steps  
+
+We did *not* develop a fully functional mobile app, backend system, or deployable clinical product.  
+All data shown is **mock/synthetic** and intended solely for demonstration.
+

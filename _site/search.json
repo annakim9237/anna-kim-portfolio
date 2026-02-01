@@ -32,7 +32,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "All of my data science projects and research work.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nICT Education Impact Analysis (2017–2023)\n\n\n\nICT\n\nEducation\n\nResearch\n\nData Analysis\n\n\n\n\n\n\nsummary\n\n\nQuantitative modeling of ICT infrastructure, digital literacy, and learning outcomes using global datasets (2017–2023).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHotel Review Sentiment Analysis\n\n\n\nNLP\n\nMachine Learning\n\nClassical NLP\n\nSentiment Analysis\n\n\n\n\n\n\nsummary\n\n\nA comprehensive NLP pipeline transforming 515,738 hotel reviews into actionable hospitality insights through classical text processing, sentiment classification, and interpretable linear modeling.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLarge-Scale Reddit AI Discourse Analysis\n\n\n\nSpark\n\nAWS\n\nNLP\n\nBig Data\n\nMachine Learning\n\n\n\n\n\n\nsummary\n\n\nA large-scale NLP and machine learning analysis of AI-related discourse on Reddit, combining distributed data processing, topic modeling, and predictive modeling to understand engagement and virality patterns.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHuman-Following Robot with Real-Time Face Tracking\n\n\n\nComputer Vision\n\nRobotics\n\nPython\n\nYOLO\n\nOpenCV\n\n\n\n\n\n\nsummary\n\n\nA real-time identity-aware person-following robot combining OpenCV, head-pose analysis, YOLOv8, and Arduino motor control.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDistributed Big Data Processing of NYC Taxi Trips\n\n\n\nBig Data\n\nData Engineering\n\nCloud\n\n\n\n\n\n\nsummary\n\n\nBuilt a distributed PySpark + AWS pipeline to process millions of NYC taxi records, benchmarked analytical engines, and optimized large-scale data workflows.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMeasuring Ethical Risks in AI-Generated News Using NLP\n\n\n\nNLP\n\nAI Ethics\n\nMachine Learning\n\n\n\n\n\n\nsummary\n\n\nBuilt an NLP pipeline using DistilBERT, Transformers, and semantic similarity methods to detect ethical risks and hate-speech signals in AI-generated news based on the UNESCO AI Ethics framework.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCOVID-19 & U.S. Economy: State-Level Analysis\n\n\n\nEconomics\n\nData Visualization\n\nPublic Data\n\n\n\n\n\n\nsummary\n\n\nMerged 10+ state-level datasets and performed pre/post-COVID economic analysis to visualize changes in GDP, housing, income, unemployment, and debt across all 50 U.S. states.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nToronto Building Audit Risk Analysis & Prediction\n\n\n\nMachine Learning\n\nRegulatory Analytics\n\nClassification\n\nUrban Safety\n\n\n\n\n\n\nsummary\n\n\nA machine learning system predicting RentSafeTO safety compliance across 11,760 Toronto apartment buildings using multi-model classification and SMOTE-enhanced decision trees.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOil Fraud Crime Pattern Analysis\n\n\n\nGIS\n\nFraud Detection\n\nMachine Learning\n\n\n\n\n\n\nsummary\n\n\nConducted nationwide fraud pattern analysis using geospatial data, machine learning, and external risk indicators to identify high-risk fuel stations across South Korea.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdidas Sales Analysis\n\n\n\nBusiness Analytics\n\nRetail\n\nDashboarding\n\n\n\n\n\n\nsummary\n\n\nPerformed data cleaning, organization, and interactive dashboarding using Excel to uncover sales patterns, regional performance, and product-level insights for Adidas.\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "All of my data science projects and research work.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nICT Education Impact Analysis (2017–2023)\n\n\n\nICT\n\nEducation\n\nResearch\n\nData Analysis\n\n\n\n\n\n\nsummary\n\n\nQuantitative modeling of ICT infrastructure, digital literacy, and learning outcomes using global datasets (2017–2023).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDigital Health AI Platform (HealthTech 2025)\n\n\n\nHealthTech\n\nAI\n\nData Science\n\nUX/UI\n\nPublic Health\n\n\n\n\n\n\nsummary\n\n\nA concept-level AI-assisted digital health platform designed to support continuous mental-health monitoring, clinician visibility, and early-warning risk detection. Built for the HealthTech 2025 Innovation Competition using a demo prototype with synthetic data.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHotel Review Sentiment Analysis\n\n\n\nNLP\n\nMachine Learning\n\nClassical NLP\n\nSentiment Analysis\n\n\n\n\n\n\nsummary\n\n\nA comprehensive NLP pipeline transforming 515,738 hotel reviews into actionable hospitality insights through classical text processing, sentiment classification, and interpretable linear modeling.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLarge-Scale Reddit AI Discourse Analysis\n\n\n\nSpark\n\nAWS\n\nNLP\n\nBig Data\n\nMachine Learning\n\n\n\n\n\n\nsummary\n\n\nA large-scale NLP and machine learning analysis of AI-related discourse on Reddit, combining distributed data processing, topic modeling, and predictive modeling to understand engagement and virality patterns.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHuman-Following Robot with Real-Time Face Tracking\n\n\n\nComputer Vision\n\nRobotics\n\nPython\n\nYOLO\n\nOpenCV\n\n\n\n\n\n\nsummary\n\n\nA real-time identity-aware person-following robot combining OpenCV, head-pose analysis, YOLOv8, and Arduino motor control.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDistributed Big Data Processing of NYC Taxi Trips\n\n\n\nBig Data\n\nData Engineering\n\nCloud\n\n\n\n\n\n\nsummary\n\n\nBuilt a distributed PySpark + AWS pipeline to process millions of NYC taxi records, benchmarked analytical engines, and optimized large-scale data workflows.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMeasuring Ethical Risks in AI-Generated News Using NLP\n\n\n\nNLP\n\nAI Ethics\n\nMachine Learning\n\n\n\n\n\n\nsummary\n\n\nBuilt an NLP pipeline using DistilBERT, Transformers, and semantic similarity methods to detect ethical risks and hate-speech signals in AI-generated news based on the UNESCO AI Ethics framework.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCOVID-19 & U.S. Economy: State-Level Analysis\n\n\n\nEconomics\n\nData Visualization\n\nPublic Data\n\n\n\n\n\n\nsummary\n\n\nMerged 10+ state-level datasets and performed pre/post-COVID economic analysis to visualize changes in GDP, housing, income, unemployment, and debt across all 50 U.S. states.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nToronto Building Audit Risk Analysis & Prediction\n\n\n\nMachine Learning\n\nRegulatory Analytics\n\nClassification\n\nUrban Safety\n\n\n\n\n\n\nsummary\n\n\nA machine learning system predicting RentSafeTO safety compliance across 11,760 Toronto apartment buildings using multi-model classification and SMOTE-enhanced decision trees.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nOil Fraud Crime Pattern Analysis\n\n\n\nGIS\n\nFraud Detection\n\nMachine Learning\n\n\n\n\n\n\nsummary\n\n\nConducted nationwide fraud pattern analysis using geospatial data, machine learning, and external risk indicators to identify high-risk fuel stations across South Korea.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdidas Sales Analysis\n\n\n\nBusiness Analytics\n\nRetail\n\nDashboarding\n\n\n\n\n\n\nsummary\n\n\nPerformed data cleaning, organization, and interactive dashboarding using Excel to uncover sales patterns, regional performance, and product-level insights for Adidas.\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/01-adidas-sale/index.html",
@@ -564,7 +564,7 @@
     "href": "index.html#featured-projects",
     "title": "Hi, I’m Anna Kim 👋",
     "section": "Featured Projects",
-    "text": "Featured Projects\nThese are my latest six projects. Check out the full list for more interesting work! View All →\n\n\n\n\n\n\n\n\n\n\nICT Education Impact Analysis (2017–2023)\n\n\n\nICT\n\nEducation\n\nResearch\n\nData Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\nHotel Review Sentiment Analysis\n\n\n\nNLP\n\nMachine Learning\n\nClassical NLP\n\nSentiment Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\nLarge-Scale Reddit AI Discourse Analysis\n\n\n\nSpark\n\nAWS\n\nNLP\n\nBig Data\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\n\n\n\nHuman-Following Robot with Real-Time Face Tracking\n\n\n\nComputer Vision\n\nRobotics\n\nPython\n\nYOLO\n\nOpenCV\n\n\n\n\n\n\n\n\n\n\n\n\n\nDistributed Big Data Processing of NYC Taxi Trips\n\n\n\nBig Data\n\nData Engineering\n\nCloud\n\n\n\n\n\n\n\n\n\n\n\n\n\nMeasuring Ethical Risks in AI-Generated News Using NLP\n\n\n\nNLP\n\nAI Ethics\n\nMachine Learning\n\n\n\n\n\n\nNo matching items"
+    "text": "Featured Projects\nThese are my latest six projects. Check out the full list for more interesting work! View All →\n\n\n\n\n\n\n\n\n\n\nICT Education Impact Analysis (2017–2023)\n\n\n\nICT\n\nEducation\n\nResearch\n\nData Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\nDigital Health AI Platform (HealthTech 2025)\n\n\n\nHealthTech\n\nAI\n\nData Science\n\nUX/UI\n\nPublic Health\n\n\n\n\n\n\n\n\n\n\n\n\n\nHotel Review Sentiment Analysis\n\n\n\nNLP\n\nMachine Learning\n\nClassical NLP\n\nSentiment Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\nLarge-Scale Reddit AI Discourse Analysis\n\n\n\nSpark\n\nAWS\n\nNLP\n\nBig Data\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\n\n\n\nHuman-Following Robot with Real-Time Face Tracking\n\n\n\nComputer Vision\n\nRobotics\n\nPython\n\nYOLO\n\nOpenCV\n\n\n\n\n\n\n\n\n\n\n\n\n\nDistributed Big Data Processing of NYC Taxi Trips\n\n\n\nBig Data\n\nData Engineering\n\nCloud\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#leadership-volunteering",
@@ -614,5 +614,138 @@
     "title": "Anna Kim",
     "section": "Beyond Work",
     "text": "Beyond Work\nOutside of my academic and professional work, I enjoy participating in global education initiatives, attending technical conferences, and exploring interdisciplinary research that connects data science with societal challenges."
+  },
+  {
+    "objectID": "projects/11-healthcare-ai-2025/index.html",
+    "href": "projects/11-healthcare-ai-2025/index.html",
+    "title": "Digital Health AI Platform (HealthTech 2025)",
+    "section": "",
+    "text": "This project was developed for the HealthTech 2025 Innovation Competition hosted by American University’s Department of Health Studies and the Veloric Center for Entrepreneurship.\nThe challenge simulated a realistic public health funding environment in which a local Washington, D.C. hospital offers a $500,000 development and pilot grant to the winning team. The goal was to design a scalable, technology-driven solution addressing a major health disparity, with a particular emphasis on underserved and marginalized communities.\nOur team focused on gaps in mental health continuity of care, especially the lack of structured support between therapy sessions. Using national mental health statistics and public health research as our foundation, we designed an AI-assisted digital platform concept intended to support early detection, adherence monitoring, and clinician visibility."
+  },
+  {
+    "objectID": "projects/11-healthcare-ai-2025/index.html#business-context-and-competition-scenario",
+    "href": "projects/11-healthcare-ai-2025/index.html#business-context-and-competition-scenario",
+    "title": "Digital Health AI Platform (HealthTech 2025)",
+    "section": "",
+    "text": "This project was developed for the HealthTech 2025 Innovation Competition hosted by American University’s Department of Health Studies and the Veloric Center for Entrepreneurship.\nThe challenge simulated a realistic public health funding environment in which a local Washington, D.C. hospital offers a $500,000 development and pilot grant to the winning team. The goal was to design a scalable, technology-driven solution addressing a major health disparity, with a particular emphasis on underserved and marginalized communities.\nOur team focused on gaps in mental health continuity of care, especially the lack of structured support between therapy sessions. Using national mental health statistics and public health research as our foundation, we designed an AI-assisted digital platform concept intended to support early detection, adherence monitoring, and clinician visibility."
+  },
+  {
+    "objectID": "projects/11-healthcare-ai-2025/index.html#privacy-ethics-considerations",
+    "href": "projects/11-healthcare-ai-2025/index.html#privacy-ethics-considerations",
+    "title": "Digital Health AI Platform (HealthTech 2025)",
+    "section": "Privacy & Ethics Considerations",
+    "text": "Privacy & Ethics Considerations\n\nNo real patient data was used in this project.\n\nAll demos and examples rely on synthetic or mock data.\n\nAI outputs included in this prototype represent conceptual decision-support logic, not validated clinical tools.\n\nThe project follows ethical digital health principles, emphasizing transparency, safety, and human oversight in all decision-support features."
+  },
+  {
+    "objectID": "projects/11-healthcare-ai-2025/index.html#team-roles",
+    "href": "projects/11-healthcare-ai-2025/index.html#team-roles",
+    "title": "Digital Health AI Platform (HealthTech 2025)",
+    "section": "Team Roles",
+    "text": "Team Roles\n\nErika Atoma (MS Data Science) — Product & Software Development\n\nHyunjung Kim (MS Data Science) — Product & Software Development\n\nMaya Porter (BS Public Health) — Public Health Research\n\nMaulie Clermont (MS Biostatistics) — Public Health Research\n\nEach member contributed domain-specific knowledge ranging from software prototyping and AI/analytics design to clinical workflow analysis and evidence-based justifications."
+  },
+  {
+    "objectID": "projects/11-healthcare-ai-2025/index.html#acknowledgements",
+    "href": "projects/11-healthcare-ai-2025/index.html#acknowledgements",
+    "title": "Digital Health AI Platform (HealthTech 2025)",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\n\nHealthTech 2025 Competition — American University\n\nDepartment of Health Studies\n\nVeloric Center for Entrepreneurship\n\nFaculty mentors and judges who provided feedback and evaluation throughout the competition."
+  },
+  {
+    "objectID": "projects/11-healthcare-ai-2025/index.html#project-note-important",
+    "href": "projects/11-healthcare-ai-2025/index.html#project-note-important",
+    "title": "Digital Health AI Platform (HealthTech 2025)",
+    "section": "Project Note (Important)",
+    "text": "Project Note (Important)\nThis project was created for an innovation/idea competition, not as a full production system.\nWe developed: - A demo-level prototype (UI mockups, dashboard example, device concept)\n- Conceptual AI workflow designs using synthetic examples\n- System architecture sketches and proposed business/clinical integration steps\nWe did not develop a fully functional mobile app, backend system, or deployable clinical product.\nAll data shown is mock/synthetic and intended solely for demonstration."
+  },
+  {
+    "objectID": "projects/10-ict-education/index.html",
+    "href": "projects/10-ict-education/index.html",
+    "title": "ICT Education Impact Analysis (2017–2023)",
+    "section": "",
+    "text": "🔗Source Code (Git)    🔗Report PDF"
+  },
+  {
+    "objectID": "projects/10-ict-education/index.html#overview",
+    "href": "projects/10-ict-education/index.html#overview",
+    "title": "ICT Education Impact Analysis (2017–2023)",
+    "section": "Overview",
+    "text": "Overview\nThis project investigates the question: “How does the use of Information and Communication Technology (ICT) contribute to the improvement of education for children in underprivileged countries between 2017 and 2023?”\nThe study uses multidimensional datasets from UNESCO, ITU, and SDG4, conducting cross-country and time-series analyses. It explores how ICT accessibility, digital literacy skills, and infrastructural readiness influence learning outcomes. The research identifies meaningful relationships between ICT development and improvements in reading proficiency, math skills, school completion rates, and digital competencies."
+  },
+  {
+    "objectID": "projects/10-ict-education/index.html#research-purpose",
+    "href": "projects/10-ict-education/index.html#research-purpose",
+    "title": "ICT Education Impact Analysis (2017–2023)",
+    "section": "Research Purpose",
+    "text": "Research Purpose\nThe digital divide remains a major obstacle for educational development in underprivileged regions. This study examines whether ICT serves as a mechanism to reduce disparities and strengthen learning outcomes. The project analyzes macro-level indicators, such as internet access, digital literacy rates, and basic educational achievements, focusing on long-term trends from 2017 to 2023."
+  },
+  {
+    "objectID": "projects/10-ict-education/index.html#target-regions",
+    "href": "projects/10-ict-education/index.html#target-regions",
+    "title": "ICT Education Impact Analysis (2017–2023)",
+    "section": "Target Regions",
+    "text": "Target Regions\n\nSub-Saharan Africa\nCentral and Southern Asia\nEastern and South-Eastern Asia\nLatin America and the Caribbean"
+  },
+  {
+    "objectID": "projects/10-ict-education/index.html#research-methodology",
+    "href": "projects/10-ict-education/index.html#research-methodology",
+    "title": "ICT Education Impact Analysis (2017–2023)",
+    "section": "Research Methodology",
+    "text": "Research Methodology\n\nData Sources\n\nUNESCO Education Statistics\nITU ICT Indicators\nWorld Bank SDG4 Global Database\n\n\n\nTools and Techniques\n\nPython (pandas, numpy, matplotlib, seaborn)\nTime-series visualization\nCross-regional comparison\nCorrelation and trend analysis"
+  },
+  {
+    "objectID": "projects/10-ict-education/index.html#repository-structure",
+    "href": "projects/10-ict-education/index.html#repository-structure",
+    "title": "ICT Education Impact Analysis (2017–2023)",
+    "section": "Repository Structure",
+    "text": "Repository Structure\nICTdata/\n├── student-achievements/\n├── completion-rates/\n├── digital-literacy/\n└── ICT-infrastructure/\n\nict-for-underprivileged-education.ipynb\n\nResearch-Paper-Final-ict-education-impact-2017-2023.pdf\nResearch-Paper-Final-ict-education-impact-2017-2023.docx\nKor-Research-Paper-Final-ict-education-impact-2017-2023.pdf\nKor-Research-Paper-Final-ict-education-impact-2017-2023.docx"
+  },
+  {
+    "objectID": "projects/10-ict-education/index.html#variables",
+    "href": "projects/10-ict-education/index.html#variables",
+    "title": "ICT Education Impact Analysis (2017–2023)",
+    "section": "Variables",
+    "text": "Variables\n\nDependent Variables (Educational Outcomes)\n\nReading proficiency (Grade 2/3, primary, lower secondary)\nMathematics proficiency\nPrimary and upper-secondary completion rates\nEducational attainment levels\nDigital literacy indicators by age\n\n\n\nIndependent Variables (ICT Access and Infrastructure)\n\nBroadband availability\nBarriers to internet use\nICT skill levels\nInternet usage in educational environments"
+  },
+  {
+    "objectID": "projects/10-ict-education/index.html#data-analysis-summary",
+    "href": "projects/10-ict-education/index.html#data-analysis-summary",
+    "title": "ICT Education Impact Analysis (2017–2023)",
+    "section": "Data Analysis Summary",
+    "text": "Data Analysis Summary\n\nEducational Outcomes\n\nSub-Saharan Africa displays the largest performance gap.\nCertain countries show steady improvement, though at different magnitudes.\nFor example, Benin’s Grade 2 reading proficiency increased from 9.6 percent to 37.7 percent between 2014 and 2019.\n\n\n\nICT Skills and Digital Literacy\n\nSignificant disparities exist among regions.\nYouth aged 15–24 consistently show stronger digital skills than children under 15.\nBasic digital competencies remain limited in many low-income countries.\n\n\n\nCorrelation Findings\n\nHigher ICT accessibility correlates positively with improved learning outcomes.\nHowever, causation cannot be confirmed due to data limitations.\nIncomplete or inconsistent reporting reduces statistical robustness in some analyses."
+  },
+  {
+    "objectID": "projects/10-ict-education/index.html#policy-implications",
+    "href": "projects/10-ict-education/index.html#policy-implications",
+    "title": "ICT Education Impact Analysis (2017–2023)",
+    "section": "Policy Implications",
+    "text": "Policy Implications\n\nLong-term investment in ICT infrastructure is essential for sustainable educational development.\nDevice distribution alone is not sufficient; structured digital literacy training is required.\nRegion-specific policy approaches are necessary, considering socioeconomic and infrastructural differences.\nImprovements in national data reporting systems are needed to support more reliable analysis."
+  },
+  {
+    "objectID": "projects/10-ict-education/index.html#conclusion",
+    "href": "projects/10-ict-education/index.html#conclusion",
+    "title": "ICT Education Impact Analysis (2017–2023)",
+    "section": "Conclusion",
+    "text": "Conclusion\nThe project finds strong evidence that ICT positively influences educational outcomes in underprivileged countries. Enhanced digital literacy, improved internet access, and broader ICT availability correlate with higher reading and math proficiency as well as greater school completion rates. The results emphasize the importance of ICT as a transformative tool for educational equity, while also highlighting the need for targeted strategies, infrastructure investment, and better monitoring systems."
+  },
+  {
+    "objectID": "projects/10-ict-education/index.html#how-to-run-this-project",
+    "href": "projects/10-ict-education/index.html#how-to-run-this-project",
+    "title": "ICT Education Impact Analysis (2017–2023)",
+    "section": "How to Run This Project",
+    "text": "How to Run This Project\ngit clone https://github.com/annakim9237/ict-education-impact-2017-2023.git\ncd ict-education-impact-2017-2023\n\npip install pandas numpy matplotlib seaborn openpyxl xlrd jupyter\n\njupyter notebook ict-for-underprivileged-education.ipynb"
+  },
+  {
+    "objectID": "projects/10-ict-education/index.html#academic-contribution",
+    "href": "projects/10-ict-education/index.html#academic-contribution",
+    "title": "ICT Education Impact Analysis (2017–2023)",
+    "section": "Academic Contribution",
+    "text": "Academic Contribution\nThis research provides comprehensive empirical evidence on how ICT development influences educational outcomes across underprivileged countries. It contributes to academic and policy discussions by presenting a multi-year, cross-regional quantitative evaluation based on internationally recognized indicators."
+  },
+  {
+    "objectID": "projects/11-healthcare-ai-2025/index.html#demo-videos",
+    "href": "projects/11-healthcare-ai-2025/index.html#demo-videos",
+    "title": "Digital Health AI Platform (HealthTech 2025)",
+    "section": "Demo Videos",
+    "text": "Demo Videos\n\n\n\n\n\n\n\n\n\n\nTarget Users\n\nHospitals\n\nMental health facilities\n\nPsychiatric clinics\n\nCommunity-based behavioral health programs\n\nThese institutions would use the platform to monitor patient well-being between visits, enable proactive clinician interventions, and improve long-term outcomes.\n\n\nLaunch Strategy\nOur proposed two-phase approach:\n\nPhase 1 — Rapid Release:\nDeploy the core patient app (daily check-ins) and clinician dashboard (trend visualization & adherence tracking).\nPhase 2 — AI Enhancements:\nAdd pattern detection, early-warning risk scoring, and an escalation pathway supported by our emergency response prototype device.\n\nThis approach prioritizes time to value, ensuring clinics receive immediate operational benefits while allowing for iterative upgrades.\n\n\nBusiness Model\nWe proposed a B2B subscription model: - Clinic/hospital site licenses\n- Tiered features (analytics, AI enhancements, pilot support)\n- Early adoption incentives such as waived onboarding fees and free pilot trials\nThis model aligns with the rapidly expanding U.S. behavioral health market and supports long-term sustainability.\n\n\nMarketing & Growth Strategy\n\nPartnerships with behavioral health organizations\n\nPresence at health-tech innovation forums\n\nPilot deployments to validate workflow integration\n\nAcademic collaborations for validating early research components"
   }
 ]
