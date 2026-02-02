@@ -1,6 +1,6 @@
 ---
 title: "Oil Fraud Crime Pattern Analysis"
-index: 2
+index: 995
 summary: "Conducted nationwide fraud pattern analysis using geospatial data, machine learning, and external risk indicators to identify high-risk fuel stations across South Korea."
 categories: [GIS, Fraud Detection, Machine Learning]
 image: portfolio-thumbnail-02.png

@@ -1,7 +1,7 @@
 ---
 title: "ICT Education Impact Analysis (2017–2023)"
 subtitle: "How ICT Influences Educational Improvements in Underprivileged Countries"
-summary: "Quantitative modeling of ICT infrastructure, digital literacy, and learning outcomes using global datasets (2017–2023)."
+summary: "Quantitative modeling of ICT infrastructure, digital literacy, and learning outcomes using global datasets (2017–2023). [**Source Code (Git)**](https://github.com/annakim9237/ict-education-impact-2017-2023/tree/main)"
 index: 10
 categories: [ICT, Education, Research, Data Analysis]
 image: portfolio-thumbnail-10.png

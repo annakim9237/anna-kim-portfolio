@@ -1,8 +1,8 @@
 ---
 title: "Large-Scale Reddit AI Discourse Analysis"
 subtitle: "Distributed NLP & Machine Learning Pipeline on Apache Spark"
-index: 8
-summary: "A large-scale NLP and machine learning analysis of AI-related discourse on Reddit, combining distributed data processing, topic modeling, and predictive modeling to understand engagement and virality patterns."
+index: 996
+summary: "A large-scale NLP and machine learning analysis of AI-related discourse on Reddit, combining distributed data processing, topic modeling, and predictive modeling to understand engagement and virality patterns. [**Source Code (Git)**](https://github.com/annakim9237/spark-reddit-ai-discourse-analysis)"
 categories: [Spark, AWS, NLP, Big Data, Machine Learning]
 image: portfolio-thumbnail-08.png
 ---

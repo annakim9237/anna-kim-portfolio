@@ -1,8 +1,8 @@
 ---
 title: "Toronto Building Audit Risk Analysis & Prediction"
 subtitle: "Multi-Model Machine Learning Classification for RentSafeTO Compliance"
-index: 3
-summary: "A machine learning system predicting RentSafeTO safety compliance across 11,760 Toronto apartment buildings using multi-model classification and SMOTE-enhanced decision trees."
+index: 998
+summary: "A machine learning system predicting RentSafeTO safety compliance across 11,760 Toronto apartment buildings using multi-model classification and SMOTE-enhanced decision trees. [**Source Code (Git)**](https://github.com/annakim9237/urban-safety-analytics-ml)"
 categories: [Machine Learning, Regulatory Analytics, Classification, Urban Safety]
 image: portfolio-thumbnail-03.png
 ---

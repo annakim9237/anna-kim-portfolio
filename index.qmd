@@ -3,10 +3,10 @@ title: ""
 listing:
   - id: featured-projects
     contents: projects
-    type: grid
+    type: table
     max-items: 6
     sort: "index desc"
-    fields: [image, title, categories]
+    fields: [title, categories, summary]
 ---
 
 ::: {.columns align="center"}

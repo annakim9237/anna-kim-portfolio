@@ -2,32 +2,32 @@
   {
     "listing": "/projects.html",
     "items": [
+      "/projects/05-nlp-ethics-news/index.html",
+      "/projects/03-toronto-audit/index.html",
+      "/projects/07-robot-face-tracking/index.html",
+      "/projects/08-reddit-ai-discussion/index.html",
+      "/projects/02-oil-fraud/index.html",
+      "/projects/09-hotel-review-nlp/index.html",
+      "/projects/06-nyc-taxi_spark/index.html",
       "/projects/10-ict-education/index.html",
       "/projects/11-healthcare-ai-2025/index.html",
-      "/projects/09-hotel-review-nlp/index.html",
-      "/projects/08-reddit-ai-discussion/index.html",
-      "/projects/07-robot-face-tracking/index.html",
-      "/projects/06-nyc-taxi_spark/index.html",
-      "/projects/05-nlp-ethics-news/index.html",
       "/projects/04-covid-economy/index.html",
-      "/projects/03-toronto-audit/index.html",
-      "/projects/02-oil-fraud/index.html",
       "/projects/01-adidas-sale/index.html"
     ]
   },
   {
     "listing": "/index.html",
     "items": [
+      "/projects/05-nlp-ethics-news/index.html",
+      "/projects/03-toronto-audit/index.html",
+      "/projects/07-robot-face-tracking/index.html",
+      "/projects/08-reddit-ai-discussion/index.html",
+      "/projects/02-oil-fraud/index.html",
+      "/projects/09-hotel-review-nlp/index.html",
+      "/projects/06-nyc-taxi_spark/index.html",
       "/projects/10-ict-education/index.html",
       "/projects/11-healthcare-ai-2025/index.html",
-      "/projects/09-hotel-review-nlp/index.html",
-      "/projects/08-reddit-ai-discussion/index.html",
-      "/projects/07-robot-face-tracking/index.html",
-      "/projects/06-nyc-taxi_spark/index.html",
-      "/projects/05-nlp-ethics-news/index.html",
       "/projects/04-covid-economy/index.html",
-      "/projects/03-toronto-audit/index.html",
-      "/projects/02-oil-fraud/index.html",
       "/projects/01-adidas-sale/index.html"
     ]
   }

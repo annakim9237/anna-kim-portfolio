@@ -1,8 +1,8 @@
 ---
 title: "Human-Following Robot with Real-Time Face Tracking"
 subtitle: "Autonomous Person-Following Robot with Face Recognition, Head Pose Estimation & YOLOv8"
-index: 7
-summary: "A real-time identity-aware person-following robot combining OpenCV, head-pose analysis, YOLOv8, and Arduino motor control."
+index: 997
+summary: "A real-time identity-aware person-following robot combining OpenCV, head-pose analysis, YOLOv8, and Arduino motor control. [**Source Code (Git)**](https://github.com/annakim9237/face-detect-follow-robot/tree/main)"
 categories: [Computer Vision, Robotics, Python, YOLO, OpenCV]
 image: ./portfolio-thumbnail-07.png
 ---

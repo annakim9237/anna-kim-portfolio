@@ -1,8 +1,8 @@
 ---
 title: "Hotel Review Sentiment Analysis"
 subtitle: "Classical NLP Pipeline with Linear Model Interpretation"
-index: 9
-summary: "A comprehensive NLP pipeline transforming 515,738 hotel reviews into actionable hospitality insights through classical text processing, sentiment classification, and interpretable linear modeling."
+index: 995
+summary: "A comprehensive NLP pipeline transforming 515,738 hotel reviews into actionable hospitality insights through classical text processing, sentiment classification, and interpretable linear modeling. [**Source Code (Git)**](https://github.com/annakim9237/hotel-review-sentiment-lab)"
 categories: [NLP, Machine Learning, Classical NLP, Sentiment Analysis]
 image: portfolio-thumbnail-09.png
 ---

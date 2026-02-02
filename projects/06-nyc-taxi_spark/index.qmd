@@ -1,6 +1,6 @@
 ---
 title: "Distributed Big Data Processing of NYC Taxi Trips"
-index: 6
+index: 994
 summary: "Built a distributed PySpark + AWS pipeline to process millions of NYC taxi records, benchmarked analytical engines, and optimized large-scale data workflows."
 categories: [Big Data, Data Engineering, Cloud]
 image: portfolio-thumbnail-06.png

@@ -1,7 +1,7 @@
 ---
 title: "Measuring Ethical Risks in AI-Generated News Using NLP"
-index: 5
-summary: "Built an NLP pipeline using DistilBERT, Transformers, and semantic similarity methods to detect ethical risks and hate-speech signals in AI-generated news based on the UNESCO AI Ethics framework."
+index: 999
+summary: "Built an NLP pipeline using DistilBERT, Transformers, and semantic similarity methods to detect ethical risks and hate-speech signals in AI-generated news based on the UNESCO AI Ethics framework. [**Source Code (Git)**](https://github.com/annakim9237/ai-generated-news-audit-nlp)"
 categories: [NLP, AI Ethics, Machine Learning]
 image: portfolio-thumbnail-05.png
 ---
